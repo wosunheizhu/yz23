@@ -46,5 +46,5 @@ RUN pnpm db:generate
 
 EXPOSE 3000
 
-# 使用 npx tsx 运行（更兼容）
-CMD ["npx", "tsx", "src/app.ts"]
+# 启动时先运行数据库迁移，然后启动服务
+CMD ["sh", "-c", "npx prisma migrate deploy && npx tsx src/app.ts"]
