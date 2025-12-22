@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "build": "echo 'Using tsx for runtime compilation'",
-    "start": "npx prisma migrate deploy && node --import tsx src/app.ts",
+    "start": "npx prisma db push --skip-generate && node --import tsx src/app.ts",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "test": "vitest run",
