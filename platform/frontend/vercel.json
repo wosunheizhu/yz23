@@ -1,7 +1,10 @@
 {
-  "buildCommand": "npx vite build",
-  "installCommand": "npm install --include=dev",
+  "buildCommand": "vite build",
+  "installCommand": "npm install",
   "framework": "vite",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "env": {
+    "NPM_FLAGS": "--include=dev"
+  }
 }
 
