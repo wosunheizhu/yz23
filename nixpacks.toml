@@ -6,10 +6,10 @@ cmds = ["cd platform/backend && pnpm install"]
 
 [phases.build]
 cmds = [
-  "cd platform/backend && pnpm db:migrate:prod",
-  "cd platform/backend && pnpm build"
+  "cd platform/backend && pnpm db:generate",
+  "cd platform/backend && pnpm db:migrate:prod"
 ]
 
 [start]
-cmd = "cd platform/backend && pnpm start"
+cmd = "cd platform/backend && node --import tsx src/app.ts"
 
