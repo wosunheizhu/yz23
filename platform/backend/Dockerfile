@@ -43,4 +43,5 @@ RUN pnpm db:generate
 
 EXPOSE 3000
 
-CMD ["node", "--import", "tsx", "src/app.ts"]
+# 使用 npx tsx 运行（更兼容）
+CMD ["npx", "tsx", "src/app.ts"]

@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "cd platform/backend && node --import tsx src/app.ts",
+    "startCommand": "cd platform/backend && npx tsx src/app.ts",
     "healthcheckPath": "/health",
     "restartPolicyType": "ON_FAILURE"
   }

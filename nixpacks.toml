@@ -11,5 +11,5 @@ cmds = [
 ]
 
 [start]
-cmd = "cd platform/backend && node --import tsx src/app.ts"
+cmd = "cd platform/backend && npx tsx src/app.ts"
 
