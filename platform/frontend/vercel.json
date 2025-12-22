@@ -5,6 +5,9 @@
   "outputDirectory": "dist",
   "env": {
     "NPM_FLAGS": "--include=dev"
-  }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
 
