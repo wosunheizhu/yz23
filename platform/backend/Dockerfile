@@ -3,6 +3,9 @@
 # 基础镜像
 FROM node:20-alpine AS base
 
+# 安装 OpenSSL 和其他必要依赖
+RUN apk add --no-cache openssl libc6-compat
+
 # 安装 pnpm
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
