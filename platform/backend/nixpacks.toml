@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "pnpm"]
+
+[phases.install]
+cmds = ["pnpm install"]
+
+[phases.build]
+cmds = ["pnpm db:migrate:prod", "pnpm build"]
+
+[start]
+cmd = "pnpm start"
+
