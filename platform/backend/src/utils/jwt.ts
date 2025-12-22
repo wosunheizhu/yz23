@@ -3,8 +3,12 @@
  * 元征 · 合伙人赋能平台
  */
 
-import jwt, { SignOptions, JwtPayload, TokenExpiredError, JsonWebTokenError } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
+import type { SignOptions, JwtPayload } from 'jsonwebtoken';
 import { config } from '../config/index.js';
+
+// 从 jwt 模块获取错误类型
+const { TokenExpiredError, JsonWebTokenError } = jwt;
 
 // Token 载荷类型
 export interface TokenPayload {
