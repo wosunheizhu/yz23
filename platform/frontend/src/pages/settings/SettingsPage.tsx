@@ -193,9 +193,14 @@ export default function SettingsPage({ defaultTab = 'account' }: SettingsPagePro
       }, 1500);
     } catch (err: any) {
       const errorData = err.response?.data?.error;
-      // 优先显示 details（具体错误原因），否则显示 message
-      const errorMsg = errorData?.details || errorData?.message || '修改失败';
-      setPhoneError(typeof errorMsg === 'string' ? errorMsg : '修改失败');
+      // 提取错误信息：优先 details（字符串），否则 message
+      let errorMsg = '修改失败';
+      if (typeof errorData?.details === 'string') {
+        errorMsg = errorData.details;
+      } else if (typeof errorData?.message === 'string') {
+        errorMsg = errorData.message;
+      }
+      setPhoneError(errorMsg);
     } finally {
       setSubmitting(false);
     }
