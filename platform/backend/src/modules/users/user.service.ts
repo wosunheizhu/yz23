@@ -217,6 +217,42 @@ export const getUserById = async (
   currentUserId: string,
   isAdmin: boolean
 ): Promise<UserDetail> => {
+  // 处理超级管理员（虚拟账号，不在数据库中）
+  if (userId === 'super-admin') {
+    const { config } = await import('../../config/index.js');
+    return {
+      id: 'super-admin',
+      name: config.superAdmin.name,
+      email: config.superAdmin.identifier.includes('@') ? config.superAdmin.identifier : null,
+      phone: !config.superAdmin.identifier.includes('@') ? config.superAdmin.identifier : null,
+      roleLevel: 'FOUNDER',
+      isAdmin: true,
+      avatar: null,
+      selfDescription: '系统超级管理员',
+      expertiseAreas: [],
+      tags: [],
+      joinedAt: new Date(),
+      gender: null,
+      birthDate: null,
+      hobbies: [],
+      signature: null,
+      education: [],
+      organization: '元征平台',
+      contactInfo: null,
+      address: null,
+      organizationPublic: false,
+      contactInfoPublic: false,
+      addressPublic: false,
+      tokenBalance: 999999999,
+      stats: {
+        projectCount: 0,
+        resourceCount: 0,
+        guestInviteCount: 0,
+        networkResourceCount: 0,
+      },
+    };
+  }
+
   const user = await prisma.user.findFirst({
     where: { id: userId, ...notDeleted },
     include: {
