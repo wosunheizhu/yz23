@@ -56,7 +56,7 @@ const adminMenus = [
   // { id: 'notifications', icon: <Bell size={20} />, label: '通知管理', path: '/admin/notifications', desc: '邮件队列、发送状态', badgeKey: 'failedEmails' as const },
   { id: 'feedbacks', icon: <FileText size={20} />, label: '反馈处理', path: '/admin/feedbacks', desc: '用户反馈、意见建议', badgeKey: 'pendingFeedbacks' as const },
   { id: 'announcements', icon: <FileText size={20} />, label: '公告管理', path: '/admin/announcements', desc: '发布、编辑公告' },
-  { id: 'settings', icon: <Settings size={20} />, label: '系统设置', path: '/admin/settings', desc: 'Token 配置、系统参数' },
+  { id: 'settings', icon: <Settings size={20} />, label: '邀请码设置', path: '/admin/settings', desc: '管理用户注册邀请码' },
 ];
 
 // 获取菜单项的未处理数量

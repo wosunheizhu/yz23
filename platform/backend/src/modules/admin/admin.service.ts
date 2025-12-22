@@ -653,9 +653,12 @@ export const updateSystemConfig = async (
   logger.info({ input }, '更新系统配置');
   
   // 更新内存中的系统配置
-  const sysConfig = await import('../../utils/systemConfig.js');
+  const { updateSystemConfig: updateConfig, getSystemConfig: getSysConfig } = await import('../../utils/systemConfig.js');
   
-  const updates: any = {};
+  const updates: Partial<{
+    selfRegistrationInviteCode: string;
+    allowSelfRegistration: boolean;
+  }> = {};
   
   if (input.selfRegistrationInviteCode !== undefined) {
     updates.selfRegistrationInviteCode = input.selfRegistrationInviteCode;
@@ -666,7 +669,8 @@ export const updateSystemConfig = async (
   }
   
   if (Object.keys(updates).length > 0) {
-    sysConfig.updateSystemConfig(updates);
+    updateConfig(updates);
+    logger.info({ updates, newConfig: getSysConfig() }, '系统配置已更新');
   }
   
   return getSystemConfig();

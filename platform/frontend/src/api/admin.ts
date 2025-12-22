@@ -418,3 +418,24 @@ export const updateSystemConfig = async (
   return response.data;
 };
 
+// ================================
+// 导出 adminApi 对象
+// ================================
+export const adminApi = {
+  getDashboardStats,
+  getQuickActions,
+  getRecentActivities,
+  getTodaySchedule,
+  getTokenOverview,
+  getNotificationHealth,
+  listAuditLogs,
+  getVenueOccupancy,
+  listAdminBookings,
+  exportBookingsToCSV,
+  downloadBookingsCSV,
+  listPendingProjects,
+  listPendingArbitrations,
+  getSystemConfig,
+  updateSystemConfig,
+};
+

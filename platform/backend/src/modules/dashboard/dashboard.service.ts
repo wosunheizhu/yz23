@@ -454,11 +454,11 @@ export const getMyContributions = async (
     orderBy: { createdAt: 'desc' },
   });
 
-  // 3. 我参与的项目（非负责人）
+  // 3. 我参与的所有项目（包括作为成员和负责人）
   const memberProjects = await prisma.project.findMany({
     where: {
       ...notDeleted,
-      members: { some: { userId, role: 'MEMBER' } },
+      members: { some: { userId, isDeleted: false } },
     },
     select: {
       id: true,
@@ -472,7 +472,7 @@ export const getMyContributions = async (
   const memberProjectCount = await prisma.project.count({
     where: {
       ...notDeleted,
-      members: { some: { userId, role: 'MEMBER' } },
+      members: { some: { userId, isDeleted: false } },
     },
   });
 

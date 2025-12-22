@@ -1,5 +1,5 @@
 /**
- * 管理员 - 系统设置页面
+ * 管理员 - 邀请码设置页面
  */
 
 import { useState, useEffect } from 'react';
@@ -64,7 +64,7 @@ export default function AdminSettingsPage() {
 
   if (loading) {
     return (
-      <SimpleLayout title="系统设置" showBack backPath="/admin">
+      <SimpleLayout title="邀请码设置" showBack backPath="/admin">
         <div className="flex items-center justify-center h-64">
           <Loading size="lg" />
         </div>
@@ -73,7 +73,7 @@ export default function AdminSettingsPage() {
   }
 
   return (
-    <SimpleLayout title="系统设置" showBack backPath="/admin">
+    <SimpleLayout title="邀请码设置" showBack backPath="/admin">
       <div className="px-lg py-lg space-y-lg">
         {/* 邀请码配置 */}
         <motion.div
