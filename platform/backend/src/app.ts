@@ -63,9 +63,10 @@ app.use(helmet({
   contentSecurityPolicy: config.env === 'production',
 }));
 
-// CORS
+// CORS - 支持多个域名（逗号分隔）
+const corsOrigins = config.cors.origin.split(',').map(o => o.trim());
 app.use(cors({
-  origin: config.cors.origin,
+  origin: corsOrigins.length === 1 ? corsOrigins[0] : corsOrigins,
   credentials: true,
 }));
 
