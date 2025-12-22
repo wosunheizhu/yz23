@@ -390,15 +390,24 @@ export default function AdminUsersPage() {
 
           {/* 管理员权限 */}
           <div>
-            <label className="flex items-center gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={editIsAdmin}
-                onChange={(e) => setEditIsAdmin(e.target.checked)}
-                className="w-5 h-5 rounded border-silk-gray text-champagne-gold focus:ring-champagne-gold"
-              />
+            <button
+              type="button"
+              onClick={() => setEditIsAdmin(!editIsAdmin)}
+              className="flex items-center gap-3 w-full text-left"
+            >
+              <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-colors ${
+                editIsAdmin 
+                  ? 'bg-champagne-gold border-champagne-gold' 
+                  : 'bg-white border-silk-gray hover:border-champagne-gold'
+              }`}>
+                {editIsAdmin && (
+                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                )}
+              </div>
               <span className="text-sm text-deep-black">设为管理员</span>
-            </label>
+            </button>
             <p className="text-xs text-stone-gray mt-1 ml-8">管理员可以管理用户、审核项目等</p>
           </div>
 

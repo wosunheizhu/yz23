@@ -12,6 +12,7 @@ import {
   NotFoundError, 
   ConflictError, 
   ForbiddenError,
+  BadRequestError,
   ErrorCodes 
 } from '../../utils/errors.js';
 import { buildVisibilityFilter, getRoleLevelValue } from '../../utils/visibility.js';
@@ -300,36 +301,58 @@ export const updateUserProfile = async (
     throw new ForbiddenError(ErrorCodes.FORBIDDEN, '只能编辑自己的资料');
   }
 
-  const user = await prisma.user.update({
-    where: { id: userId },
-    data: {
-      ...(dto.name && { name: dto.name }),
-      ...(dto.gender && { gender: dto.gender }),
-      ...(dto.birthDate !== undefined && { birthDate: dto.birthDate ? new Date(dto.birthDate as string) : null }),
-      ...(dto.selfDescription !== undefined && { selfDescription: dto.selfDescription }),
-      ...(dto.expertiseAreas && { expertiseAreas: dto.expertiseAreas }),
-      ...(dto.organization !== undefined && { organization: dto.organization }),
-      ...(dto.organizationPublic !== undefined && { organizationPublic: dto.organizationPublic }),
-      ...(dto.contactInfo !== undefined && { contactInfo: dto.contactInfo }),
-      ...(dto.contactInfoPublic !== undefined && { contactPublic: dto.contactInfoPublic }),
-      ...(dto.address !== undefined && { address: dto.address }),
-      ...(dto.addressPublic !== undefined && { addressPublic: dto.addressPublic }),
-      ...(dto.education && { education: JSON.stringify(dto.education) }),
-      ...(dto.tags && { tags: dto.tags }),
-      ...(dto.hobbies && { hobbies: Array.isArray(dto.hobbies) ? JSON.stringify(dto.hobbies) : dto.hobbies }),
-      ...(dto.signature !== undefined && { signature: dto.signature }),
-      ...(dto.avatar !== undefined && { avatar: dto.avatar }),
-    },
-    include: {
-      tokenAccount: {
-        select: { balance: true },
+  // 检查手机号是否已被其他用户使用（包括已删除的用户，因为数据库唯一约束是全局的）
+  if (dto.phone) {
+    const existingUser = await prisma.user.findFirst({
+      where: {
+        phone: dto.phone,
+        id: { not: userId },
       },
-    },
-  });
+    });
+    if (existingUser) {
+      throw new BadRequestError(ErrorCodes.VALIDATION_ERROR, '该手机号已被其他用户使用');
+    }
+  }
 
-  logger.info({ userId }, '用户更新资料');
+  try {
+    const user = await prisma.user.update({
+      where: { id: userId },
+      data: {
+        ...(dto.name && { name: dto.name }),
+        ...(dto.phone !== undefined && { phone: dto.phone }),
+        ...(dto.gender && { gender: dto.gender }),
+        ...(dto.birthDate !== undefined && { birthDate: dto.birthDate ? new Date(dto.birthDate as string) : null }),
+        ...(dto.selfDescription !== undefined && { selfDescription: dto.selfDescription }),
+        ...(dto.expertiseAreas && { expertiseAreas: dto.expertiseAreas }),
+        ...(dto.organization !== undefined && { organization: dto.organization }),
+        ...(dto.organizationPublic !== undefined && { organizationPublic: dto.organizationPublic }),
+        ...(dto.contactInfo !== undefined && { contactInfo: dto.contactInfo }),
+        ...(dto.contactInfoPublic !== undefined && { contactPublic: dto.contactInfoPublic }),
+        ...(dto.address !== undefined && { address: dto.address }),
+        ...(dto.addressPublic !== undefined && { addressPublic: dto.addressPublic }),
+        ...(dto.education && { education: JSON.stringify(dto.education) }),
+        ...(dto.tags && { tags: dto.tags }),
+        ...(dto.hobbies && { hobbies: Array.isArray(dto.hobbies) ? JSON.stringify(dto.hobbies) : dto.hobbies }),
+        ...(dto.signature !== undefined && { signature: dto.signature }),
+        ...(dto.avatar !== undefined && { avatar: dto.avatar }),
+      },
+      include: {
+        tokenAccount: {
+          select: { balance: true },
+        },
+      },
+    });
 
-  return mapUserToDetail(user);
+    logger.info({ userId }, '用户更新资料');
+
+    return mapUserToDetail(user);
+  } catch (error: any) {
+    // 捕获 Prisma 唯一约束错误
+    if (error.code === 'P2002' && error.meta?.target?.includes('phone')) {
+      throw new BadRequestError(ErrorCodes.VALIDATION_ERROR, '该手机号已被占用');
+    }
+    throw error;
+  }
 };
 
 /**

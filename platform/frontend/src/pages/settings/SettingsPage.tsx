@@ -58,6 +58,12 @@ export default function SettingsPage({ defaultTab = 'account' }: SettingsPagePro
   const [passwordError, setPasswordError] = useState('');
   const [passwordSuccess, setPasswordSuccess] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  
+  // 修改手机号弹窗
+  const [showPhoneModal, setShowPhoneModal] = useState(false);
+  const [newPhone, setNewPhone] = useState('');
+  const [phoneError, setPhoneError] = useState('');
+  const [phoneSuccess, setPhoneSuccess] = useState(false);
 
   // 通知设置
   const [notifications, setNotifications] = useState({
@@ -160,6 +166,39 @@ export default function SettingsPage({ defaultTab = 'account' }: SettingsPagePro
     if (!/[0-9]/.test(password)) return '密码需包含数字';
     if (!/[^a-zA-Z0-9]/.test(password)) return '密码需包含特殊字符';
     return null;
+  };
+
+  // 修改手机号
+  const handleChangePhone = async () => {
+    if (!newPhone) {
+      setPhoneError('请输入手机号');
+      return;
+    }
+    if (!/^1[3-9]\d{9}$/.test(newPhone)) {
+      setPhoneError('请输入正确的手机号格式');
+      return;
+    }
+
+    try {
+      setSubmitting(true);
+      setPhoneError('');
+      await usersApi.updateProfile(user!.id, { phone: newPhone });
+      setPhoneSuccess(true);
+      // 更新本地用户状态
+      useAuthStore.getState().updateUser({ phone: newPhone });
+      setTimeout(() => {
+        setShowPhoneModal(false);
+        setPhoneSuccess(false);
+        setNewPhone('');
+      }, 1500);
+    } catch (err: any) {
+      const errorData = err.response?.data?.error;
+      // 优先显示 details（具体错误原因），否则显示 message
+      const errorMsg = errorData?.details || errorData?.message || '修改失败';
+      setPhoneError(typeof errorMsg === 'string' ? errorMsg : '修改失败');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleChangePassword = async () => {
@@ -277,10 +316,19 @@ export default function SettingsPage({ defaultTab = 'account' }: SettingsPagePro
                     <Phone size={20} className="text-stone-gray" />
                     <div>
                       <p className="text-body text-deep-black">手机号</p>
-                      <p className="text-tiny text-stone-gray">功能开发中</p>
+                      <p className="text-tiny text-stone-gray">{user?.phone || '未绑定'}</p>
                     </div>
                   </div>
-                  <Button variant="ghost" size="sm" disabled>绑定</Button>
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    onClick={() => {
+                      setNewPhone(user?.phone || '');
+                      setShowPhoneModal(true);
+                    }}
+                  >
+                    {user?.phone ? '修改' : '绑定'}
+                  </Button>
                 </div>
               </div>
 
@@ -391,6 +439,54 @@ export default function SettingsPage({ defaultTab = 'account' }: SettingsPagePro
           </motion.div>
         )}
       </motion.div>
+
+      {/* 修改手机号弹窗 */}
+      <Modal
+        isOpen={showPhoneModal}
+        onClose={() => setShowPhoneModal(false)}
+        title={user?.phone ? '修改手机号' : '绑定手机号'}
+      >
+        <div className="space-y-4">
+          {phoneError && (
+            <div className="p-3 bg-error/10 text-error text-sm rounded-lg flex items-center gap-2">
+              <AlertCircle size={16} />
+              {phoneError}
+            </div>
+          )}
+          {phoneSuccess && (
+            <div className="p-3 bg-success/10 text-success text-sm rounded-lg flex items-center gap-2">
+              <CheckCircle size={16} />
+              手机号{user?.phone ? '修改' : '绑定'}成功
+            </div>
+          )}
+          
+          <Input
+            label="手机号"
+            type="tel"
+            value={newPhone}
+            onChange={(e) => setNewPhone(e.target.value)}
+            placeholder="请输入手机号"
+          />
+
+          <div className="flex gap-3 pt-2">
+            <Button
+              variant="outline"
+              className="flex-1"
+              onClick={() => setShowPhoneModal(false)}
+            >
+              取消
+            </Button>
+            <Button
+              variant="primary"
+              className="flex-1"
+              onClick={handleChangePhone}
+              disabled={submitting}
+            >
+              {submitting ? '提交中...' : '确认'}
+            </Button>
+          </div>
+        </div>
+      </Modal>
 
       {/* 修改密码弹窗 */}
       <Modal

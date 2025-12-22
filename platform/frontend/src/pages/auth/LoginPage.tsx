@@ -106,9 +106,9 @@ export default function LoginPage() {
       return;
     }
 
-    // 验证邀请码
-    if (inviteCode !== 'yuanzheng1223') {
-      setError('邀请码不正确');
+    // 邀请码验证由后端处理
+    if (!inviteCode) {
+      setError('请输入邀请码');
       return;
     }
     

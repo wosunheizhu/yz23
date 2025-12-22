@@ -217,7 +217,12 @@ export default function ProfilePage() {
                     {ROLE_LEVEL_LABELS[user?.roleLevel || ''] || '合伙人'}
                   </Badge>
                 </div>
-                <p className="text-caption text-stone-gray">{user?.email}</p>
+                <p className="text-caption text-stone-gray">
+                  {user?.email || user?.phone || '未绑定联系方式'}
+                </p>
+                {user?.email && user?.phone && (
+                  <p className="text-caption text-stone-gray">{user.phone}</p>
+                )}
               </div>
               <ChevronRight size={20} className="text-stone-gray" />
             </div>

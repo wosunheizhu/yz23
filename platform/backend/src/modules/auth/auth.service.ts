@@ -58,16 +58,15 @@ const isEmail = (str: string): boolean => {
 
 /**
  * 根据标识符查找用户
+ * 同时支持邮箱和手机号查找
  */
 const findUserByIdentifier = async (identifier: string) => {
-  const isEmailAddr = isEmail(identifier);
-  
   return prisma.user.findFirst({
     where: {
       isDeleted: false,
       OR: [
-        isEmailAddr ? { email: identifier } : { phone: identifier },
-        // 也支持按用户名（如果有）
+        { email: identifier },
+        { phone: identifier },
       ],
     },
     include: {
@@ -521,8 +520,15 @@ export const selfRegister = async (
   // 验证邀请码（替代验证码）
   const systemConfig = getSystemConfig();
   const VALID_INVITE_CODE = systemConfig.selfRegistrationInviteCode || 'yuanzheng1223';
+  
+  logger.info({ 
+    providedCode: inviteCode, 
+    expectedCode: VALID_INVITE_CODE,
+    configInviteCode: systemConfig.selfRegistrationInviteCode,
+  }, '验证邀请码');
+  
   if (inviteCode !== VALID_INVITE_CODE) {
-    throw new BadRequestError(ErrorCodes.VALIDATION_ERROR, '邀请码不正确');
+    throw new BadRequestError(ErrorCodes.VALIDATION_ERROR, `邀请码不正确（期望: ${VALID_INVITE_CODE.substring(0, 2)}***）`);
   }
 
   // 验证码功能暂时禁用，跳过验证码检查

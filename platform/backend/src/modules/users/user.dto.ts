@@ -36,6 +36,7 @@ export type CreateUserDto = z.infer<typeof createUserSchema>;
  */
 export const updateUserProfileSchema = z.object({
   name: z.string().min(1).max(50).optional(),
+  phone: z.string().regex(/^1[3-9]\d{9}$/, '手机号格式不正确').optional(),
   gender: z.enum(['男', '女', '其他']).optional(),
   birthDate: z.string().datetime().or(z.date()).optional().nullable()
     .refine((date) => {
