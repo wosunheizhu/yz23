@@ -1,0 +1,10 @@
+# pnpm workspace 配置
+packages:
+  - 'backend'
+  - 'frontend'
+
+
+
+
+
+

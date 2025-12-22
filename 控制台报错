@@ -1,0 +1,100 @@
+chunk-SZUSUQKU.js?v=fcb0cf6c:133 Uncaught TypeError: Cannot convert object to primitive value
+    at String (<anonymous>)
+    at chunk-SZUSUQKU.js?v=fcb0cf6c:133:22
+    at Array.map (<anonymous>)
+    at printWarning (chunk-SZUSUQKU.js?v=fcb0cf6c:132:39)
+    at error (chunk-SZUSUQKU.js?v=fcb0cf6c:120:15)
+    at lazyInitializer (chunk-SZUSUQKU.js?v=fcb0cf6c:898:17)
+    at mountLazyComponent (chunk-LN74CWAH.js?v=fcb0cf6c:14822:27)
+    at beginWork (chunk-LN74CWAH.js?v=fcb0cf6c:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-LN74CWAH.js?v=fcb0cf6c:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-LN74CWAH.js?v=fcb0cf6c:3699:24)
+(anonymous) @ chunk-SZUSUQKU.js?v=fcb0cf6c:133
+printWarning @ chunk-SZUSUQKU.js?v=fcb0cf6c:132
+error @ chunk-SZUSUQKU.js?v=fcb0cf6c:120
+lazyInitializer @ chunk-SZUSUQKU.js?v=fcb0cf6c:898
+mountLazyComponent @ chunk-LN74CWAH.js?v=fcb0cf6c:14822
+beginWork @ chunk-LN74CWAH.js?v=fcb0cf6c:15918
+callCallback2 @ chunk-LN74CWAH.js?v=fcb0cf6c:3674
+invokeGuardedCallbackDev @ chunk-LN74CWAH.js?v=fcb0cf6c:3699
+invokeGuardedCallback @ chunk-LN74CWAH.js?v=fcb0cf6c:3733
+beginWork$1 @ chunk-LN74CWAH.js?v=fcb0cf6c:19765
+performUnitOfWork @ chunk-LN74CWAH.js?v=fcb0cf6c:19198
+workLoopConcurrent @ chunk-LN74CWAH.js?v=fcb0cf6c:19189
+renderRootConcurrent @ chunk-LN74CWAH.js?v=fcb0cf6c:19164
+performConcurrentWorkOnRoot @ chunk-LN74CWAH.js?v=fcb0cf6c:18678
+workLoop @ chunk-LN74CWAH.js?v=fcb0cf6c:197
+flushWork @ chunk-LN74CWAH.js?v=fcb0cf6c:176
+performWorkUntilDeadline @ chunk-LN74CWAH.js?v=fcb0cf6c:384Understand this error
+chunk-SZUSUQKU.js?v=fcb0cf6c:133 Uncaught TypeError: Cannot convert object to primitive value
+    at String (<anonymous>)
+    at chunk-SZUSUQKU.js?v=fcb0cf6c:133:22
+    at Array.map (<anonymous>)
+    at printWarning (chunk-SZUSUQKU.js?v=fcb0cf6c:132:39)
+    at error (chunk-SZUSUQKU.js?v=fcb0cf6c:120:15)
+    at lazyInitializer (chunk-SZUSUQKU.js?v=fcb0cf6c:898:17)
+    at mountLazyComponent (chunk-LN74CWAH.js?v=fcb0cf6c:14822:27)
+    at beginWork (chunk-LN74CWAH.js?v=fcb0cf6c:15918:22)
+    at HTMLUnknownElement.callCallback2 (chunk-LN74CWAH.js?v=fcb0cf6c:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-LN74CWAH.js?v=fcb0cf6c:3699:24)
+(anonymous) @ chunk-SZUSUQKU.js?v=fcb0cf6c:133
+printWarning @ chunk-SZUSUQKU.js?v=fcb0cf6c:132
+error @ chunk-SZUSUQKU.js?v=fcb0cf6c:120
+lazyInitializer @ chunk-SZUSUQKU.js?v=fcb0cf6c:898
+mountLazyComponent @ chunk-LN74CWAH.js?v=fcb0cf6c:14822
+beginWork @ chunk-LN74CWAH.js?v=fcb0cf6c:15918
+callCallback2 @ chunk-LN74CWAH.js?v=fcb0cf6c:3674
+invokeGuardedCallbackDev @ chunk-LN74CWAH.js?v=fcb0cf6c:3699
+invokeGuardedCallback @ chunk-LN74CWAH.js?v=fcb0cf6c:3733
+beginWork$1 @ chunk-LN74CWAH.js?v=fcb0cf6c:19765
+performUnitOfWork @ chunk-LN74CWAH.js?v=fcb0cf6c:19198
+workLoopSync @ chunk-LN74CWAH.js?v=fcb0cf6c:19137
+renderRootSync @ chunk-LN74CWAH.js?v=fcb0cf6c:19116
+recoverFromConcurrentError @ chunk-LN74CWAH.js?v=fcb0cf6c:18736
+performConcurrentWorkOnRoot @ chunk-LN74CWAH.js?v=fcb0cf6c:18684
+workLoop @ chunk-LN74CWAH.js?v=fcb0cf6c:197
+flushWork @ chunk-LN74CWAH.js?v=fcb0cf6c:176
+performWorkUntilDeadline @ chunk-LN74CWAH.js?v=fcb0cf6c:384Understand this error
+chunk-LN74CWAH.js?v=fcb0cf6c:14032 The above error occurred in one of your React components:
+
+    at Lazy
+    at ProtectedRoute (http://localhost:5173/src/components/common/ProtectedRoute.tsx:26:3)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=fcb0cf6c:4108:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=fcb0cf6c:4578:5)
+    at Suspense
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=fcb0cf6c:4521:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=fcb0cf6c:5267:5)
+    at QueryClientProvider (http://localhost:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=fcb0cf6c:3096:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-LN74CWAH.js?v=fcb0cf6c:14032
+update.callback @ chunk-LN74CWAH.js?v=fcb0cf6c:14052
+callCallback @ chunk-LN74CWAH.js?v=fcb0cf6c:11248
+commitUpdateQueue @ chunk-LN74CWAH.js?v=fcb0cf6c:11265
+commitLayoutEffectOnFiber @ chunk-LN74CWAH.js?v=fcb0cf6c:17093
+commitLayoutMountEffects_complete @ chunk-LN74CWAH.js?v=fcb0cf6c:17980
+commitLayoutEffects_begin @ chunk-LN74CWAH.js?v=fcb0cf6c:17969
+commitLayoutEffects @ chunk-LN74CWAH.js?v=fcb0cf6c:17920
+commitRootImpl @ chunk-LN74CWAH.js?v=fcb0cf6c:19353
+commitRoot @ chunk-LN74CWAH.js?v=fcb0cf6c:19277
+finishConcurrentRender @ chunk-LN74CWAH.js?v=fcb0cf6c:18760
+performConcurrentWorkOnRoot @ chunk-LN74CWAH.js?v=fcb0cf6c:18718
+workLoop @ chunk-LN74CWAH.js?v=fcb0cf6c:197
+flushWork @ chunk-LN74CWAH.js?v=fcb0cf6c:176
+performWorkUntilDeadline @ chunk-LN74CWAH.js?v=fcb0cf6c:384Understand this error
+chunk-LN74CWAH.js?v=fcb0cf6c:19413 Uncaught TypeError: Cannot convert object to primitive value
+    at String (<anonymous>)
+    at chunk-SZUSUQKU.js?v=fcb0cf6c:133:22
+    at Array.map (<anonymous>)
+    at printWarning (chunk-SZUSUQKU.js?v=fcb0cf6c:132:39)
+    at error (chunk-SZUSUQKU.js?v=fcb0cf6c:120:15)
+    at lazyInitializer (chunk-SZUSUQKU.js?v=fcb0cf6c:898:17)
+    at mountLazyComponent (chunk-LN74CWAH.js?v=fcb0cf6c:14822:27)
+    at beginWork (chunk-LN74CWAH.js?v=fcb0cf6c:15918:22)
+    at beginWork$1 (chunk-LN74CWAH.js?v=fcb0cf6c:19753:22)
+    at performUnitOfWork (chunk-LN74CWAH.js?v=fcb0cf6c:19198:20)
+
+
+    解决这个问题之后，我希望管理员控制台有一个下发token奖励的功能（不从管理员账号扣，而是增发）

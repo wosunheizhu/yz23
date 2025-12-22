@@ -1,0 +1,1348 @@
+// 元征 · 合伙人赋能平台 Prisma Schema
+// 版本: v3 - 基于PRD v3规范
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ================================
+// 枚举定义
+// ================================
+
+// 用户角色级别
+enum RoleLevel {
+  PARTNER // 普通合伙人 level=1
+  CORE_PARTNER // 核心合伙人 level=2
+  FOUNDER // 联合创始人 level=3
+}
+
+// 可见范围类型
+enum VisibilityScopeType {
+  ALL // 所有合伙人可见
+  ROLE_MIN_LEVEL // 指定最低角色等级可见
+  CUSTOM // 自定义用户集合
+}
+
+// 项目审核状态
+enum ProjectReviewStatus {
+  PENDING_REVIEW // 待管理员审核
+  APPROVED // 已通过
+  REJECTED // 已驳回
+}
+
+// 项目业务状态
+enum ProjectBusinessStatus {
+  ONGOING // 进行中
+  PAUSED // 暂停
+  COMPLETED // 已完成
+  ABANDONED // 废弃
+}
+
+// 业务类型
+enum BusinessType {
+  AGREEMENT_TRANSFER // 协议转让
+  MERGER_ACQUISITION // 并购重组
+  INDUSTRY_ENABLEMENT // 产业赋能
+  DEBT_BUSINESS // 债权业务
+  OTHER // 其他
+}
+
+// 需求状态
+enum DemandStatus {
+  OPEN // 开放中
+  CLOSED // 已关闭（正常完成）
+  CANCELLED // 已取消（提前终止）
+}
+
+// 需求类型 (v3新增)
+enum DemandType {
+  GENERAL // 普通需求
+  NETWORK // 人脉需求
+}
+
+// 响应状态
+enum ResponseStatus {
+  SUBMITTED // 已提交
+  ACCEPTED_PENDING_USAGE // 已接受待使用
+  USED // 已使用
+  REJECTED // 已拒绝
+  ABANDONED // 已废弃
+  MODIFIED // 条款已修改
+  PENDING_MODIFY_CONFIRM // 待资源方确认修改 (PRD 6.3.6.5)
+  PENDING_ABANDON_CONFIRM // 待资源方确认废弃 (PRD 6.3.6.5)
+  PENDING_ADMIN_ARBITRATION // 待管理员裁决 (PRD 6.3.6.5)
+}
+
+// Token交易方向
+enum TokenTransactionDirection {
+  TRANSFER // 普通转账
+  ADMIN_GRANT // 管理员赠与
+  ADMIN_DEDUCT // 管理员扣除
+  DIVIDEND // 项目分红
+  MEETING_INVITE_REWARD // 座谈会邀请奖励 (v3新增)
+}
+
+// Token交易状态
+enum TokenTransactionStatus {
+  PENDING_ADMIN_APPROVAL // 待管理员审核
+  PENDING_RECEIVER_CONFIRM // 待收款方确认
+  COMPLETED // 已完成
+  REJECTED // 已拒绝
+  CANCELLED // 已取消
+}
+
+// 会议级别
+enum MeetingLevel {
+  INTERNAL // 内部会议
+  EXTERNAL // 对外会议
+}
+
+// 会议类型 (v3新增)
+enum MeetingKind {
+  DAILY // 日常座谈会
+  COMPANY // 公司开办座谈会
+}
+
+// 会议保密等级
+enum ConfidentialityLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+// 会议参与者角色
+enum ParticipantRole {
+  HOST // 主持人
+  ATTENDEE // 参与者
+  OPTIONAL // 可选参与
+}
+
+// 参与状态
+enum AttendanceStatus {
+  INVITED // 已邀请
+  ATTENDING // 出席
+  DECLINED // 拒绝
+  NO_SHOW // 未出席
+}
+
+// 外部嘉宾分类 (v3新增)
+enum GuestCategory {
+  PUBLIC_CO_DMHG // 上市公司董监高 500
+  FIN_EXEC // 金融从业高管 500
+  PUBLIC_CHAIRMAN_CONTROLLER // 上市公司董事长/实控人 1000
+  DEPT_LEADER // 处级领导 500
+  BUREAU_LEADER // 厅级领导 1000
+  MINISTRY_LEADER // 部委部级领导 2000
+  OTHER // 其他 0
+}
+
+// Token发放任务状态 (v3新增)
+enum TokenGrantTaskStatus {
+  PENDING // 待审核
+  APPROVED // 已通过
+  REJECTED // 已拒绝
+}
+
+// Token发放任务来源 (v3扩展 - 支持线下到访)
+enum TaskSource {
+  MEETING_GUEST // 座谈会外部嘉宾
+  ONSITE_VISIT // 线下到访记录
+}
+
+// 场地状态 (v3新增)
+enum VenueStatus {
+  ACTIVE // 可用
+  MAINTENANCE // 维护中
+  DISABLED // 已停用
+}
+
+// 场地预约状态 (v3新增)
+enum BookingStatus {
+  CONFIRMED // 已确认
+  CANCELLED // 已取消
+  FINISHED // 已结束
+}
+
+// 餐别类型 (v3新增)
+enum MealType {
+  LUNCH // 中餐
+  DINNER // 晚餐
+}
+
+// 人脉资源类型 (v3新增)
+enum NetworkResourceType {
+  PERSON // 个人
+  ORG // 机构
+}
+
+// 引荐类型 (v3新增)
+enum ReferralType {
+  MEETING // 座谈会相关
+  PROJECT // 项目相关
+  DEMAND // 需求相关
+  OTHER // 其他
+}
+
+// 人脉资源联系进展状态 (v3新增 PRD 10.3)
+enum ContactStatus {
+  PENDING // 待联系
+  CONTACTED // 已联系
+  SUCCEEDED // 已引荐成功
+  FAILED // 未成功
+}
+
+// 动态类型
+enum PostType {
+  GENERAL // 一般动态
+  PROJECT // 项目动态
+  RESOURCE // 资源相关
+  VOTE // 投票相关
+  ANNOUNCEMENT_REF // 公告引用
+}
+
+// 投票状态
+enum VoteStatus {
+  OPEN // 进行中
+  CLOSED // 已结束
+}
+
+// 信箱消息分类
+enum InboxCategory {
+  SYSTEM // 系统通知
+  PROJECT // 项目相关
+  DEMAND // 需求相关
+  RESPONSE // 响应相关
+  TOKEN // Token相关
+  MEETING // 会议相关
+  BOOKING // 预约相关
+  NETWORK // 人脉相关
+  COMMUNITY // 社群相关
+  DM // 私信
+}
+
+// 通知渠道 (v3新增)
+enum NotificationChannel {
+  INBOX // 站内信箱
+  EMAIL // 邮件
+}
+
+// 通知状态 (v3新增)
+enum NotificationStatus {
+  PENDING // 待发送
+  SENT // 已发送
+  FAILED // 发送失败
+}
+
+// 项目事件类型
+enum ProjectEventType {
+  PROJECT_CREATED
+  PROJECT_APPROVED
+  PROJECT_REJECTED
+  PROJECT_STATUS_CHANGED
+  PROJECT_MEMBER_JOINED
+  PROJECT_MEMBER_LEFT
+  PROJECT_JOIN_REQUESTED // 加入项目申请提交 (PRD 6.3.4)
+  PROJECT_JOIN_APPROVED // 加入项目申请通过 (PRD 6.3.4)
+  PROJECT_JOIN_REJECTED // 加入项目申请拒绝 (PRD 6.3.4)
+  SHARE_STRUCTURE_CHANGED
+  DEMAND_PUBLISHED
+  DEMAND_UPDATED
+  DEMAND_CLOSED
+  DEMAND_CANCELLED
+  DEMAND_RESPONDED
+  DEMAND_RESPONSE_REJECTED
+  DEMAND_ACCEPTED
+  DEMAND_RESPONSE_ABANDONED
+  DEMAND_RESPONSE_MODIFIED
+  RESPONSE_MODIFY_REQUESTED // 发起修改申请 (PRD 6.3.6.5)
+  RESPONSE_ABANDON_REQUESTED // 发起废弃申请 (PRD 6.3.6.5)
+  RESPONSE_CONFIRM_ACCEPTED // 资源方确认接受 (PRD 6.3.6.5)
+  RESPONSE_CONFIRM_REJECTED // 资源方确认拒绝 (PRD 6.3.6.5)
+  RESPONSE_ADMIN_ARBITRATED // 管理员裁决 (PRD 6.3.6.5)
+  RESOURCE_USED
+  TOKEN_TRANSFER_COMPLETED
+  TOKEN_DIVIDEND_DISTRIBUTED
+  MEETING_HELD
+  MEETING_MINUTES_ADDED
+  NEWS_LINKED
+  PROJECT_VALUE_RECORDED
+  PROJECT_CLOSED
+  MILESTONE_ADDED
+  NOTE
+  EVENT_CORRECTED
+}
+
+// ================================
+// 核心模型
+// ================================
+
+// 用户表
+model User {
+  id           String  @id @default(cuid())
+  email        String? @unique
+  phone        String? @unique
+  passwordHash String
+
+  // 基本信息
+  name               String
+  gender             String?
+  birthDate          DateTime?
+  avatar             String?
+  signature          String? // 个性签名
+  selfDescription    String?   @db.Text
+  expertiseAreas     String[] // 擅长领域
+  organization       String?
+  organizationPublic Boolean   @default(true)
+  contactInfo        String?
+  contactPublic      Boolean   @default(true)
+  address            String?
+  addressPublic      Boolean   @default(true)
+  education          String?   @db.Text
+  tags               String[]
+  hobbies            String?
+
+  // 角色与权限
+  roleLevel RoleLevel @default(PARTNER)
+  isAdmin   Boolean   @default(false)
+
+  // 时间戳
+  joinedAt  DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  // 关联
+  tokenAccount           TokenAccount?
+  ownedProjects          ProjectMember[]
+  demands                DemandOwner[]
+  responses              DemandResponse[]
+  resources              Resource[]
+  networkResources       NetworkResource[]
+  referralsSent          NetworkReferral[]    @relation("ReferrerReferrals")
+  referralsReceived      NetworkReferral[]    @relation("ReceivedReferrals")
+  posts                  Post[]
+  comments               Comment[]
+  likes                  Like[]
+  voteRecords            VoteRecord[]
+  feedbacks              Feedback[]
+  inboxItems             InboxItem[]
+  sentMessages           DirectMessage[]      @relation("SentMessages")
+  receivedMessages       DirectMessage[]      @relation("ReceivedMessages")
+  userAvailability       UserAvailability[]
+  meetingParticipants    MeetingParticipant[]
+  invitedGuests          ExternalGuest[]
+  onsiteVisits           OnsiteVisit[]        @relation("OnsiteVisitInviter")
+  venueBookings          VenueBooking[]       @relation("BookingOwner")
+  createdBookings        VenueBooking[]       @relation("BookingCreator")
+  grantTasksReceived     TokenGrantTask[]     @relation("GrantTaskInviter")
+  grantTasksApproved     TokenGrantTask[]     @relation("GrantTaskAdmin")
+  localNotes             LocalNote[]          @relation("NoteOwner")
+  notedByUsers           LocalNote[]          @relation("NotedUser")
+  auditLogs              AuditLog[]
+  tokenTransactionsFrom  TokenTransaction[]   @relation("TransactionFrom")
+  tokenTransactionsTo    TokenTransaction[]   @relation("TransactionTo")
+  tokenTransactionsAdmin TokenTransaction[]   @relation("TransactionAdmin")
+  projectsCreated        Project[]            @relation("ProjectCreator")
+  votesCreated           Vote[]
+  announcementsCreated   Announcement[]
+  newsCreated            News[]
+
+  @@map("users")
+}
+
+// Token账户
+model TokenAccount {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  user          User     @relation(fields: [userId], references: [id])
+  balance       Decimal  @db.Decimal(18, 2)
+  initialAmount Decimal  @db.Decimal(18, 2)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("token_accounts")
+}
+
+// Token交易
+model TokenTransaction {
+  id               String                    @id @default(cuid())
+  fromUserId       String?
+  fromUser         User?                     @relation("TransactionFrom", fields: [fromUserId], references: [id])
+  toUserId         String?
+  toUser           User?                     @relation("TransactionTo", fields: [toUserId], references: [id])
+  amount           Decimal                   @db.Decimal(18, 2)
+  direction        TokenTransactionDirection
+  status           TokenTransactionStatus
+  reason           String?                   @db.Text
+  adminComment     String?                   @db.Text
+  adminUserId      String?
+  adminUser        User?                     @relation("TransactionAdmin", fields: [adminUserId], references: [id])
+  relatedProjectId String?
+  relatedProject   Project?                  @relation(fields: [relatedProjectId], references: [id])
+  relatedMeetingId String? // v3新增
+  relatedMeeting   Meeting?                  @relation(fields: [relatedMeetingId], references: [id])
+  relatedGuestId   String? // v3新增
+  createdAt        DateTime                  @default(now())
+  updatedAt        DateTime                  @updatedAt
+  completedAt      DateTime?
+
+  grantTask TokenGrantTask?
+
+  @@map("token_transactions")
+}
+
+// 项目表
+model Project {
+  id             String                @id @default(cuid())
+  name           String
+  businessType   BusinessType
+  industry       String?
+  region         String?
+  description    String?               @db.Text
+  reviewStatus   ProjectReviewStatus   @default(PENDING_REVIEW)
+  businessStatus ProjectBusinessStatus @default(ONGOING)
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  // 创建者
+  createdById String
+  createdBy   User   @relation("ProjectCreator", fields: [createdById], references: [id])
+
+  // 时间戳
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  // 关联
+  members           ProjectMember[]
+  shares            ProjectShare[]
+  demands           Demand[]
+  events            ProjectEvent[]
+  meetings          Meeting[]
+  news              ProjectNews[]
+  tokenTransactions TokenTransaction[]
+  valueRecords      ValueRecord[]
+  linkedProjects    ProjectLink[]        @relation("ProjectFrom")
+  linkedByProjects  ProjectLink[]        @relation("ProjectTo")
+  networkLinks      ProjectNetworkLink[]
+  joinRequests      ProjectJoinRequest[]
+
+  @@map("projects")
+}
+
+// 项目关联
+model ProjectLink {
+  id            String   @id @default(cuid())
+  fromProjectId String
+  fromProject   Project  @relation("ProjectFrom", fields: [fromProjectId], references: [id])
+  toProjectId   String
+  toProject     Project  @relation("ProjectTo", fields: [toProjectId], references: [id])
+  description   String?
+  createdAt     DateTime @default(now())
+
+  @@unique([fromProjectId, toProjectId])
+  @@map("project_links")
+}
+
+// 项目成员
+model ProjectMember {
+  id        String   @id @default(cuid())
+  projectId String
+  project   Project  @relation(fields: [projectId], references: [id])
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  role      String // LEADER / MEMBER / RECORDER
+  joinedAt  DateTime @default(now())
+  isDeleted Boolean  @default(false)
+
+  @@unique([projectId, userId])
+  @@map("project_members")
+}
+
+// 加入项目申请 (PRD 6.3.4)
+model ProjectJoinRequest {
+  id                      String   @id @default(cuid())
+  projectId               String
+  project                 Project  @relation(fields: [projectId], references: [id])
+  userId                  String
+  role                    String // LEADER / MEMBER
+  responsibility          String   @db.Text
+  intendedSharePercentage Decimal  @db.Decimal(5, 2)
+  actualSharePercentage   Decimal? @db.Decimal(5, 2)
+  note                    String?  @db.Text
+  status                  String   @default("PENDING") // PENDING / APPROVED / REJECTED
+  reviewedById            String?
+  reviewReason            String?  @db.Text
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+
+  @@unique([projectId, userId, status])
+  @@map("project_join_requests")
+}
+
+// 项目股权结构
+model ProjectShare {
+  id         String   @id @default(cuid())
+  projectId  String
+  project    Project  @relation(fields: [projectId], references: [id])
+  holderName String // 持有者名称（可能是"元征"或用户名）
+  holderId   String? // 如果是用户持有，关联用户ID
+  percentage Decimal  @db.Decimal(5, 2)
+  note       String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("project_shares")
+}
+
+// 项目事件/时间线
+model ProjectEvent {
+  id                String           @id @default(cuid())
+  projectId         String
+  project           Project          @relation(fields: [projectId], references: [id])
+  eventType         ProjectEventType
+  title             String
+  description       String?          @db.Text
+  payload           Json? // 额外数据
+  relatedObjectType String?
+  relatedObjectId   String?
+  correctedEventId  String? // 如果是更正事件，指向被更正的事件
+  createdAt         DateTime         @default(now())
+  createdById       String?
+
+  @@map("project_events")
+}
+
+// 需求表
+model Demand {
+  id            String       @id @default(cuid())
+  projectId     String?
+  project       Project?     @relation(fields: [projectId], references: [id])
+  name          String
+  businessType  BusinessType
+  description   String       @db.Text
+  industry      String?
+  status        DemandStatus @default(OPEN)
+  demandType    DemandType   @default(GENERAL) // v3新增
+  targetProfile Json? // v3新增: 人脉需求的目标画像
+
+  // 激励形式
+  rewardSharePercentage Decimal? @db.Decimal(5, 2)
+  rewardTokenAmount     Decimal? @db.Decimal(18, 2)
+  rewardOther           String?
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  note      String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  // 关联
+  owners       DemandOwner[]
+  responses    DemandResponse[]
+  networkLinks DemandNetworkLink[]
+
+  @@map("demands")
+}
+
+// 需求负责人/参与人
+model DemandOwner {
+  id        String   @id @default(cuid())
+  demandId  String
+  demand    Demand   @relation(fields: [demandId], references: [id])
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  isOwner   Boolean  @default(false) // 是否为管理人
+  createdAt DateTime @default(now())
+
+  @@unique([demandId, userId])
+  @@map("demand_owners")
+}
+
+// 需求响应
+model DemandResponse {
+  id          String         @id @default(cuid())
+  demandId    String
+  demand      Demand         @relation(fields: [demandId], references: [id])
+  responderId String
+  responder   User           @relation(fields: [responderId], references: [id])
+  content     String         @db.Text
+  status      ResponseStatus @default(SUBMITTED)
+
+  // 意向激励
+  intendedSharePercentage Decimal? @db.Decimal(5, 2)
+  intendedTokenAmount     Decimal? @db.Decimal(18, 2)
+  intendedOther           String?
+
+  // 最终激励（审核后确定）
+  finalSharePercentage Decimal? @db.Decimal(5, 2)
+  finalTokenAmount     Decimal? @db.Decimal(18, 2)
+  finalOther           String?
+
+  rejectReason String? @db.Text
+  modifyReason String? @db.Text
+  note         String? @db.Text
+
+  // 修改/废弃申请 (PRD 6.3.6.5)
+  pendingAction      String? // MODIFY / ABANDON
+  pendingNewSharePct Decimal? @db.Decimal(5, 2)
+  pendingNewTokenAmt Decimal? @db.Decimal(18, 2)
+  pendingNewOther    String?
+  pendingReason      String?  @db.Text
+  pendingInitiatedBy String? // 发起修改/废弃的用户ID
+
+  // 裁决信息
+  arbitrationDecision String? // APPROVE_MODIFY / APPROVE_ABANDON / REJECT / CONTINUE_ORIGINAL
+  arbitrationComment  String?   @db.Text
+  arbitratedBy        String? // 裁决管理员ID
+  arbitratedAt        DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  networkLinks ResponseNetworkLink[]
+
+  @@map("demand_responses")
+}
+
+// 资源表
+model Resource {
+  id                   String  @id @default(cuid())
+  userId               String
+  user                 User    @relation(fields: [userId], references: [id])
+  organization         String
+  description          String  @db.Text
+  relationshipStrength Int // 1-5
+  note                 String? @db.Text
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  @@map("resources")
+}
+
+// ================================
+// 人脉资源体系 (v3新增)
+// ================================
+
+// 人脉资源
+model NetworkResource {
+  id                   String              @id @default(cuid())
+  resourceType         NetworkResourceType
+  name                 String?
+  organization         String?
+  title                String? // 职位
+  industryTags         String[]
+  region               String?
+  relationshipStrength Int // 1-5
+  relationshipDesc     String?             @db.Text
+  contact              String? // 敏感字段
+  note                 String?             @db.Text
+
+  // 联系进展状态 (PRD 10.3: 已联系/待联系/已引荐成功)
+  contactStatus     ContactStatus @default(PENDING)
+  contactStatusNote String? // 进展备注
+
+  // 创建者
+  createdByUserId String
+  createdBy       User   @relation(fields: [createdByUserId], references: [id])
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  // 关联
+  referrals     NetworkReferral[]
+  projectLinks  ProjectNetworkLink[]
+  demandLinks   DemandNetworkLink[]
+  responseLinks ResponseNetworkLink[]
+  meetingLinks  MeetingNetworkLink[]
+
+  @@map("network_resources")
+}
+
+// 人脉引荐记录（点对点引荐）
+model NetworkReferral {
+  id                String          @id @default(cuid())
+  networkResourceId String
+  networkResource   NetworkResource @relation(fields: [networkResourceId], references: [id])
+  referrerUserId    String
+  referrer          User            @relation("ReferrerReferrals", fields: [referrerUserId], references: [id])
+  // 点对点引荐：目标用户（可选以兼容旧数据，新记录必须提供）
+  targetUserId      String?
+  targetUser        User?           @relation("ReceivedReferrals", fields: [targetUserId], references: [id])
+  referralType      ReferralType
+  relatedObjectType String? // MEETING/PROJECT/DEMAND
+  relatedObjectId   String?
+  description       String          @db.Text
+
+  // 可见性（点对点引荐默认为CUSTOM，仅引荐人和目标用户可见）
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  @@map("network_referrals")
+}
+
+// 项目-人脉资源关联
+model ProjectNetworkLink {
+  id                String          @id @default(cuid())
+  projectId         String
+  project           Project         @relation(fields: [projectId], references: [id])
+  networkResourceId String
+  networkResource   NetworkResource @relation(fields: [networkResourceId], references: [id])
+  createdAt         DateTime        @default(now())
+
+  @@unique([projectId, networkResourceId])
+  @@map("project_network_links")
+}
+
+// 需求-人脉资源关联
+model DemandNetworkLink {
+  id                String          @id @default(cuid())
+  demandId          String
+  demand            Demand          @relation(fields: [demandId], references: [id])
+  networkResourceId String
+  networkResource   NetworkResource @relation(fields: [networkResourceId], references: [id])
+  createdAt         DateTime        @default(now())
+
+  @@unique([demandId, networkResourceId])
+  @@map("demand_network_links")
+}
+
+// 响应-人脉资源关联
+model ResponseNetworkLink {
+  id                String          @id @default(cuid())
+  responseId        String
+  response          DemandResponse  @relation(fields: [responseId], references: [id])
+  networkResourceId String
+  networkResource   NetworkResource @relation(fields: [networkResourceId], references: [id])
+  createdAt         DateTime        @default(now())
+
+  @@unique([responseId, networkResourceId])
+  @@map("response_network_links")
+}
+
+// ================================
+// 日历与会议系统 (v3重构)
+// ================================
+
+// 场地表 (v3新增)
+model Venue {
+  id           String      @id @default(cuid())
+  name         String      @unique
+  address      String?
+  capacity     Int?
+  supportsMeal Boolean     @default(true)
+  note         String?     @db.Text
+  status       VenueStatus @default(ACTIVE)
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  bookings     VenueBooking[]
+  meetings     Meeting[]
+  onsiteVisits OnsiteVisit[]
+
+  @@map("venues")
+}
+
+// 场地预约 (v3新增)
+model VenueBooking {
+  id          String   @id @default(cuid())
+  venueId     String
+  venue       Venue    @relation(fields: [venueId], references: [id])
+  title       String
+  purpose     String?  @db.Text
+  startTime   DateTime
+  endTime     DateTime
+  ownerUserId String
+  owner       User     @relation("BookingOwner", fields: [ownerUserId], references: [id])
+
+  // PRD 19.5.2: 同行内部人员（可选：合伙人多选，用于通知/共享）
+  companionUserIds String[]
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  // 餐食信息
+  mealIncluded Boolean    @default(false)
+  mealTypes    MealType[]
+  lunchStart   DateTime?
+  lunchEnd     DateTime?
+  dinnerStart  DateTime?
+  dinnerEnd    DateTime?
+
+  // 备注
+  note String? @db.Text
+
+  status            BookingStatus @default(CONFIRMED)
+  adminOverrideFlag Boolean       @default(false)
+  adminOverrideNote String?       @db.Text
+
+  createdByUserId String
+  createdBy       User     @relation("BookingCreator", fields: [createdByUserId], references: [id])
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  isDeleted       Boolean  @default(false)
+
+  @@map("venue_bookings")
+}
+
+// 用户可用时间（保留v2结构）
+model UserAvailability {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  startTime DateTime
+  endTime   DateTime
+  note      String?
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  @@map("user_availability")
+}
+
+// 会议表 (v3增强)
+model Meeting {
+  id              String               @id @default(cuid())
+  topic           String
+  meetingKind     MeetingKind          @default(DAILY) // v3新增
+  meetingLevel    MeetingLevel
+  confidentiality ConfidentialityLevel
+  venueId         String? // v3新增
+  venue           Venue?               @relation(fields: [venueId], references: [id])
+  location        String?
+  isOffline       Boolean              @default(true) // v3新增
+  onlineLink      String?
+  startTime       DateTime
+  endTime         DateTime
+  projectId       String?
+  project         Project?             @relation(fields: [projectId], references: [id])
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  status    String   @default("SCHEDULED") // SCHEDULED/FINISHED/CANCELLED
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  // 关联
+  participants      MeetingParticipant[]
+  externalGuests    ExternalGuest[]
+  minutes           MeetingMinutes?
+  tokenTransactions TokenTransaction[]
+  grantTasks        TokenGrantTask[]
+  networkLinks      MeetingNetworkLink[]
+
+  @@map("meetings")
+}
+
+// 会议-人脉资源关联 (v3新增)
+model MeetingNetworkLink {
+  id                String          @id @default(cuid())
+  meetingId         String
+  meeting           Meeting         @relation(fields: [meetingId], references: [id])
+  networkResourceId String
+  networkResource   NetworkResource @relation(fields: [networkResourceId], references: [id])
+  createdAt         DateTime        @default(now())
+
+  @@unique([meetingId, networkResourceId])
+  @@map("meeting_network_links")
+}
+
+// 会议参与者
+model MeetingParticipant {
+  id               String           @id @default(cuid())
+  meetingId        String
+  meeting          Meeting          @relation(fields: [meetingId], references: [id])
+  userId           String
+  user             User             @relation(fields: [userId], references: [id])
+  role             ParticipantRole
+  attendanceStatus AttendanceStatus @default(INVITED)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  @@unique([meetingId, userId])
+  @@map("meeting_participants")
+}
+
+// 外部嘉宾 (v3增强)
+model ExternalGuest {
+  id              String  @id @default(cuid())
+  meetingId       String
+  meeting         Meeting @relation(fields: [meetingId], references: [id])
+  name            String
+  organization    String
+  title           String // 职位
+  contact         String?
+  note            String? @db.Text
+  invitedByUserId String
+  invitedBy       User    @relation(fields: [invitedByUserId], references: [id])
+
+  // v3新增字段
+  guestCategory      GuestCategory @default(OTHER)
+  defaultGrantAmount Decimal       @default(0) @db.Decimal(18, 2)
+  finalGrantAmount   Decimal?      @db.Decimal(18, 2)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  grantTask TokenGrantTask?
+
+  @@map("external_guests")
+}
+
+// 会议纪要
+model MeetingMinutes {
+  id          String   @id @default(cuid())
+  meetingId   String   @unique
+  meeting     Meeting  @relation(fields: [meetingId], references: [id])
+  content     String   @db.Text
+  attachments Json? // 附件列表
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("meeting_minutes")
+}
+
+// Token发放任务 (v3新增, v3扩展支持线下到访)
+model TokenGrantTask {
+  id         String     @id @default(cuid())
+  taskSource TaskSource @default(MEETING_GUEST) // 任务来源
+
+  // 座谈会嘉宾来源（可选）
+  meetingId String?
+  meeting   Meeting?       @relation(fields: [meetingId], references: [id])
+  guestId   String?        @unique
+  guest     ExternalGuest? @relation(fields: [guestId], references: [id])
+
+  // 线下到访来源（可选）
+  onsiteVisitId String?      @unique
+  onsiteVisit   OnsiteVisit? @relation(fields: [onsiteVisitId], references: [id])
+
+  inviterUserId      String
+  inviter            User                 @relation("GrantTaskInviter", fields: [inviterUserId], references: [id])
+  status             TokenGrantTaskStatus @default(PENDING)
+  defaultAmount      Decimal              @db.Decimal(18, 2)
+  finalAmount        Decimal?             @db.Decimal(18, 2)
+  adminUserId        String?
+  adminUser          User?                @relation("GrantTaskAdmin", fields: [adminUserId], references: [id])
+  adminComment       String?              @db.Text
+  decidedAt          DateTime?
+  tokenTransactionId String?              @unique
+  tokenTransaction   TokenTransaction?    @relation(fields: [tokenTransactionId], references: [id])
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  @@index([status])
+  @@index([taskSource])
+  @@index([inviterUserId])
+  @@index([createdAt])
+  @@map("token_grant_tasks")
+}
+
+// 线下到访记录 (v3扩展 - 独立于座谈会的线下邀请)
+model OnsiteVisit {
+  id String @id @default(cuid())
+
+  // 访客信息
+  name         String // 访客姓名
+  organization String // 所属组织
+  title        String // 职位
+  contact      String? // 联系方式
+  purpose      String? @db.Text // 到访目的
+  note         String? @db.Text // 备注
+
+  // 邀请人
+  invitedByUserId String
+  invitedBy       User   @relation("OnsiteVisitInviter", fields: [invitedByUserId], references: [id])
+
+  // 到访时间
+  visitDate DateTime // 到访日期
+
+  // 嘉宾分类（决定默认Token档位）
+  guestCategory      GuestCategory @default(OTHER)
+  defaultGrantAmount Decimal       @default(0) @db.Decimal(18, 2)
+  finalGrantAmount   Decimal?      @db.Decimal(18, 2)
+
+  // 关联场地（可选）
+  venueId String?
+  venue   Venue?  @relation(fields: [venueId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  grantTask TokenGrantTask?
+
+  @@map("onsite_visits")
+}
+
+// ================================
+// 新闻系统
+// ================================
+
+// 新闻表
+model News {
+  id          String    @id @default(cuid())
+  title       String
+  url         String    @unique
+  summary     String?   @db.Text
+  source      String?
+  publishedAt DateTime?
+  tags        String[]
+  industry    String?
+  region      String?
+  createdById String?
+  createdBy   User?     @relation(fields: [createdById], references: [id])
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  isDeleted   Boolean   @default(false)
+
+  projects ProjectNews[]
+
+  @@map("news")
+}
+
+// 项目-新闻关联
+model ProjectNews {
+  id        String   @id @default(cuid())
+  projectId String
+  project   Project  @relation(fields: [projectId], references: [id])
+  newsId    String
+  news      News     @relation(fields: [newsId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@unique([projectId, newsId])
+  @@map("project_news")
+}
+
+// 新闻源配置
+model NewsSource {
+  id            String   @id @default(cuid())
+  name          String
+  sourceType    String // RSS/HTML/API
+  baseUrl       String
+  fetchInterval Int // 分钟
+  parseRules    Json?
+  defaultTags   String[]
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("news_sources")
+}
+
+// ================================
+// 社群系统
+// ================================
+
+// 动态/帖子
+model Post {
+  id                String   @id @default(cuid())
+  authorId          String
+  author            User     @relation(fields: [authorId], references: [id])
+  content           String   @db.Text
+  images            String[] @default([])
+  postType          PostType @default(GENERAL)
+  relatedObjectType String?
+  relatedObjectId   String?
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  comments Comment[]
+  likes    Like[]
+
+  @@map("posts")
+}
+
+// 评论
+model Comment {
+  id        String   @id @default(cuid())
+  postId    String
+  post      Post     @relation(fields: [postId], references: [id])
+  authorId  String
+  author    User     @relation(fields: [authorId], references: [id])
+  content   String   @db.Text
+  parentId  String? // 回复的评论ID
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  @@map("comments")
+}
+
+// 点赞
+model Like {
+  id        String   @id @default(cuid())
+  postId    String
+  post      Post     @relation(fields: [postId], references: [id])
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@unique([postId, userId])
+  @@map("likes")
+}
+
+// 投票
+model Vote {
+  id           String     @id @default(cuid())
+  creatorId    String
+  creator      User       @relation(fields: [creatorId], references: [id])
+  title        String
+  description  String     @db.Text
+  options      Json // 选项列表
+  passRule     String // 通过规则
+  deadline     DateTime
+  allowAbstain Boolean    @default(false)
+  isAnonymous  Boolean    @default(false)
+  status       VoteStatus @default(OPEN)
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  note      String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  records VoteRecord[]
+
+  @@map("votes")
+}
+
+// 投票记录
+model VoteRecord {
+  id        String   @id @default(cuid())
+  voteId    String
+  vote      Vote     @relation(fields: [voteId], references: [id])
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  option    String // 选择的选项
+  createdAt DateTime @default(now())
+
+  @@unique([voteId, userId])
+  @@map("vote_records")
+}
+
+// 意见反馈
+model Feedback {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  feedbackType String // SUGGESTION/BUG/RULE/OTHER
+  title        String
+  content      String   @db.Text
+  wantContact  Boolean  @default(false)
+  contactInfo  String?
+  status       String   @default("PENDING") // PENDING/PROCESSED
+  response     String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("feedbacks")
+}
+
+// ================================
+// 通知与消息系统
+// ================================
+
+// 公告
+model Announcement {
+  id          String @id @default(cuid())
+  creatorId   String
+  creator     User   @relation(fields: [creatorId], references: [id])
+  title       String
+  summary     String?
+  content     String @db.Text
+  attachments Json?
+  priority    AnnouncementPriority @default(NORMAL)
+  isPinned    Boolean @default(false)
+
+  // 可见性
+  visibilityScopeType    VisibilityScopeType
+  visibilityMinRoleLevel Int?
+  visibilityUserIds      String[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean  @default(false)
+
+  @@map("announcements")
+}
+
+enum AnnouncementPriority {
+  HIGH
+  NORMAL
+  LOW
+}
+
+// 信箱消息
+model InboxItem {
+  id                String        @id @default(cuid())
+  userId            String
+  user              User          @relation(fields: [userId], references: [id])
+  category          InboxCategory
+  title             String
+  content           String        @db.Text
+  relatedObjectType String?
+  relatedObjectId   String?
+  isRead            Boolean       @default(false)
+  createdAt         DateTime      @default(now())
+
+  @@map("inbox_items")
+}
+
+// 私信
+model DirectMessage {
+  id         String   @id @default(cuid())
+  senderId   String
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id])
+  receiverId String
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id])
+  content    String   @db.Text
+  images     Json?    // 附件图片（JSON数组）
+  isRead     Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  isDeleted  Boolean  @default(false)
+
+  @@map("direct_messages")
+}
+
+// 通知发送记录 (v3新增)
+// PRD 30.4: 失败重试策略 - 指数退避 + 最大重试次数
+model NotificationOutbox {
+  id                String              @id @default(cuid())
+  channel           NotificationChannel
+  eventType         String
+  actorUserId       String?
+  targetUserId      String
+  title             String
+  content           String              @db.Text
+  relatedObjectType String?
+  relatedObjectId   String?
+  status            NotificationStatus  @default(PENDING)
+  errorMessage      String?             @db.Text
+  dedupeKey         String?
+  retryCount        Int                 @default(0) // 重试次数
+  nextRetryAt       DateTime? // 下次重试时间（指数退避）
+  createdAt         DateTime            @default(now())
+  sentAt            DateTime?
+
+  @@index([status, nextRetryAt]) // 用于重试查询优化
+  @@map("notification_outbox")
+}
+
+// 通知偏好 (v3新增)
+model NotificationPreference {
+  id                 String   @id @default(cuid())
+  userId             String   @unique
+  emailEnabled       Boolean  @default(true)
+  dmEmailMode        String   @default("BATCH_1MIN") // IMMEDIATE/BATCH_1MIN
+  communityEmailMode String   @default("BATCH_5MIN")
+  updatedAt          DateTime @updatedAt
+
+  @@map("notification_preferences")
+}
+
+// ================================
+// 价值记录与审计
+// ================================
+
+// 价值记录
+model ValueRecord {
+  id          String   @id @default(cuid())
+  projectId   String?
+  project     Project? @relation(fields: [projectId], references: [id])
+  amount      Decimal  @db.Decimal(18, 2)
+  description String   @db.Text
+  recordedAt  DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("value_records")
+}
+
+// 本地标签与备注
+model LocalNote {
+  id           String   @id @default(cuid())
+  ownerId      String
+  owner        User     @relation("NoteOwner", fields: [ownerId], references: [id])
+  targetUserId String
+  targetUser   User     @relation("NotedUser", fields: [targetUserId], references: [id])
+  tags         String[]
+  note         String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([ownerId, targetUserId])
+  @@map("local_notes")
+}
+
+// 审计日志
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id])
+  action     String
+  objectType String
+  objectId   String
+  summary    String?  @db.Text
+  metadata   Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  @@map("audit_logs")
+}
