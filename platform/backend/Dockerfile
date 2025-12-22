@@ -27,34 +27,20 @@ EXPOSE 3000
 
 CMD ["pnpm", "dev"]
 
-# 构建阶段
-FROM base AS builder
-
-COPY --from=deps /app/node_modules ./node_modules
-COPY . .
-
-RUN pnpm db:generate
-RUN pnpm build
-
-# 生产阶段
+# 生产阶段 (使用 tsx 运行时编译)
 FROM base AS production
 
 ENV NODE_ENV=production
 
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/prisma ./prisma
+COPY --from=deps /app/node_modules ./node_modules
+COPY package.json ./
+COPY tsconfig.json ./
+COPY src ./src
+COPY prisma ./prisma
 
 # 生成 Prisma Client
 RUN pnpm db:generate
 
 EXPOSE 3000
 
-CMD ["pnpm", "start"]
-
-
-
-
-
-
+CMD ["node", "--import", "tsx", "src/app.ts"]
