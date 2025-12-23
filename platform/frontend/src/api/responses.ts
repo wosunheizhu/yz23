@@ -13,8 +13,8 @@ export interface ResponseListItem {
   id: string;
   demandId: string;
   demandName: string;
-  projectId: string;
-  projectName: string;
+  projectId: string | null;
+  projectName: string | null;
   responder: {
     id: string;
     name: string;

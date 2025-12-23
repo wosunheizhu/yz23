@@ -299,14 +299,14 @@ export const getResponseById = async (
     id: response.id,
     demandId: response.demandId,
     demandName: response.demand.name,
-    projectId: response.demand.project.id,
-    projectName: response.demand.project.name,
+    projectId: response.demand.project?.id || null,
+    projectName: response.demand.project?.name || null,
     responder: response.responder,
     status: response.status,
     content: response.content,
     // 添加权限相关信息供前端使用
     demandOwnerIds: response.demand.owners.map((o) => o.userId),
-    projectLeaderIds: response.demand.project.members?.map((m) => m.userId) || [],
+    projectLeaderIds: response.demand.project?.members?.map((m) => m.userId) || [],
     intendedSharePercentage: response.intendedSharePercentage 
       ? Number(response.intendedSharePercentage) 
       : null,

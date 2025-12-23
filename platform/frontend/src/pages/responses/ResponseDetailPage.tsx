@@ -313,14 +313,16 @@ export default function ResponseDetailPage() {
               <span className="flex-1 text-charcoal">需求: {response.demandName}</span>
               <ChevronRight size={16} className="text-stone-gray" />
             </button>
-            <button
-              onClick={() => navigate(`/projects/${response.projectId}`)}
-              className="flex items-center gap-md text-left w-full hover:bg-gallery-gray p-sm rounded-lg transition-colors"
-            >
-              <Briefcase size={16} className="text-stone-gray" />
-              <span className="flex-1 text-charcoal">项目: {response.projectName}</span>
-              <ChevronRight size={16} className="text-stone-gray" />
-            </button>
+            {response.projectId && (
+              <button
+                onClick={() => navigate(`/projects/${response.projectId}`)}
+                className="flex items-center gap-md text-left w-full hover:bg-gallery-gray p-sm rounded-lg transition-colors"
+              >
+                <Briefcase size={16} className="text-stone-gray" />
+                <span className="flex-1 text-charcoal">项目: {response.projectName}</span>
+                <ChevronRight size={16} className="text-stone-gray" />
+              </button>
+            )}
           </div>
         </Card>
 
