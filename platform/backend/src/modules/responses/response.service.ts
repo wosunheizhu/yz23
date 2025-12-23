@@ -604,12 +604,10 @@ export const confirmUsage = async (
             toUserId: response.responderId,
             amount: finalTokenAmount,
             direction: 'TRANSFER',
-            type: 'TRANSFER',
             status: 'COMPLETED',
             reason: `需求响应结算：${response.demand.name}`,
             relatedProjectId: response.demand.projectId,
-            reviewedByUserId: userId, // 操作人自动审核
-            reviewedAt: new Date(),
+            completedAt: new Date(),
           },
         });
 
