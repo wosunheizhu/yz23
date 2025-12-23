@@ -117,8 +117,15 @@ export class AppError extends Error {
  * 400 Bad Request
  */
 export class BadRequestError extends AppError {
-  constructor(errorCode: ErrorCode = ErrorCodes.VALIDATION_ERROR, details?: Record<string, unknown>) {
+  constructor(errorCode: ErrorCode = ErrorCodes.VALIDATION_ERROR, customMessageOrDetails?: string | Record<string, unknown>) {
+    // 支持两种用法：
+    // 1. BadRequestError(errorCode, '自定义消息') - 使用自定义消息
+    // 2. BadRequestError(errorCode, { details }) - 使用 details 对象
+    const details = typeof customMessageOrDetails === 'object' ? customMessageOrDetails : undefined;
     super(errorCode, 400, details);
+    if (typeof customMessageOrDetails === 'string') {
+      this.message = customMessageOrDetails;
+    }
   }
 }
 
