@@ -603,6 +603,7 @@ export const confirmUsage = async (
             fromUserId: payerUserId,
             toUserId: response.responderId,
             amount: finalTokenAmount,
+            direction: 'TRANSFER',
             type: 'TRANSFER',
             status: 'COMPLETED',
             reason: `需求响应结算：${response.demand.name}`,
