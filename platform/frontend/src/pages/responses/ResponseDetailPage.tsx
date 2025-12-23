@@ -116,16 +116,27 @@ export default function ResponseDetailPage() {
   // 检查权限
   const isResponder = user?.id === response?.responder?.id;
   const isAdmin = user?.isAdmin;
+  const isDemandOwner = response?.demandOwnerIds?.includes(user?.id || '') || false;
+  const isProjectLeader = response?.projectLeaderIds?.includes(user?.id || '') || false;
+  
   // 判断是否可以审核：
   // 1. 管理员可以审核
-  // 2. 需求发布者/项目负责人可以审核（包括自己响应自己需求的情况）
-  // 注：即使是响应者，如果同时是需求方也可以审核自己的响应
-  const canReview = (isAdmin || response?.status === 'SUBMITTED');
+  // 2. 需求发布者可以审核
+  // 3. 项目负责人可以审核
+  // 状态必须是 SUBMITTED
+  const canReview = response?.status === 'SUBMITTED' && (isAdmin || isDemandOwner || isProjectLeader);
+  
   // 确认资源使用：已接受待使用状态 或 条款修改后的状态
-  const canConfirmUsage = (isAdmin || response?.status === 'ACCEPTED_PENDING_USAGE' || response?.status === 'MODIFIED');
+  // 只有需求方、项目负责人或管理员可以操作
+  const canConfirmUsage = (response?.status === 'ACCEPTED_PENDING_USAGE' || response?.status === 'MODIFIED') 
+    && (isAdmin || isDemandOwner || isProjectLeader);
+    
   // 修改/废弃：已接受待使用状态 或 条款修改后的状态
-  const canModifyOrAbandon = (isAdmin || response?.status === 'ACCEPTED_PENDING_USAGE' || response?.status === 'MODIFIED');
-  // 资源方确认：只有响应者且非发起人可以确认
+  // 只有需求方、项目负责人或管理员可以操作
+  const canModifyOrAbandon = (response?.status === 'ACCEPTED_PENDING_USAGE' || response?.status === 'MODIFIED')
+    && (isAdmin || isDemandOwner || isProjectLeader);
+    
+  // 资源方确认：只有响应者可以确认
   const canConfirmModifyAbandon = isResponder && (
     response?.status === 'PENDING_MODIFY_CONFIRM' || 
     response?.status === 'PENDING_ABANDON_CONFIRM'
@@ -150,9 +161,10 @@ export default function ResponseDetailPage() {
       setShowReviewModal(false);
       setReviewData({ finalSharePercentage: '', finalTokenAmount: '', finalOther: '', rejectReason: '' });
       await loadResponse(id);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Review failed:', err);
-      alert('操作失败，请重试');
+      const errorMsg = err.response?.data?.error?.message || err.response?.data?.message || '操作失败，请重试';
+      alert(errorMsg);
     } finally {
       setActionLoading(false);
     }
@@ -169,7 +181,8 @@ export default function ResponseDetailPage() {
       await loadResponse(id);
     } catch (err: any) {
       console.error('Confirm usage failed:', err);
-      alert(err.response?.data?.message || '操作失败，请重试');
+      const errorMsg = err.response?.data?.error?.message || err.response?.data?.message || '操作失败，请重试';
+      alert(errorMsg);
     } finally {
       setActionLoading(false);
     }
@@ -193,9 +206,10 @@ export default function ResponseDetailPage() {
       setShowModifyModal(false);
       setModifyData({ reason: '', newSharePercentage: '', newTokenAmount: '', newOther: '' });
       await loadResponse(id);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Modify/abandon failed:', err);
-      alert('操作失败，请重试');
+      const errorMsg = err.response?.data?.error?.message || err.response?.data?.message || '操作失败，请重试';
+      alert(errorMsg);
     } finally {
       setActionLoading(false);
     }
@@ -210,9 +224,10 @@ export default function ResponseDetailPage() {
       setShowConfirmModal(false);
       setConfirmComment('');
       await loadResponse(id);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Confirm failed:', err);
-      alert('操作失败，请重试');
+      const errorMsg = err.response?.data?.error?.message || err.response?.data?.message || '操作失败，请重试';
+      alert(errorMsg);
     } finally {
       setActionLoading(false);
     }
@@ -236,9 +251,10 @@ export default function ResponseDetailPage() {
       setShowArbitrateModal(false);
       setArbitrateData({ comment: '', finalSharePercentage: '', finalTokenAmount: '', finalOther: '' });
       await loadResponse(id);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Arbitrate failed:', err);
-      alert('操作失败，请重试');
+      const errorMsg = err.response?.data?.error?.message || err.response?.data?.message || '操作失败，请重试';
+      alert(errorMsg);
     } finally {
       setActionLoading(false);
     }

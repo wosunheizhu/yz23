@@ -304,6 +304,9 @@ export const getResponseById = async (
     responder: response.responder,
     status: response.status,
     content: response.content,
+    // 添加权限相关信息供前端使用
+    demandOwnerIds: response.demand.owners.map((o) => o.userId),
+    projectLeaderIds: response.demand.project.members?.map((m) => m.userId) || [],
     intendedSharePercentage: response.intendedSharePercentage 
       ? Number(response.intendedSharePercentage) 
       : null,

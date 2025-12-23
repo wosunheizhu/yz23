@@ -43,6 +43,9 @@ export interface ResponseDetail extends ResponseListItem {
     organization: string | null;
   }>;
   updatedAt: string;
+  // 权限相关信息
+  demandOwnerIds?: string[];
+  projectLeaderIds?: string[];
 }
 
 export interface CreateResponseDto {
