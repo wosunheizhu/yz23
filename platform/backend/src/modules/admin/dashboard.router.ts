@@ -29,10 +29,10 @@ router.get('/quick-actions', async (_req: Request, res: Response) => {
     pendingArbitrations,
     failedEmails,
   ] = await Promise.all([
-    prisma.project.count({ where: { isDeleted: false, status: 'PENDING_REVIEW' } }),
-    prisma.tokenTransaction.count({ where: { status: 'PENDING_APPROVAL' } }),
+    prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } }),
+    prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } }),
     prisma.tokenGrantTask.count({ where: { status: 'PENDING' } }),
-    prisma.response.count({
+    prisma.demandResponse.count({
       where: {
         isDeleted: false,
         OR: [{ modifyStatus: 'PENDING' }, { abandonStatus: 'PENDING' }],
@@ -163,7 +163,7 @@ router.get('/token-overview', async (_req: Request, res: Response) => {
       where: { createdAt: { gte: weekStart } },
     }),
     prisma.tokenTransaction.count({
-      where: { status: 'PENDING_APPROVAL' },
+      where: { status: 'PENDING_ADMIN_APPROVAL' },
     }),
     prisma.tokenTransaction.findMany({
       include: {
