@@ -25,12 +25,13 @@ import type {
  * PRD 22.1: 管理员控制台导航
  */
 export const getDashboardStats = async (): Promise<DashboardStatsResponse> => {
-  const now = new Date();
-  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const todayEnd = new Date(todayStart.getTime() + 24 * 60 * 60 * 1000);
-  const weekStart = new Date(todayStart.getTime() - 7 * 24 * 60 * 60 * 1000);
+  try {
+    const now = new Date();
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const todayEnd = new Date(todayStart.getTime() + 24 * 60 * 60 * 1000);
+    const weekStart = new Date(todayStart.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-  const [
+    const [
     // 项目统计
     projectTotal,
     projectPending,
@@ -163,6 +164,10 @@ export const getDashboardStats = async (): Promise<DashboardStatsResponse> => {
       activeThisWeek: activeUsers,
     },
   };
+  } catch (error) {
+    logger.error({ error }, '获取仪表盘统计失败');
+    throw error;
+  }
 };
 
 /**
@@ -180,31 +185,36 @@ export interface QuickActionsResponse {
 }
 
 export const getQuickActions = async (): Promise<QuickActionsResponse> => {
-  const [
-    pendingProjects,
-    pendingTransfers,
-    pendingGrants,
-    pendingArbitrations,
-    failedEmails,
-    pendingFeedbacks,
-  ] = await Promise.all([
-    prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } }),
-    prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } }),
-    prisma.tokenGrantTask.count({ where: { status: 'PENDING' } }),
-    prisma.demandResponse.count({ where: { isDeleted: false, status: 'PENDING_ADMIN_ARBITRATION' } }),
-    prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } }),
-    prisma.feedback.count({ where: { status: 'PENDING' } }),
-  ]);
+  try {
+    const [
+      pendingProjects,
+      pendingTransfers,
+      pendingGrants,
+      pendingArbitrations,
+      failedEmails,
+      pendingFeedbacks,
+    ] = await Promise.all([
+      prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } }),
+      prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } }),
+      prisma.tokenGrantTask.count({ where: { status: 'PENDING' } }),
+      prisma.demandResponse.count({ where: { isDeleted: false, status: 'PENDING_ADMIN_ARBITRATION' } }),
+      prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } }),
+      prisma.feedback.count({ where: { status: 'PENDING' } }),
+    ]);
 
-  return {
-    pendingProjects,
-    pendingTransfers,
-    pendingGrants,
-    pendingArbitrations,
-    failedEmails,
-    pendingFeedbacks,
-    total: pendingProjects + pendingTransfers + pendingGrants + pendingArbitrations + failedEmails + pendingFeedbacks,
-  };
+    return {
+      pendingProjects,
+      pendingTransfers,
+      pendingGrants,
+      pendingArbitrations,
+      failedEmails,
+      pendingFeedbacks,
+      total: pendingProjects + pendingTransfers + pendingGrants + pendingArbitrations + failedEmails + pendingFeedbacks,
+    };
+  } catch (error) {
+    logger.error({ error }, '获取快捷操作统计失败');
+    throw error;
+  }
 };
 
 // ================================
@@ -291,7 +301,7 @@ export const getVenueOccupancy = async (
   const endDate = query.to ? new Date(query.to) : now;
 
   // 获取场地列表
-  const venueWhere: Record<string, unknown> = { isDeleted: false, status: 'ACTIVE' };
+  const venueWhere: Record<string, unknown> = { status: 'ACTIVE' };
   if (venueId) venueWhere.id = venueId;
 
   const venues = await prisma.venue.findMany({
@@ -435,13 +445,13 @@ export const listAdminBookings = async (query: AdminBookingListQuery) => {
  * PRD 22.1.1: 项目审核与治理
  */
 export const listPendingProjects = async (page: number = 1, pageSize: number = 20) => {
-  const where = { isDeleted: false, status: 'PENDING_REVIEW' };
+  const where = { isDeleted: false, reviewStatus: 'PENDING_REVIEW' as const };
 
   const [items, total] = await Promise.all([
     prisma.project.findMany({
       where,
       include: {
-        owner: { select: { id: true, name: true } },
+        createdBy: { select: { id: true, name: true } },
       },
       orderBy: { createdAt: 'desc' },
       skip: (page - 1) * pageSize,
@@ -455,9 +465,9 @@ export const listPendingProjects = async (page: number = 1, pageSize: number = 2
       id: item.id,
       name: item.name,
       description: item.description,
-      ownerUserId: item.ownerUserId,
-      ownerName: item.owner.name,
-      status: item.status,
+      ownerUserId: item.createdById,
+      ownerName: item.createdBy.name,
+      status: item.reviewStatus,
       createdAt: item.createdAt.toISOString(),
     })),
     pagination: {
