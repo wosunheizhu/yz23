@@ -26,105 +26,90 @@ import type {
  */
 export const getDashboardStats = async (): Promise<DashboardStatsResponse> => {
   try {
+    console.log('[DEBUG] getDashboardStats: Starting');
     const now = new Date();
     const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const todayEnd = new Date(todayStart.getTime() + 24 * 60 * 60 * 1000);
     const weekStart = new Date(todayStart.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-    const [
-    // 项目统计
-    projectTotal,
-    projectPending,
-    projectActive,
-    projectCompleted,
-    // 需求统计
-    demandTotal,
-    demandOpen,
-    responseCount,
-    // Token 统计
-    tokenAccounts,
-    pendingTransfers,
-    pendingGrants,
-    // 场地统计
-    venueTotal,
-    venueActive,
-    todayBookings,
-    weekBookings,
-    // 会议统计
-    meetingTotal,
-    upcomingMeetings,
-    todayMeetings,
-    // 通知统计
-    pendingEmails,
-    failedEmails,
-    todaySentEmails,
-    // 用户统计
-    userTotal,
-    activeUsers,
-  ] = await Promise.all([
-    // 项目
-    prisma.project.count({ where: { isDeleted: false } }),
-    prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } }),
-    prisma.project.count({ where: { isDeleted: false, businessStatus: 'ONGOING' } }),
-    prisma.project.count({ where: { isDeleted: false, businessStatus: 'COMPLETED' } }),
-    // 需求
-    prisma.demand.count({ where: { isDeleted: false } }),
-    prisma.demand.count({ where: { isDeleted: false, status: 'OPEN' } }),
-    prisma.demandResponse.count({ where: { isDeleted: false } }),
-    // Token
-    prisma.tokenAccount.aggregate({ _sum: { balance: true } }),
-    prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } }),
-    prisma.tokenGrantTask.count({ where: { status: 'PENDING' } }),
-    // 场地
-    prisma.venue.count(),
-    prisma.venue.count({ where: { status: 'ACTIVE' } }),
-    prisma.venueBooking.count({
+    // 逐个执行查询以定位问题
+    console.log('[DEBUG] Query 1: projectTotal');
+    const projectTotal = await prisma.project.count({ where: { isDeleted: false } });
+    console.log('[DEBUG] Query 2: projectPending');
+    const projectPending = await prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } });
+    console.log('[DEBUG] Query 3: projectActive');
+    const projectActive = await prisma.project.count({ where: { isDeleted: false, businessStatus: 'ONGOING' } });
+    console.log('[DEBUG] Query 4: projectCompleted');
+    const projectCompleted = await prisma.project.count({ where: { isDeleted: false, businessStatus: 'COMPLETED' } });
+    console.log('[DEBUG] Query 5: demandTotal');
+    const demandTotal = await prisma.demand.count({ where: { isDeleted: false } });
+    console.log('[DEBUG] Query 6: demandOpen');
+    const demandOpen = await prisma.demand.count({ where: { isDeleted: false, status: 'OPEN' } });
+    console.log('[DEBUG] Query 7: responseCount');
+    const responseCount = await prisma.demandResponse.count({ where: { isDeleted: false } });
+    console.log('[DEBUG] Query 8: tokenAccounts');
+    const tokenAccounts = await prisma.tokenAccount.aggregate({ _sum: { balance: true } });
+    console.log('[DEBUG] Query 9: pendingTransfers');
+    const pendingTransfers = await prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } });
+    console.log('[DEBUG] Query 10: pendingGrants');
+    const pendingGrants = await prisma.tokenGrantTask.count({ where: { status: 'PENDING' } });
+    console.log('[DEBUG] Query 11: venueTotal');
+    const venueTotal = await prisma.venue.count();
+    console.log('[DEBUG] Query 12: venueActive');
+    const venueActive = await prisma.venue.count({ where: { status: 'ACTIVE' } });
+    console.log('[DEBUG] Query 13: todayBookings');
+    const todayBookings = await prisma.venueBooking.count({
       where: {
         isDeleted: false,
         startTime: { gte: todayStart, lt: todayEnd },
       },
-    }),
-    prisma.venueBooking.count({
+    });
+    console.log('[DEBUG] Query 14: weekBookings');
+    const weekBookings = await prisma.venueBooking.count({
       where: {
         isDeleted: false,
         startTime: { gte: weekStart, lt: todayEnd },
       },
-    }),
-    // 会议
-    prisma.meeting.count({ where: { isDeleted: false } }),
-    prisma.meeting.count({
+    });
+    console.log('[DEBUG] Query 15: meetingTotal');
+    const meetingTotal = await prisma.meeting.count({ where: { isDeleted: false } });
+    console.log('[DEBUG] Query 16: upcomingMeetings');
+    const upcomingMeetings = await prisma.meeting.count({
       where: {
         isDeleted: false,
         status: 'SCHEDULED',
         startTime: { gt: now },
       },
-    }),
-    prisma.meeting.count({
+    });
+    console.log('[DEBUG] Query 17: todayMeetings');
+    const todayMeetings = await prisma.meeting.count({
       where: {
         isDeleted: false,
         startTime: { gte: todayStart, lt: todayEnd },
       },
-    }),
-    // 通知
-    prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'PENDING' } }),
-    prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } }),
-    prisma.notificationOutbox.count({
+    });
+    console.log('[DEBUG] Query 18: pendingEmails');
+    const pendingEmails = await prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'PENDING' } });
+    console.log('[DEBUG] Query 19: failedEmails');
+    const failedEmails = await prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } });
+    console.log('[DEBUG] Query 20: todaySentEmails');
+    const todaySentEmails = await prisma.notificationOutbox.count({
       where: {
         channel: 'EMAIL',
         status: 'SENT',
         sentAt: { gte: todayStart },
       },
-    }),
-    // 用户
-    prisma.user.count({ where: { isDeleted: false } }),
-    // 用 updatedAt 代替 lastLoginAt（该字段不存在）
-    prisma.user.count({
+    });
+    console.log('[DEBUG] Query 21: userTotal');
+    const userTotal = await prisma.user.count({ where: { isDeleted: false } });
+    console.log('[DEBUG] Query 22: activeUsers');
+    const activeUsers = await prisma.user.count({
       where: {
         isDeleted: false,
         updatedAt: { gte: weekStart },
       },
-    }),
-  ]);
+    });
+    console.log('[DEBUG] All queries completed');
 
   return {
     projects: {
@@ -186,21 +171,20 @@ export interface QuickActionsResponse {
 
 export const getQuickActions = async (): Promise<QuickActionsResponse> => {
   try {
-    const [
-      pendingProjects,
-      pendingTransfers,
-      pendingGrants,
-      pendingArbitrations,
-      failedEmails,
-      pendingFeedbacks,
-    ] = await Promise.all([
-      prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } }),
-      prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } }),
-      prisma.tokenGrantTask.count({ where: { status: 'PENDING' } }),
-      prisma.demandResponse.count({ where: { isDeleted: false, status: 'PENDING_ADMIN_ARBITRATION' } }),
-      prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } }),
-      prisma.feedback.count({ where: { status: 'PENDING' } }),
-    ]);
+    console.log('[DEBUG] getQuickActions: Starting');
+    console.log('[DEBUG] QA Query 1: pendingProjects');
+    const pendingProjects = await prisma.project.count({ where: { isDeleted: false, reviewStatus: 'PENDING_REVIEW' } });
+    console.log('[DEBUG] QA Query 2: pendingTransfers');
+    const pendingTransfers = await prisma.tokenTransaction.count({ where: { status: 'PENDING_ADMIN_APPROVAL' } });
+    console.log('[DEBUG] QA Query 3: pendingGrants');
+    const pendingGrants = await prisma.tokenGrantTask.count({ where: { status: 'PENDING' } });
+    console.log('[DEBUG] QA Query 4: pendingArbitrations');
+    const pendingArbitrations = await prisma.demandResponse.count({ where: { isDeleted: false, status: 'PENDING_ADMIN_ARBITRATION' } });
+    console.log('[DEBUG] QA Query 5: failedEmails');
+    const failedEmails = await prisma.notificationOutbox.count({ where: { channel: 'EMAIL', status: 'FAILED' } });
+    console.log('[DEBUG] QA Query 6: pendingFeedbacks');
+    const pendingFeedbacks = await prisma.feedback.count({ where: { status: 'PENDING' } });
+    console.log('[DEBUG] getQuickActions: All queries completed');
 
     return {
       pendingProjects,
@@ -212,6 +196,7 @@ export const getQuickActions = async (): Promise<QuickActionsResponse> => {
       total: pendingProjects + pendingTransfers + pendingGrants + pendingArbitrations + failedEmails + pendingFeedbacks,
     };
   } catch (error) {
+    console.error('[DEBUG] getQuickActions error:', error);
     logger.error({ error }, '获取快捷操作统计失败');
     throw error;
   }
