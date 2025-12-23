@@ -122,9 +122,13 @@ export class BadRequestError extends AppError {
     // 1. BadRequestError(errorCode, '自定义消息') - 使用自定义消息
     // 2. BadRequestError(errorCode, { details }) - 使用 details 对象
     const details = typeof customMessageOrDetails === 'object' ? customMessageOrDetails : undefined;
-    super(errorCode, 400, details);
+    
+    // 如果是自定义消息，创建临时错误码对象
     if (typeof customMessageOrDetails === 'string') {
-      this.message = customMessageOrDetails;
+      const customErrorCode = { code: errorCode.code, message: customMessageOrDetails } as ErrorCode;
+      super(customErrorCode, 400, undefined);
+    } else {
+      super(errorCode, 400, details);
     }
   }
 }
