@@ -22,6 +22,7 @@ router.use(adminOnly);
  * 获取待处理任务数量
  */
 router.get('/quick-actions', async (_req: Request, res: Response) => {
+  console.log('[DEBUG] Entering dashboard.router /quick-actions handler');
   const [
     pendingProjects,
     pendingTransfers,

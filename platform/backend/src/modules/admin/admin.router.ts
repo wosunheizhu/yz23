@@ -34,10 +34,14 @@ router.use(adminOnly);
  * 获取仪表盘统计
  */
 router.get('/dashboard/stats', async (_req: Request, res: Response, next: NextFunction) => {
+  console.log('[DEBUG] Entering /dashboard/stats handler');
   try {
+    console.log('[DEBUG] Calling getDashboardStats');
     const stats = await adminService.getDashboardStats();
+    console.log('[DEBUG] getDashboardStats completed');
     res.json({ success: true, data: stats });
   } catch (error) {
+    console.error('[DEBUG] Error in /dashboard/stats:', error);
     next(error);
   }
 });
@@ -47,10 +51,14 @@ router.get('/dashboard/stats', async (_req: Request, res: Response, next: NextFu
  * 获取快捷操作数据
  */
 router.get('/dashboard/quick-actions', async (_req: Request, res: Response, next: NextFunction) => {
+  console.log('[DEBUG] Entering /dashboard/quick-actions handler');
   try {
+    console.log('[DEBUG] Calling getQuickActions');
     const actions = await adminService.getQuickActions();
+    console.log('[DEBUG] getQuickActions completed');
     res.json({ success: true, data: actions });
   } catch (error) {
+    console.error('[DEBUG] Error in /dashboard/quick-actions:', error);
     next(error);
   }
 });
