@@ -225,7 +225,7 @@ export default function ProjectsPage() {
                   {/* 底部信息 */}
                   <div className="flex items-center justify-between text-tiny text-stone-gray">
                     <span>发起人: {project.createdBy.name}</span>
-                    <span>{project.leadersCount + project.membersCount}人参与</span>
+                    <span>{project.membersCount}人参与</span>
                   </div>
                 </Card>
               </motion.div>
