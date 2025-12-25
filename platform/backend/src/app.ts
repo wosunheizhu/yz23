@@ -162,10 +162,14 @@ const startServer = async (): Promise<void> => {
     startEmailProcessor();
     
     // 启动投票处理器（Node 10: 投票自动关闭）
-    startVoteProcessor();
+    await startVoteProcessor().catch((error) => {
+      logger.warn({ error }, '投票处理器启动失败，将继续运行');
+    });
     
     // 启动新闻处理器（Node 10: 新闻源自动爬取）
-    startNewsProcessor();
+    await startNewsProcessor().catch((error) => {
+      logger.warn({ error }, '新闻处理器启动失败，将继续运行');
+    });
     
     // 启动服务
     app.listen(config.port, () => {

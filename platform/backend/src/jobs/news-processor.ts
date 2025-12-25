@@ -285,9 +285,22 @@ const processNewsSources = async (): Promise<void> => {
 // ================================
 
 /**
+ * 检查新闻源表是否存在
+ */
+const checkNewsSourceTableExists = async (): Promise<boolean> => {
+  try {
+    await prisma.newsSource.findFirst({ take: 1 });
+    return true;
+  } catch (error) {
+    // 表不存在时会抛出错误
+    return false;
+  }
+};
+
+/**
  * 启动新闻处理器
  */
-export const startNewsProcessor = (): void => {
+export const startNewsProcessor = async (): Promise<void> => {
   if (processorInterval) {
     logger.warn('新闻处理器已在运行');
     return;
@@ -295,13 +308,26 @@ export const startNewsProcessor = (): void => {
   
   logger.info({ interval: PROCESS_INTERVAL }, '启动新闻处理器');
   
+  // 检查表是否存在
+  const tableExists = await checkNewsSourceTableExists();
+  if (!tableExists) {
+    logger.warn('新闻源表不存在，新闻处理器未启动（等待数据库迁移）');
+    return;
+  }
+  
   // 延迟一分钟后开始第一次执行（避免服务启动时立即执行）
   setTimeout(() => {
-    processNewsSources();
+    processNewsSources().catch((error) => {
+      logger.error({ error }, '新闻处理初始执行失败');
+    });
   }, 60 * 1000);
   
   // 定时执行
-  processorInterval = setInterval(processNewsSources, PROCESS_INTERVAL);
+  processorInterval = setInterval(() => {
+    processNewsSources().catch((error) => {
+      logger.error({ error }, '新闻处理定时执行失败');
+    });
+  }, PROCESS_INTERVAL);
 };
 
 /**

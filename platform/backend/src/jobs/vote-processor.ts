@@ -171,9 +171,22 @@ const processVotes = async (): Promise<void> => {
 // ================================
 
 /**
+ * 检查投票表是否存在
+ */
+const checkVoteTableExists = async (): Promise<boolean> => {
+  try {
+    await prisma.vote.findFirst({ take: 1 });
+    return true;
+  } catch (error) {
+    // 表不存在时会抛出错误
+    return false;
+  }
+};
+
+/**
  * 启动投票处理器
  */
-export const startVoteProcessor = (): void => {
+export const startVoteProcessor = async (): Promise<void> => {
   if (processorInterval) {
     logger.warn('投票处理器已在运行');
     return;
@@ -181,11 +194,24 @@ export const startVoteProcessor = (): void => {
 
   logger.info({ interval: PROCESS_INTERVAL }, '启动投票处理器');
 
+  // 检查表是否存在
+  const tableExists = await checkVoteTableExists();
+  if (!tableExists) {
+    logger.warn('投票表不存在，投票处理器未启动（等待数据库迁移）');
+    return;
+  }
+
   // 立即执行一次
-  processVotes();
+  processVotes().catch((error) => {
+    logger.error({ error }, '投票处理初始执行失败');
+  });
 
   // 定时执行
-  processorInterval = setInterval(processVotes, PROCESS_INTERVAL);
+  processorInterval = setInterval(() => {
+    processVotes().catch((error) => {
+      logger.error({ error }, '投票处理定时执行失败');
+    });
+  }, PROCESS_INTERVAL);
 };
 
 /**
