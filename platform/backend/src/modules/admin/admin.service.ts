@@ -671,3 +671,59 @@ export const updateSystemConfig = async (
   return getSystemConfig();
 };
 
+// ================================
+// 用户密码重置
+// ================================
+
+import { generateRandomPassword, hashPassword } from '../../utils/password.js';
+import { createAuditLog } from '../../utils/audit.js';
+import type { ResetPasswordResponse } from './admin.dto.js';
+
+/**
+ * 管理员重置用户密码
+ * 生成随机临时密码并返回给管理员
+ */
+export const resetUserPassword = async (
+  userId: string,
+  adminUserId: string
+): Promise<ResetPasswordResponse> => {
+  // 查找用户
+  const user = await prisma.user.findUnique({
+    where: { id: userId },
+    select: { id: true, name: true, email: true, phone: true, isDeleted: true },
+  });
+
+  if (!user || user.isDeleted) {
+    throw new Error('用户不存在');
+  }
+
+  // 生成随机临时密码（8位，易读）
+  const temporaryPassword = generateRandomPassword(8);
+  
+  // 哈希并保存
+  const passwordHash = await hashPassword(temporaryPassword);
+  await prisma.user.update({
+    where: { id: userId },
+    data: { passwordHash },
+  });
+
+  // 记录审计日志
+  await createAuditLog({
+    userId: adminUserId,
+    action: 'ADMIN_RESET_PASSWORD',
+    objectType: 'USER',
+    objectId: userId,
+    summary: `管理员重置了用户 ${user.name} 的密码`,
+    metadata: { targetUserName: user.name },
+  });
+
+  logger.info({ adminUserId, targetUserId: userId, targetUserName: user.name }, '管理员重置用户密码');
+
+  return {
+    userId: user.id,
+    userName: user.name,
+    temporaryPassword,
+    message: `已为用户 ${user.name} 重置密码，请将临时密码告知用户，并提醒用户登录后修改密码。`,
+  };
+};
+

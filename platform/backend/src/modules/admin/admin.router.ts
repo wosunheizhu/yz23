@@ -280,4 +280,24 @@ router.put(
   }
 );
 
+// ================================
+// 用户密码重置
+// ================================
+
+/**
+ * POST /admin/users/:id/reset-password
+ * 管理员重置用户密码
+ */
+router.post('/users/:id/reset-password', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { id } = req.params;
+    const adminUserId = req.user!.userId;
+    
+    const result = await adminService.resetUserPassword(id, adminUserId);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
 export { router as adminRouter };

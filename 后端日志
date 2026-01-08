@@ -1,0 +1,1001 @@
+2025-12-24T05:33:02.955416842Z [inf]  ← GET /api/v1/inbox/stats 304 1568ms
+2025-12-24T05:33:02.955535731Z [inf]  ← GET /api/v1/dashboard 304 2675ms
+2025-12-24T05:33:02.955542281Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:33:02.955548019Z [inf]  ← GET /api/v1/inbox/stats 304 367ms
+2025-12-24T05:33:02.957510421Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T05:33:02.957520851Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T05:33:02.957528741Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T05:33:02.957535687Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T05:33:02.959686322Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 351ms
+2025-12-24T05:33:02.959698008Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 932ms
+2025-12-24T05:33:02.959704956Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1400ms
+2025-12-24T05:33:02.959711515Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T05:33:02.959719971Z [inf]  ← GET /api/v1/dashboard/contributions 304 2565ms
+2025-12-24T05:33:02.959727908Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 697ms
+2025-12-24T05:33:09.630614796Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T05:33:09.630627961Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:33:09.842429125Z [inf]  ← GET /api/v1/inbox/stats 304 365ms
+2025-12-24T05:33:10.192169014Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 717ms
+2025-12-24T05:33:10.750713696Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T05:33:10.750725494Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T05:33:10.750736147Z [inf]  ← GET /api/v1/users/expertise-areas 200 355ms
+2025-12-24T05:33:11.627525439Z [inf]  ← GET /api/v1/users?pageSize=50 200 1391ms
+2025-12-24T05:34:51.240641078Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:34:51.240651126Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T05:34:51.240658037Z [inf]  ← GET /api/v1/inbox/stats 304 353ms
+2025-12-24T05:34:51.240665017Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 530ms
+2025-12-24T05:34:51.240672406Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:34:51.242215197Z [inf]  ← GET /api/v1/inbox/stats 304 178ms
+2025-12-24T05:34:51.242224537Z [inf]  → GET /api/v1/projects?page=1&pageSize=50
+2025-12-24T05:34:51.242232269Z [inf]  ← GET /api/v1/projects?page=1&pageSize=50 304 1780ms
+2025-12-24T05:42:51.567436790Z [inf]  → POST /api/v1/auth/register
+2025-12-24T05:42:51.567462230Z [inf]  验证邀请码
+2025-12-24T05:42:51.567470510Z [inf]  业务错误: 邀请码不正确（期望: yu***）
+2025-12-24T05:42:51.567477689Z [inf]  ← POST /api/v1/auth/register 400 3ms
+2025-12-24T05:43:11.564698024Z [inf]  → POST /api/v1/auth/register
+2025-12-24T05:43:11.564711763Z [inf]  验证邀请码
+2025-12-24T05:43:11.564716787Z [inf]  用户自助注册成功
+2025-12-24T05:43:11.564721746Z [inf]  ← POST /api/v1/auth/register 200 2713ms
+2025-12-24T05:43:11.564726133Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:43:11.564731728Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T05:43:11.568539070Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T05:43:11.568545412Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T05:43:11.568549679Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T05:43:11.568553632Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T05:43:11.568558831Z [inf]  ← GET /api/v1/inbox/stats 200 347ms
+2025-12-24T05:43:11.570803560Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 200 1722ms
+2025-12-24T05:43:11.570809146Z [inf]  ← GET /api/v1/dashboard/inbox-badge 200 1907ms
+2025-12-24T05:43:11.570814538Z [inf]  ← GET /api/v1/dashboard/token?limit=5 200 1916ms
+2025-12-24T05:43:12.499391596Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 2609ms
+2025-12-24T05:43:13.598112843Z [inf]  ← GET /api/v1/dashboard/contributions 200 3801ms
+2025-12-24T05:43:18.508709541Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:43:18.574293358Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T05:43:18.666097581Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T05:43:19.440598734Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 695ms
+2025-12-24T05:43:20.627008627Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T05:43:20.974449421Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T06:31:14.562334706Z [inf]  → POST /api/v1/auth/login/password
+2025-12-24T06:31:14.562346819Z [inf]  用户登录成功
+2025-12-24T06:31:14.562355466Z [inf]  ← POST /api/v1/auth/login/password 200 1316ms
+2025-12-24T06:31:14.562363662Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T06:31:14.562370661Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T06:31:14.564591507Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T06:31:14.564602868Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T06:31:14.564611113Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T06:31:14.564619982Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T06:31:14.894205780Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 200 349ms
+2025-12-24T06:31:16.614874065Z [inf]  ← GET /api/v1/inbox/stats 200 1562ms
+2025-12-24T06:31:16.614878903Z [inf]  ← GET /api/v1/dashboard/inbox-badge 200 1910ms
+2025-12-24T06:31:16.620676591Z [inf]  ← GET /api/v1/dashboard/token?limit=5 200 2071ms
+2025-12-24T06:31:17.649170927Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 2763ms
+2025-12-24T06:31:18.573435044Z [inf]  ← GET /api/v1/dashboard/contributions 200 3633ms
+2025-12-24T06:31:21.947567999Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T06:31:21.949439936Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T06:31:22.593077984Z [inf]  ← GET /api/v1/inbox/stats 304 350ms
+2025-12-24T06:31:22.646321215Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 698ms
+2025-12-24T06:31:24.982971978Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T06:31:24.988170490Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T06:31:25.361035351Z [inf]  ← GET /api/v1/users/expertise-areas 200 346ms
+2025-12-24T06:31:26.364726055Z [inf]  ← GET /api/v1/users?pageSize=50 200 1378ms
+2025-12-24T07:15:08.515234822Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:15:08.515241586Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:15:08.515247705Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:08.515254170Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:15:08.515265769Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:15:08.517206624Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:15:08.517214441Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1562ms
+2025-12-24T07:15:08.517219617Z [inf]  ← GET /api/v1/inbox/stats 304 1725ms
+2025-12-24T07:15:08.517226232Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1907ms
+2025-12-24T07:15:08.517231898Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2071ms
+2025-12-24T07:15:08.517237578Z [inf]  ← GET /api/v1/dashboard/contributions 304 2648ms
+2025-12-24T07:15:08.519251606Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2771ms
+2025-12-24T07:15:09.597187901Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:15:09.597193538Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:09.901398074Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T07:15:10.513762594Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 709ms
+2025-12-24T07:15:16.662860259Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-24T07:15:16.662866842Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:16.774083837Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:15:16.951834939Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 524ms
+2025-12-24T07:15:20.633663988Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:20.737700851Z [inf]  ← GET /api/v1/inbox/stats 304 521ms
+2025-12-24T07:15:20.901939437Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:15:21.646028075Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 366ms
+2025-12-24T07:15:22.626747961Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:22.845969779Z [inf]  ← GET /api/v1/inbox/stats 304 355ms
+2025-12-24T07:15:22.997439622Z [inf]  → GET /api/v1/inbox?page=1&pageSize=20
+2025-12-24T07:15:23.754696041Z [inf]  ← GET /api/v1/inbox?page=1&pageSize=20 200 368ms
+2025-12-24T07:15:25.663045013Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:25.663051904Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:15:25.686012624Z [inf]  ← GET /api/v1/inbox/stats 304 185ms
+2025-12-24T07:15:26.194992442Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 693ms
+2025-12-24T07:15:31.145111863Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:31.148538295Z [inf]  → GET /api/v1/inbox?page=1&pageSize=20
+2025-12-24T07:15:31.751368062Z [inf]  ← GET /api/v1/inbox/stats 304 175ms
+2025-12-24T07:15:31.751375037Z [inf]  ← GET /api/v1/inbox?page=1&pageSize=20 304 376ms
+2025-12-24T07:15:34.252590298Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:34.766853073Z [inf]  ← GET /api/v1/inbox/stats 304 359ms
+2025-12-24T07:15:34.766859483Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:15:35.794664973Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 694ms
+2025-12-24T07:15:37.228825515Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:15:37.718162762Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:15:37.718198968Z [inf]  ← GET /api/v1/inbox/stats 304 175ms
+2025-12-24T07:15:37.718205486Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:15:37.718218640Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:15:37.718224134Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:15:37.718882124Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:15:38.018562011Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 519ms
+2025-12-24T07:15:38.039250870Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 714ms
+2025-12-24T07:15:38.682458939Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 863ms
+2025-12-24T07:15:39.068675234Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1566ms
+2025-12-24T07:15:39.917314816Z [inf]  ← GET /api/v1/dashboard/contributions 304 2420ms
+2025-12-24T07:16:09.373818112Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:16:09.373824761Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:16:39.371577953Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:16:39.371585862Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:17:09.405136720Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:17:09.405145178Z [inf]  ← GET /api/v1/inbox/stats 304 345ms
+2025-12-24T07:17:39.406064468Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:17:39.406073548Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:32:23.611360729Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:32:23.611369020Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:32:23.611376762Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:32:23.611384540Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:32:23.611394207Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:32:23.612792929Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:32:23.612798404Z [inf]  ← GET /api/v1/inbox/stats 304 352ms
+2025-12-24T07:32:23.612804117Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1565ms
+2025-12-24T07:32:23.612810832Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1904ms
+2025-12-24T07:32:23.612816869Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2065ms
+2025-12-24T07:32:24.691108518Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2623ms
+2025-12-24T07:32:25.507754494Z [inf]  ← GET /api/v1/dashboard/contributions 304 3675ms
+2025-12-24T07:32:55.069747682Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:32:55.069756290Z [inf]  ← GET /api/v1/inbox/stats 304 524ms
+2025-12-24T07:32:55.079114206Z [inf]  → GET /api/v1/projects?page=1&pageSize=100
+2025-12-24T07:32:56.813510346Z [inf]  ← GET /api/v1/projects?page=1&pageSize=100 200 1733ms
+2025-12-24T07:33:27.051040661Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:33:27.051049974Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:33:27.051059892Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:33:27.051067353Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:33:27.051074960Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:33:27.054992110Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:33:27.055002783Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 347ms
+2025-12-24T07:33:27.055014752Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-24T07:33:27.055022587Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 524ms
+2025-12-24T07:33:27.055028422Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 696ms
+2025-12-24T07:33:27.055036577Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1569ms
+2025-12-24T07:33:27.058366175Z [inf]  ← GET /api/v1/dashboard/contributions 304 2595ms
+2025-12-24T07:33:29.821277084Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:33:29.821292523Z [inf]  → GET /api/v1/inbox?page=1&pageSize=20
+2025-12-24T07:33:30.134282526Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:33:30.319675476Z [inf]  ← GET /api/v1/inbox?page=1&pageSize=20 304 527ms
+2025-12-24T07:33:32.948250200Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:33:33.099282836Z [inf]  ← GET /api/v1/inbox/stats 304 176ms
+2025-12-24T07:33:33.311426857Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:33:34.028469365Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 698ms
+2025-12-24T07:36:05.017301093Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:36:05.017305896Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:36:05.017310821Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:36:05.017316544Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:36:05.018401574Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:36:05.018409200Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:36:05.018414746Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-24T07:36:05.018421251Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 518ms
+2025-12-24T07:36:05.018426596Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 694ms
+2025-12-24T07:36:05.018432328Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 698ms
+2025-12-24T07:36:05.020784653Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1392ms
+2025-12-24T07:36:05.020803858Z [inf]  ← GET /api/v1/dashboard/contributions 304 2606ms
+2025-12-24T07:36:05.020809378Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T07:36:05.020813881Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:36:05.020822110Z [inf]  ← GET /api/v1/inbox/stats 304 178ms
+2025-12-24T07:36:05.020826615Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 352ms
+2025-12-24T07:36:05.022132347Z [inf]  → GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt
+2025-12-24T07:36:06.867953741Z [inf]  ← GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt 200 1911ms
+2025-12-24T07:36:26.945885552Z [inf]  → GET /api/v1/demands/cmjhupth40012125sc1oag0tt
+2025-12-24T07:36:26.947621615Z [inf]  → GET /api/v1/responses?demandId=cmjhupth40012125sc1oag0tt&page=1&pageSize=20
+2025-12-24T07:36:26.947630407Z [inf]  ← GET /api/v1/responses?demandId=cmjhupth40012125sc1oag0tt&page=1&pageSize=20 200 1212ms
+2025-12-24T07:36:26.947639732Z [inf]  ← GET /api/v1/demands/cmjhupth40012125sc1oag0tt 200 1910ms
+2025-12-24T07:36:33.506487311Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T07:36:33.506504567Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T07:36:33.514212983Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T07:36:33.514225383Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T07:36:34.144448362Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T07:36:34.144453952Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T07:36:34.144460294Z [inf]  ← GET /api/v1/inbox/stats 304 352ms
+2025-12-24T07:36:34.144467200Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 354ms
+2025-12-24T07:36:34.144473614Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 521ms
+2025-12-24T07:36:34.234210914Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 697ms
+2025-12-24T07:36:34.407713806Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 873ms
+2025-12-24T07:36:35.324910754Z [inf]  ← GET /api/v1/dashboard/contributions 304 1392ms
+2025-12-24T09:34:12.849820113Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T09:34:12.849827028Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T09:34:12.849832565Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T09:34:12.849837308Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T09:34:12.849841790Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T09:34:12.851314996Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T09:34:12.851326382Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 523ms
+2025-12-24T09:34:12.851335939Z [inf]  ← GET /api/v1/inbox/stats 304 1673ms
+2025-12-24T09:34:12.851342667Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1905ms
+2025-12-24T09:34:12.851348381Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2069ms
+2025-12-24T09:34:12.851354607Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2602ms
+2025-12-24T09:34:12.853615294Z [inf]  ← GET /api/v1/dashboard/contributions 304 3855ms
+2025-12-24T09:34:19.326311579Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T09:34:19.336529346Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T09:34:20.072599353Z [inf]  ← GET /api/v1/inbox/stats 304 362ms
+2025-12-24T09:34:20.072613272Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 701ms
+2025-12-24T09:34:23.292073962Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T09:34:23.295274200Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T09:34:23.927012936Z [inf]  ← GET /api/v1/users/expertise-areas 200 520ms
+2025-12-24T09:34:25.028756148Z [inf]  ← GET /api/v1/users?pageSize=50 200 1558ms
+2025-12-24T13:24:33.788279599Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T13:24:33.788287407Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T13:24:33.788295007Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T13:24:33.788302069Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T13:24:33.788308901Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T13:24:33.790348069Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T13:24:33.790355866Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 693ms
+2025-12-24T13:24:33.790362291Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1565ms
+2025-12-24T13:24:33.790367972Z [inf]  ← GET /api/v1/inbox/stats 304 1725ms
+2025-12-24T13:24:33.790373350Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2074ms
+2025-12-24T13:24:33.790379505Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2606ms
+2025-12-24T13:24:33.791775087Z [inf]  ← GET /api/v1/dashboard/contributions 304 3800ms
+2025-12-24T13:24:53.212513411Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T13:24:53.212523855Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T13:24:53.212531026Z [inf]  ← GET /api/v1/inbox/stats 304 524ms
+2025-12-24T13:24:53.212537963Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 868ms
+2025-12-24T13:24:54.916383726Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T13:24:54.916390100Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T13:24:54.916397125Z [inf]  ← GET /api/v1/users/expertise-areas 200 349ms
+2025-12-24T13:24:55.993836160Z [inf]  ← GET /api/v1/users?pageSize=50 200 1387ms
+2025-12-24T13:25:04.828071836Z [inf]  → GET /api/v1/users/cmjjl85la0001ytcsfjip47go
+2025-12-24T13:25:04.828076250Z [inf]  → GET /api/v1/users/cmjjl85la0001ytcsfjip47go/note
+2025-12-24T13:25:04.846192268Z [inf]  ← GET /api/v1/users/cmjjl85la0001ytcsfjip47go/note 200 349ms
+2025-12-24T13:25:05.189691045Z [inf]  ← GET /api/v1/users/cmjjl85la0001ytcsfjip47go 200 694ms
+2025-12-24T13:25:05.772103268Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T13:25:05.772109191Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T13:25:06.161229391Z [inf]  ← GET /api/v1/users/expertise-areas 200 525ms
+2025-12-24T13:25:07.050052231Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T13:25:07.050058293Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T13:25:07.050064291Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T13:25:07.194527765Z [inf]  ← GET /api/v1/users?pageSize=50 200 1560ms
+2025-12-24T13:25:07.979901859Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 873ms
+2025-12-24T13:25:08.980562037Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T13:25:08.980568034Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T13:25:09.319771620Z [inf]  ← GET /api/v1/users/expertise-areas 200 348ms
+2025-12-24T13:25:10.033365210Z [inf]  ← GET /api/v1/users?pageSize=50 200 868ms
+2025-12-24T14:32:11.930264282Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:32:11.930271743Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:32:11.930281183Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:32:11.930288077Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:32:11.930295257Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:32:11.930974487Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:32:11.930985953Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 1566ms
+2025-12-24T14:32:11.930996452Z [inf]  ← GET /api/v1/inbox/stats 304 1588ms
+2025-12-24T14:32:11.931002520Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1592ms
+2025-12-24T14:32:11.931008487Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1943ms
+2025-12-24T14:32:11.931015365Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2072ms
+2025-12-24T14:32:11.932821490Z [inf]  ← GET /api/v1/dashboard/contributions 304 3647ms
+2025-12-24T14:32:14.924772311Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:32:14.924779567Z [inf]  → GET /api/v1/dashboard
+2025-12-24T14:32:15.270023735Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:32:15.822710121Z [inf]   ELIFECYCLE  Command failed.
+2025-12-24T14:32:17.965226397Z [inf]  
+2025-12-24T14:32:17.965246638Z [inf]  > yuanzheng-backend@1.0.0 start /app
+2025-12-24T14:32:17.965253468Z [inf]  > npx prisma generate && npx prisma db push && node --import tsx src/app.ts
+2025-12-24T14:32:17.965260810Z [inf]  
+2025-12-24T14:32:18.824494583Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-24T14:32:19.836794492Z [inf]  
+2025-12-24T14:32:19.836800796Z [inf]  ✔ Generated Prisma Client (v5.22.0) to ./node_modules/.pnpm/@prisma+client@5.22.0_prisma@5.22.0/node_modules/@prisma/client in 718ms
+2025-12-24T14:32:19.836806916Z [inf]  
+2025-12-24T14:32:19.836812957Z [inf]  Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+2025-12-24T14:32:19.836818843Z [inf]  
+2025-12-24T14:32:19.836823884Z [inf]  Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+2025-12-24T14:32:19.836830791Z [inf]  
+2025-12-24T14:32:21.223788277Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-24T14:32:21.242891463Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "gondola.proxy.rlwy.net:21452"
+2025-12-24T14:32:29.952557848Z [inf]  
+2025-12-24T14:32:29.952567136Z [inf]  The database is already in sync with the Prisma schema.
+2025-12-24T14:32:29.952574960Z [inf]  
+2025-12-24T14:32:29.952582110Z [inf]  Running generate... (Use --skip-generate to skip the generators)
+2025-12-24T14:32:30.222764250Z [inf]  [2K[1A[2K[GRunning generate... - Prisma Client
+2025-12-24T14:32:31.084642074Z [inf]  [2K[1A[2K[G✔ Generated Prisma Client (v5.22.0) to ./node_modules/.pnpm/@prisma+client@5.22.
+2025-12-24T14:32:31.084653565Z [inf]  0_prisma@5.22.0/node_modules/@prisma/client in 856ms
+2025-12-24T14:32:31.085754870Z [inf]  
+2025-12-24T14:32:31.143078727Z [err]  ┌─────────────────────────────────────────────────────────┐
+2025-12-24T14:32:31.143090775Z [err]  │  Update available 5.22.0 -> 7.2.0                       │
+2025-12-24T14:32:31.143105691Z [err]  │                                                         │
+2025-12-24T14:32:31.143114623Z [err]  │  This is a major update - please follow the guide at    │
+2025-12-24T14:32:31.143121030Z [err]  │  https://pris.ly/d/major-version-upgrade                │
+2025-12-24T14:32:31.143126909Z [err]  │                                                         │
+2025-12-24T14:32:31.143131982Z [err]  │  Run the following to update                            │
+2025-12-24T14:32:31.143137444Z [err]  │    npm i --save-dev prisma@latest                       │
+2025-12-24T14:32:31.143142474Z [err]  │    npm i @prisma/client@latest                          │
+2025-12-24T14:32:31.143148251Z [err]  └─────────────────────────────────────────────────────────┘
+2025-12-24T14:32:33.952449109Z [inf]  数据库连接成功
+2025-12-24T14:32:33.954618200Z [inf]  SMTP 未配置，邮件处理器未启动
+2025-12-24T14:32:33.954627877Z [inf]  启动投票处理器
+2025-12-24T14:32:33.954636706Z [inf]  启动新闻处理器
+2025-12-24T14:32:33.954641957Z [inf]  🚀 元征平台后端服务启动成功 http://localhost:3000
+2025-12-24T14:32:41.052133951Z [inf]  → POST /api/v1/auth/register
+2025-12-24T14:32:41.052142613Z [inf]  验证邀请码
+2025-12-24T14:32:43.242903721Z [inf]  用户自助注册成功
+2025-12-24T14:32:43.242911369Z [inf]  ← POST /api/v1/auth/register 200 2584ms
+2025-12-24T14:32:43.952254458Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:32:43.995404620Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:32:44.027266484Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:32:44.027275244Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:32:44.027281376Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:32:44.027287094Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:32:44.274947477Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 358ms
+2025-12-24T14:32:45.133522676Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:32:45.133529543Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:32:45.133535988Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:32:45.133543779Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:32:45.133549557Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:32:45.137662381Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:32:45.137668584Z [inf]  ← GET /api/v1/inbox/stats 200 353ms
+2025-12-24T14:32:46.168832350Z [inf]  ← GET /api/v1/inbox/stats 304 1566ms
+2025-12-24T14:32:46.168840798Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1920ms
+2025-12-24T14:32:46.168849803Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 1918ms
+2025-12-24T14:32:46.197774013Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 200 1570ms
+2025-12-24T14:32:47.035794880Z [inf]  ← GET /api/v1/dashboard/inbox-badge 200 1918ms
+2025-12-24T14:32:47.035805762Z [inf]  ← GET /api/v1/dashboard/token?limit=5 200 1909ms
+2025-12-24T14:32:47.035816772Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2619ms
+2025-12-24T14:32:47.217670521Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 2607ms
+2025-12-24T14:32:47.882483788Z [inf]  ← GET /api/v1/dashboard/contributions 304 3656ms
+2025-12-24T14:32:48.261710501Z [inf]  ← GET /api/v1/dashboard/contributions 200 3640ms
+2025-12-24T14:33:18.366304550Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:33:18.366309743Z [inf]  ← GET /api/v1/inbox/stats 304 521ms
+2025-12-24T14:34:27.946239878Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:34:27.946248420Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:34:27.946255212Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:34:27.946262530Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:34:28.765246895Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:34:28.765254026Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:34:28.765260743Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 349ms
+2025-12-24T14:34:28.765268861Z [inf]  ← GET /api/v1/inbox/stats 304 521ms
+2025-12-24T14:34:28.765274284Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 870ms
+2025-12-24T14:34:28.770639871Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 865ms
+2025-12-24T14:34:28.770647558Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 873ms
+2025-12-24T14:34:29.689867106Z [inf]  ← GET /api/v1/dashboard/contributions 304 2264ms
+2025-12-24T14:34:38.686557056Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:34:38.803670440Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:34:38.977210343Z [inf]  ← GET /api/v1/inbox/stats 304 177ms
+2025-12-24T14:34:39.741095919Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 696ms
+2025-12-24T14:34:46.691035593Z [inf]  → GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt
+2025-12-24T14:34:48.762342769Z [inf]  ← GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt 200 2077ms
+2025-12-24T14:34:55.739469235Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:34:55.739476024Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:34:55.821250536Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:34:56.708179319Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 868ms
+2025-12-24T14:34:56.821619219Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:34:57.002744924Z [inf]  ← GET /api/v1/inbox/stats 304 177ms
+2025-12-24T14:34:57.032486095Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:34:57.696905381Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:34:57.696913627Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:34:57.696921093Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:34:57.696928421Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:34:57.701720011Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 349ms
+2025-12-24T14:34:57.822729696Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 693ms
+2025-12-24T14:34:58.102805357Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 872ms
+2025-12-24T14:37:28.674161340Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:37:28.674170254Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:28.674178292Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:37:28.674188405Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:37:28.674197697Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:37:28.674440185Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:37:28.674448782Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 348ms
+2025-12-24T14:37:28.674457079Z [inf]  ← GET /api/v1/inbox/stats 304 518ms
+2025-12-24T14:37:28.674467571Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 522ms
+2025-12-24T14:37:28.674475740Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 522ms
+2025-12-24T14:37:28.674482569Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 876ms
+2025-12-24T14:37:28.679951679Z [inf]  ← GET /api/v1/dashboard/contributions 304 1387ms
+2025-12-24T14:37:29.637192626Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:29.637199721Z [inf]  → GET /api/v1/dashboard
+2025-12-24T14:37:29.637207841Z [inf]  ← GET /api/v1/inbox/stats 304 177ms
+2025-12-24T14:37:31.633195705Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:31.633207184Z [inf]  ← GET /api/v1/dashboard 304 1923ms
+2025-12-24T14:37:31.633213763Z [inf]  ← GET /api/v1/inbox/stats 304 176ms
+2025-12-24T14:37:31.633220024Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:37:31.633227929Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:37:31.642485483Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:37:31.642498574Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:37:31.642509294Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:37:31.642515841Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 176ms
+2025-12-24T14:37:31.770943784Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 351ms
+2025-12-24T14:37:32.427886746Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 704ms
+2025-12-24T14:37:32.427893277Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 692ms
+2025-12-24T14:37:33.828526600Z [inf]  ← GET /api/v1/dashboard/contributions 304 2430ms
+2025-12-24T14:37:38.350548959Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:38.350563698Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:37:38.585281583Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:37:39.391440692Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 700ms
+2025-12-24T14:37:42.387369349Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:42.387377590Z [inf]  → GET /api/v1/projects?page=1&pageSize=50
+2025-12-24T14:37:42.467215974Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T14:37:44.373105779Z [inf]  ← GET /api/v1/projects?page=1&pageSize=50 304 1730ms
+2025-12-24T14:37:49.540850411Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:37:49.540857225Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:37:50.606644598Z [inf]  ← GET /api/v1/inbox/stats 304 1569ms
+2025-12-24T14:37:51.356406145Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 1924ms
+2025-12-24T14:37:52.356169001Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:37:52.551910464Z [inf]  ← GET /api/v1/users/expertise-areas 200 353ms
+2025-12-24T14:37:52.783539933Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:37:54.357748547Z [inf]  ← GET /api/v1/users?pageSize=50 200 1397ms
+2025-12-24T14:44:46.109112516Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:44:46.109121530Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:44:46.109129088Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:44:46.109148187Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:44:46.109158693Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:44:46.110788923Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:44:46.110799884Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:44:46.110807818Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:44:46.110814356Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:44:46.113871283Z [inf]  ← GET /api/v1/users?pageSize=50 200 1395ms
+2025-12-24T14:44:46.113883113Z [inf]  ← GET /api/v1/users/expertise-areas 200 1573ms
+2025-12-24T14:44:46.113892843Z [inf]  ← GET /api/v1/inbox/stats 304 1573ms
+2025-12-24T14:44:46.113900196Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 1933ms
+2025-12-24T14:46:26.701342038Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:46:26.701348513Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:46:26.701353767Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:46:26.701359520Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:46:26.701364860Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:46:26.702020037Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:46:26.702030173Z [inf]  ← GET /api/v1/inbox/stats 304 518ms
+2025-12-24T14:46:26.702036571Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 521ms
+2025-12-24T14:46:26.702047238Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 870ms
+2025-12-24T14:46:26.702058504Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 863ms
+2025-12-24T14:46:26.702067505Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1564ms
+2025-12-24T14:46:26.703549032Z [inf]  ← GET /api/v1/dashboard/contributions 304 2598ms
+2025-12-24T14:46:29.791736629Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:46:29.791747005Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:46:29.791762997Z [inf]  ← GET /api/v1/inbox/stats 304 351ms
+2025-12-24T14:46:29.791777003Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 700ms
+2025-12-24T14:46:31.584731445Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:46:31.584745913Z [inf]  ← GET /api/v1/users/expertise-areas 200 347ms
+2025-12-24T14:46:32.728520263Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:46:34.443867522Z [inf]  ← GET /api/v1/users?pageSize=50 200 1389ms
+2025-12-24T14:47:33.950209726Z [inf]  → GET /api/v1/users/cmjhx0nt900087vpi5f3reeb4/note
+2025-12-24T14:47:33.950222032Z [inf]  → GET /api/v1/users/cmjhx0nt900087vpi5f3reeb4
+2025-12-24T14:47:33.950229516Z [inf]  ← GET /api/v1/users/cmjhx0nt900087vpi5f3reeb4/note 200 524ms
+2025-12-24T14:47:33.950236118Z [inf]  ← GET /api/v1/users/cmjhx0nt900087vpi5f3reeb4 200 866ms
+2025-12-24T14:47:53.280785769Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:47:53.280801764Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:47:53.280811821Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:47:53.280820761Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:47:53.280829681Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:47:53.282152767Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:47:53.282164196Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 523ms
+2025-12-24T14:47:53.282172305Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-24T14:47:54.221142458Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 696ms
+2025-12-24T14:47:54.221153825Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 868ms
+2025-12-24T14:47:54.318088882Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1568ms
+2025-12-24T14:47:55.216527627Z [inf]  ← GET /api/v1/dashboard/contributions 304 1921ms
+2025-12-24T14:47:57.193241902Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:47:58.241181656Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:47:58.241193393Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:47:58.241202139Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 697ms
+2025-12-24T14:48:00.081733318Z [inf]  → GET /api/v1/announcements?pageSize=50
+2025-12-24T14:48:01.011363958Z [inf]  ← GET /api/v1/announcements?pageSize=50 200 363ms
+2025-12-24T14:48:20.437516237Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:48:20.437523380Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 520ms
+2025-12-24T14:48:20.437528752Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:48:20.437533606Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:48:20.437539400Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:48:20.439786913Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:48:20.439798717Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:48:20.439808595Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 350ms
+2025-12-24T14:48:20.439818423Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:48:20.439827870Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 693ms
+2025-12-24T14:48:20.439836537Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1057ms
+2025-12-24T14:48:20.441628975Z [inf]  ← GET /api/v1/dashboard/contributions 304 2603ms
+2025-12-24T14:48:30.289456860Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:48:30.289464826Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:48:30.289472020Z [inf]  ← GET /api/v1/inbox/stats 304 176ms
+2025-12-24T14:48:30.289479425Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 702ms
+2025-12-24T14:49:00.296663346Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:49:00.296674176Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:49:00.296680972Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T14:49:00.296688523Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 522ms
+2025-12-24T14:49:00.296695441Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:49:00.299456542Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:49:00.299474127Z [inf]  ← GET /api/v1/users/expertise-areas 200 348ms
+2025-12-24T14:49:00.299483508Z [inf]  ← GET /api/v1/users?pageSize=50 200 1382ms
+2025-12-24T14:51:01.054127474Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T14:51:01.054134119Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:51:01.054140742Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T14:51:01.054146998Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T14:51:01.054153031Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T14:51:01.056432272Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T14:51:01.056440851Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 876ms
+2025-12-24T14:51:01.056445701Z [inf]  ← GET /api/v1/inbox/stats 304 1563ms
+2025-12-24T14:51:01.056450260Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1577ms
+2025-12-24T14:51:01.056455846Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 1916ms
+2025-12-24T14:51:01.056462546Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2615ms
+2025-12-24T14:51:01.057755709Z [inf]  ← GET /api/v1/dashboard/contributions 304 3685ms
+2025-12-24T14:51:03.909834481Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:51:03.909840899Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:51:03.909847173Z [inf]  ← GET /api/v1/inbox/stats 304 351ms
+2025-12-24T14:51:04.128861937Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 696ms
+2025-12-24T14:51:04.877376834Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:51:04.877395022Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:51:04.877405681Z [inf]  ← GET /api/v1/users/expertise-areas 200 347ms
+2025-12-24T14:51:05.904256022Z [inf]  ← GET /api/v1/users?pageSize=50 200 1391ms
+2025-12-24T14:51:35.377513270Z [inf]  → GET /api/v1/users/cmjht66zl000011x73n0wdaps
+2025-12-24T14:51:35.377519568Z [inf]  → GET /api/v1/users/cmjht66zl000011x73n0wdaps/note
+2025-12-24T14:51:35.377525562Z [inf]  ← GET /api/v1/users/cmjht66zl000011x73n0wdaps/note 200 522ms
+2025-12-24T14:51:35.377530252Z [inf]  ← GET /api/v1/users/cmjht66zl000011x73n0wdaps 200 866ms
+2025-12-24T14:51:35.377534462Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:51:35.380766851Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:51:35.380774407Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:51:35.380780117Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:51:35.380785087Z [inf]  ← GET /api/v1/users/expertise-areas 200 176ms
+2025-12-24T14:51:35.380788898Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T14:54:06.264828600Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T14:54:06.264834960Z [inf]  ← GET /api/v1/inbox/stats 304 518ms
+2025-12-24T14:54:10.199812013Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T14:54:11.179304367Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 867ms
+2025-12-24T14:54:12.134530427Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T14:54:12.134539290Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T14:54:12.134548274Z [inf]  ← GET /api/v1/users/expertise-areas 200 350ms
+2025-12-24T14:54:13.341841129Z [inf]  ← GET /api/v1/users?pageSize=50 200 1387ms
+2025-12-24T15:06:58.149589300Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:06:58.149596960Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T15:06:58.149603102Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T15:06:58.149609850Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T15:06:58.153485657Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1922ms
+2025-12-24T15:06:58.153517916Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T15:06:58.153524685Z [inf]  ← GET /api/v1/inbox/stats 304 523ms
+2025-12-24T15:06:58.153529977Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T15:06:58.153536776Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1586ms
+2025-12-24T15:06:58.153577213Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2108ms
+2025-12-24T15:06:58.156924969Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2807ms
+2025-12-24T15:06:58.156934289Z [inf]  ← GET /api/v1/dashboard/contributions 304 3655ms
+2025-12-24T15:07:28.162700033Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:07:28.162707050Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-24T15:08:27.513543515Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:08:27.513553523Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T15:08:27.513632827Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-24T15:08:27.513640219Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 872ms
+2025-12-24T15:08:27.513645457Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T15:08:27.515350777Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T15:08:27.515359882Z [inf]  ← GET /api/v1/users/expertise-areas 200 348ms
+2025-12-24T15:08:27.515395569Z [inf]  ← GET /api/v1/users?pageSize=50 200 1384ms
+2025-12-24T15:53:32.181317834Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:32.181337258Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T15:53:32.181348223Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T15:53:32.181358533Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T15:53:32.181369342Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T15:53:32.185466314Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T15:53:32.185481061Z [inf]  ← GET /api/v1/inbox/stats 304 545ms
+2025-12-24T15:53:32.185488981Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1577ms
+2025-12-24T15:53:32.185496647Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 1927ms
+2025-12-24T15:53:32.185503350Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1939ms
+2025-12-24T15:53:32.185511987Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2631ms
+2025-12-24T15:53:32.185889910Z [inf]  ← GET /api/v1/dashboard/contributions 304 3687ms
+2025-12-24T15:53:37.129680396Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:37.138017210Z [inf]  → GET /api/v1/dashboard
+2025-12-24T15:53:37.489351439Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-24T15:53:40.093713360Z [inf]  ← GET /api/v1/dashboard 304 2786ms
+2025-12-24T15:53:41.495088741Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:42.267323291Z [inf]  → GET /api/v1/inbox?page=1&pageSize=20
+2025-12-24T15:53:42.267329354Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-24T15:53:42.267335516Z [inf]  ← GET /api/v1/inbox?page=1&pageSize=20 200 352ms
+2025-12-24T15:53:44.396076409Z [inf]  → GET /api/v1/dashboard
+2025-12-24T15:53:44.396081632Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:44.536363742Z [inf]  ← GET /api/v1/inbox/stats 304 525ms
+2025-12-24T15:53:46.435333982Z [inf]  ← GET /api/v1/dashboard 304 2439ms
+2025-12-24T15:53:48.321648183Z [inf]  → GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt
+2025-12-24T15:53:49.239316425Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:49.294377920Z [inf]  ← GET /api/v1/inbox/stats 304 174ms
+2025-12-24T15:53:49.592585328Z [inf]  → GET /api/v1/dashboard
+2025-12-24T15:53:50.295901415Z [inf]  ← GET /api/v1/demands?page=1&pageSize=10&sort=-createdAt 200 2079ms
+2025-12-24T15:53:52.311646540Z [inf]  ← GET /api/v1/dashboard 304 2463ms
+2025-12-24T15:53:58.427507202Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T15:53:58.430585744Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T15:53:58.433052825Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:53:59.493404237Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-24T15:53:59.493411884Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 699ms
+2025-12-24T15:53:59.493418834Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T15:53:59.493425326Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T15:53:59.493431045Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T15:53:59.497221138Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 883ms
+2025-12-24T15:54:00.536834921Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 522ms
+2025-12-24T15:54:00.539949036Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 526ms
+2025-12-24T15:54:01.615475988Z [inf]  ← GET /api/v1/dashboard/contributions 304 1571ms
+2025-12-24T15:54:21.610504194Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:54:21.610509794Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-24T15:54:21.610515223Z [inf]  → GET /api/v1/inbox?page=1&pageSize=20
+2025-12-24T15:54:21.610520279Z [inf]  ← GET /api/v1/inbox?page=1&pageSize=20 304 521ms
+2025-12-24T15:54:21.610526123Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T15:54:21.615375738Z [inf]  → GET /api/v1/dm/conversations
+2025-12-24T15:54:21.615382826Z [inf]  ← GET /api/v1/inbox/stats 304 175ms
+2025-12-24T15:54:21.615388343Z [inf]  ← GET /api/v1/dm/conversations 200 349ms
+2025-12-24T16:16:10.173893295Z [inf]  → POST /api/v1/auth/register
+2025-12-24T16:16:10.173901143Z [inf]  验证邀请码
+2025-12-24T16:16:10.934022806Z [inf]  用户自助注册成功
+2025-12-24T16:16:10.934037827Z [inf]  ← POST /api/v1/auth/register 200 3930ms
+2025-12-24T16:16:11.165357827Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T16:16:11.176441845Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T16:16:11.176452846Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T16:16:11.180541945Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T16:16:11.190611002Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T16:16:11.190618871Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T16:16:12.029586229Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 200 358ms
+2025-12-24T16:16:13.097229283Z [inf]  ← GET /api/v1/inbox/stats 200 1577ms
+2025-12-24T16:16:13.105329965Z [inf]  ← GET /api/v1/dashboard/token?limit=5 200 1921ms
+2025-12-24T16:16:13.112321962Z [inf]  ← GET /api/v1/dashboard/inbox-badge 200 1922ms
+2025-12-24T16:16:13.826072851Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 2651ms
+2025-12-24T16:16:15.487301112Z [inf]  ← GET /api/v1/dashboard/contributions 200 3656ms
+2025-12-24T22:31:15.531361147Z [inf]  → POST /api/v1/auth/login/password
+2025-12-24T22:31:15.531367886Z [inf]  用户登录成功
+2025-12-24T22:31:15.531375283Z [inf]  ← POST /api/v1/auth/login/password 200 1315ms
+2025-12-24T22:31:15.531381983Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T22:31:15.531387886Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T22:31:15.531395293Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T22:31:15.535654890Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T22:31:15.535665020Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T22:31:15.535672584Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T22:31:15.535679342Z [inf]  ← GET /api/v1/inbox/stats 200 349ms
+2025-12-24T22:31:16.571388598Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 200 1566ms
+2025-12-24T22:31:16.571397411Z [inf]  ← GET /api/v1/dashboard/token?limit=5 200 1914ms
+2025-12-24T22:31:16.571405873Z [inf]  ← GET /api/v1/dashboard/inbox-badge 200 1914ms
+2025-12-24T22:31:17.630737607Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 200 2609ms
+2025-12-24T22:31:18.373182533Z [inf]  ← GET /api/v1/dashboard/contributions 200 3801ms
+2025-12-24T22:31:20.613089223Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T22:31:20.619596177Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-24T22:31:21.266181352Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T22:31:21.312246916Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 696ms
+2025-12-24T22:31:24.691950392Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-24T22:31:24.726439532Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-24T22:31:25.278668880Z [inf]  ← GET /api/v1/users/expertise-areas 200 349ms
+2025-12-24T22:31:26.312229348Z [inf]  ← GET /api/v1/users?pageSize=50 200 1389ms
+2025-12-24T23:49:59.803018022Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-24T23:49:59.803031345Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-24T23:49:59.803042456Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-24T23:49:59.803050839Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-24T23:49:59.803356174Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:49:59.803363186Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-24T23:49:59.803370596Z [inf]   ELIFECYCLE  Command failed.
+2025-12-24T23:49:59.803380375Z [inf]  
+2025-12-24T23:49:59.805939153Z [inf]  > yuanzheng-backend@1.0.0 start /app
+2025-12-24T23:49:59.805951943Z [inf]  > npx prisma generate && npx prisma db push && node --import tsx src/app.ts
+2025-12-24T23:49:59.806005577Z [inf]  
+2025-12-24T23:49:59.806042273Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-24T23:49:59.806048680Z [inf]  
+2025-12-24T23:49:59.806056840Z [inf]  ✔ Generated Prisma Client (v5.22.0) to ./node_modules/.pnpm/@prisma+client@5.22.0_prisma@5.22.0/node_modules/@prisma/client in 913ms
+2025-12-24T23:49:59.806073916Z [inf]  
+2025-12-24T23:49:59.806090788Z [inf]  Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+2025-12-24T23:49:59.806411959Z [inf]  
+2025-12-24T23:49:59.806419959Z [inf]  Tip: Need your database queries to be 1000x faster? Accelerate offers you that and more: https://pris.ly/tip-2-accelerate
+2025-12-24T23:49:59.806426639Z [inf]  
+2025-12-24T23:49:59.806434067Z [inf]  Prisma schema loaded from prisma/schema.prisma
+2025-12-24T23:49:59.806441997Z [inf]  Datasource "db": PostgreSQL database "railway", schema "public" at "gondola.proxy.rlwy.net:21452"
+2025-12-24T23:50:07.922321728Z [inf]  
+2025-12-24T23:50:07.922340472Z [inf]  Running generate... (Use --skip-generate to skip the generators)
+2025-12-24T23:50:07.922352101Z [inf]  
+2025-12-24T23:50:07.922361517Z [inf]  The database is already in sync with the Prisma schema.
+2025-12-24T23:50:08.924317097Z [inf]  [2K[1A[2K[GRunning generate... - Prisma Client
+2025-12-24T23:50:09.978157906Z [inf]  [2K[1A[2K[G✔ Generated Prisma Client (v5.22.0) to ./node_modules/.pnpm/@prisma+client@5.22.
+2025-12-24T23:50:09.978163439Z [inf]  0_prisma@5.22.0/node_modules/@prisma/client in 975ms
+2025-12-24T23:50:09.978169107Z [inf]  
+2025-12-24T23:50:12.061931071Z [inf]  数据库连接成功
+2025-12-24T23:50:12.065915515Z [inf]  SMTP 未配置，邮件处理器未启动
+2025-12-24T23:50:12.065923508Z [inf]  启动投票处理器
+2025-12-24T23:50:12.065929437Z [inf]  启动新闻处理器
+2025-12-24T23:50:12.065934913Z [inf]  🚀 元征平台后端服务启动成功 http://localhost:3000
+2025-12-24T23:50:32.065142226Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:50:32.065157474Z [inf]  ← GET /api/v1/inbox/stats 200 356ms
+2025-12-24T23:51:02.554634325Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:51:02.554639899Z [inf]  ← GET /api/v1/inbox/stats 304 352ms
+2025-12-24T23:51:32.575507076Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-24T23:51:32.575836613Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:52:32.803052279Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:52:32.803059364Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-24T23:53:22.294252338Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:53:22.294262196Z [inf]  ← GET /api/v1/inbox/stats 304 179ms
+2025-12-24T23:54:41.701836525Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:54:41.701845744Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-24T23:55:51.344645639Z [inf]  → GET /api/v1/inbox/stats
+2025-12-24T23:55:51.344650739Z [inf]  ← GET /api/v1/inbox/stats 304 522ms
+2025-12-25T00:00:12.664842616Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:00:12.664870921Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-25T00:03:24.240912990Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:03:24.240922767Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-25T00:08:55.954883263Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T00:08:55.954888961Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:08:55.954897186Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T00:08:55.955089535Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T00:08:55.958175132Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T00:08:55.958185219Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T00:08:55.958191303Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 877ms
+2025-12-25T00:08:55.958197999Z [inf]  ← GET /api/v1/inbox/stats 304 1576ms
+2025-12-25T00:08:55.958203775Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1570ms
+2025-12-25T00:08:55.958599184Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1910ms
+2025-12-25T00:08:55.958603467Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2609ms
+2025-12-25T00:08:55.958608084Z [inf]  ← GET /api/v1/dashboard/contributions 304 3647ms
+2025-12-25T00:08:57.790730594Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:08:57.790736826Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-25T00:08:57.839033284Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-25T00:08:58.955591083Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 200 703ms
+2025-12-25T00:09:07.808891884Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-25T00:09:07.808901112Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-25T00:09:08.206889572Z [inf]  ← GET /api/v1/users/expertise-areas 200 520ms
+2025-12-25T00:09:09.243674964Z [inf]  ← GET /api/v1/users?pageSize=50 200 1559ms
+2025-12-25T00:09:29.248982302Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:09:29.248988627Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-25T00:09:29.248994832Z [inf]  ← GET /api/v1/inbox/stats 304 350ms
+2025-12-25T00:09:29.248999771Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 525ms
+2025-12-25T00:09:29.249005430Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-25T00:09:29.250693877Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-25T00:09:29.250700967Z [inf]  ← GET /api/v1/users/expertise-areas 200 351ms
+2025-12-25T00:09:29.250706203Z [inf]  ← GET /api/v1/users?pageSize=50 200 1554ms
+2025-12-25T00:09:49.245320915Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:09:49.245327480Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-25T00:09:49.245335896Z [inf]  ← GET /api/v1/inbox/stats 304 519ms
+2025-12-25T00:09:49.245344701Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T00:09:49.247050297Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T00:09:49.247056807Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T00:09:49.247062617Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T00:09:49.247067211Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T00:09:49.248651879Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:09:49.248659055Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 866ms
+2025-12-25T00:09:49.248664822Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 354ms
+2025-12-25T00:09:49.248671101Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 526ms
+2025-12-25T00:09:49.248676537Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 871ms
+2025-12-25T00:09:49.248688636Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1410ms
+2025-12-25T00:09:49.250835788Z [inf]  ← GET /api/v1/inbox/stats 304 1582ms
+2025-12-25T00:29:37.169223513Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-25T00:29:37.169232000Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-25T00:29:37.169240019Z [inf]  ← GET /api/v1/users?pageSize=50 200 1556ms
+2025-12-25T00:29:37.169247099Z [inf]  ← GET /api/v1/users/expertise-areas 200 1566ms
+2025-12-25T00:29:39.275198592Z [inf]  → POST /api/v1/auth/login/password
+2025-12-25T00:29:40.476607117Z [inf]  用户登录成功
+2025-12-25T00:29:40.476616516Z [inf]  ← POST /api/v1/auth/login/password 200 1157ms
+2025-12-25T00:29:41.609714426Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:29:42.369272609Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T00:29:42.369298977Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T00:29:42.369310456Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T00:29:42.369318309Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T00:29:42.370093058Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T00:29:42.370100908Z [inf]  ← GET /api/v1/inbox/stats 304 349ms
+2025-12-25T00:29:43.465288954Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1398ms
+2025-12-25T00:29:43.711091988Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1912ms
+2025-12-25T00:29:44.368770104Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1911ms
+2025-12-25T00:29:44.368777205Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2074ms
+2025-12-25T00:29:46.425943890Z [inf]  ← GET /api/v1/dashboard/contributions 304 3990ms
+2025-12-25T00:30:15.833865239Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:30:15.833873092Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-25T00:30:45.839030652Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:30:45.839045713Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-25T00:55:36.303006039Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T00:55:36.303011067Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T00:55:36.303017422Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T00:55:36.303021876Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T00:55:36.305905435Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T00:55:36.305914665Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:55:37.190320189Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 525ms
+2025-12-25T00:55:38.259342962Z [inf]  ← GET /api/v1/inbox/stats 304 1724ms
+2025-12-25T00:55:38.272346737Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 2073ms
+2025-12-25T00:55:38.274872816Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 2072ms
+2025-12-25T00:55:39.164647994Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2786ms
+2025-12-25T00:55:40.248278859Z [inf]  ← GET /api/v1/dashboard/contributions 304 3637ms
+2025-12-25T00:56:10.502052317Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T00:56:10.502060694Z [inf]  → GET /api/v1/announcements?page=1&pageSize=2
+2025-12-25T00:56:10.502070494Z [inf]  ← GET /api/v1/inbox/stats 304 519ms
+2025-12-25T00:56:10.502080608Z [inf]  ← GET /api/v1/announcements?page=1&pageSize=2 304 870ms
+2025-12-25T00:56:10.502090614Z [inf]  → GET /api/v1/users/expertise-areas
+2025-12-25T00:56:10.504329440Z [inf]  → GET /api/v1/users?pageSize=50
+2025-12-25T00:56:10.504335742Z [inf]  ← GET /api/v1/users/expertise-areas 200 349ms
+2025-12-25T00:56:10.504339673Z [inf]  ← GET /api/v1/users?pageSize=50 200 1383ms
+2025-12-25T02:19:54.354628503Z [inf]  → GET /
+2025-12-25T02:19:54.354637676Z [inf]  业务错误: 路径 GET / 不存在
+2025-12-25T02:19:54.354645724Z [inf]  ← GET / 404 2ms
+2025-12-25T02:19:54.354652686Z [inf]  → GET /favicon.ico
+2025-12-25T02:19:54.354659183Z [inf]  业务错误: 路径 GET /favicon.ico 不存在
+2025-12-25T02:19:54.354665767Z [inf]  ← GET /favicon.ico 404 1ms
+2025-12-25T02:19:54.354671771Z [inf]  → GET /sitemap.xml
+2025-12-25T02:19:54.356183568Z [inf]  业务错误: 路径 GET /sitemap.xml 不存在
+2025-12-25T02:19:54.356194853Z [inf]  ← GET /sitemap.xml 404 1ms
+2025-12-25T02:19:54.356200729Z [inf]  → GET /robots.txt
+2025-12-25T02:19:54.356205579Z [inf]  业务错误: 路径 GET /robots.txt 不存在
+2025-12-25T02:19:54.356210255Z [inf]  ← GET /robots.txt 404 1ms
+2025-12-25T02:21:53.990874705Z [inf]  → POST /api/v1/auth/login/password
+2025-12-25T02:21:53.990890153Z [inf]  用户登录成功
+2025-12-25T02:21:53.990900114Z [inf]  ← POST /api/v1/auth/login/password 200 1315ms
+2025-12-25T02:21:53.990909805Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T02:21:53.990922846Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T02:21:53.991822948Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T02:21:53.991830755Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T02:21:53.991835611Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T02:21:53.991839628Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T02:21:53.993578840Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-25T02:21:53.993588193Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 1910ms
+2025-12-25T02:21:53.993594987Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1913ms
+2025-12-25T02:21:53.993601977Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 2070ms
+2025-12-25T02:21:53.993608526Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2620ms
+2025-12-25T02:21:53.993614507Z [inf]  ← GET /api/v1/dashboard/contributions 304 3986ms
+2025-12-25T05:41:56.483085155Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T05:41:56.483092739Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:41:56.483098698Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T05:41:56.483104869Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T05:41:56.487044565Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T05:41:56.487052686Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T05:41:56.487060022Z [inf]  ← GET /api/v1/inbox/stats 200 1563ms
+2025-12-25T05:41:56.487066474Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 1566ms
+2025-12-25T05:41:56.534903021Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 1910ms
+2025-12-25T05:41:57.418132194Z [inf]  ← GET /api/v1/dashboard/contributions 200 2597ms
+2025-12-25T05:41:58.567115266Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 1916ms
+2025-12-25T05:41:58.715597495Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 2616ms
+2025-12-25T05:42:07.472335007Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:42:08.290509360Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-25T05:42:09.347942042Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T05:42:09.542849332Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 304 698ms
+2025-12-25T05:42:38.851429416Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T05:42:38.851439333Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 4ms
+2025-12-25T05:43:39.063818395Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:43:39.063827692Z [inf]  → GET /api/v1/dashboard/projects?limit=5
+2025-12-25T05:43:39.063835974Z [inf]  → GET /api/v1/dashboard/token?limit=5
+2025-12-25T05:43:39.063842946Z [inf]  → GET /api/v1/dashboard/inbox-badge
+2025-12-25T05:43:39.065999649Z [inf]  → GET /api/v1/dashboard/contributions
+2025-12-25T05:43:39.066008459Z [inf]  → GET /api/v1/dashboard/todos?limit=5
+2025-12-25T05:43:39.066013768Z [inf]  ← GET /api/v1/inbox/stats 304 348ms
+2025-12-25T05:43:39.066018785Z [inf]  ← GET /api/v1/dashboard/projects?limit=5 304 521ms
+2025-12-25T05:43:39.066023524Z [inf]  ← GET /api/v1/dashboard/inbox-badge 304 521ms
+2025-12-25T05:43:39.069098686Z [inf]  ← GET /api/v1/dashboard/token?limit=5 304 866ms
+2025-12-25T05:43:39.069108254Z [inf]  ← GET /api/v1/dashboard/todos?limit=5 304 1569ms
+2025-12-25T05:43:39.069115281Z [inf]  ← GET /api/v1/dashboard/contributions 304 2598ms
+2025-12-25T05:43:39.069120983Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:43:39.069126869Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T05:43:39.070945219Z [inf]  ← GET /api/v1/inbox/stats 304 346ms
+2025-12-25T05:43:39.070955955Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 304 696ms
+2025-12-25T05:44:19.255314698Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T05:44:19.255322192Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 519ms
+2025-12-25T05:47:09.544100904Z [inf]  → POST /api/v1/network-resources
+2025-12-25T05:47:10.540816768Z [inf]  通知没有目标用户
+2025-12-25T05:47:10.540823141Z [inf]  ← POST /api/v1/network-resources 201 2613ms
+2025-12-25T05:47:11.840106402Z [inf]  → GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco/links
+2025-12-25T05:47:11.848184016Z [inf]  → GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco
+2025-12-25T05:47:13.606375922Z [inf]  ← GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco/links 200 1573ms
+2025-12-25T05:47:13.750854361Z [inf]  ← GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco 200 1911ms
+2025-12-25T05:47:33.897815080Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T05:47:33.897820029Z [inf]  → GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco
+2025-12-25T05:47:33.897826821Z [inf]  ← GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco 304 869ms
+2025-12-25T05:47:34.740123476Z [inf]  ← GET /api/v1/users?pageSize=100 200 1556ms
+2025-12-25T05:48:24.972097903Z [inf]  → POST /api/v1/network-resources/referrals
+2025-12-25T05:48:24.972105537Z [inf]  通知没有目标用户
+2025-12-25T05:48:24.972113170Z [inf]  ← POST /api/v1/network-resources/referrals 201 3286ms
+2025-12-25T05:48:24.972119649Z [inf]  → GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco/links
+2025-12-25T05:48:24.972127558Z [inf]  → GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco
+2025-12-25T05:48:24.973718268Z [inf]  ← GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco/links 304 544ms
+2025-12-25T05:48:24.973725630Z [inf]  ← GET /api/v1/network-resources/cmjl0t97h000510edp4y6lpco 200 695ms
+2025-12-25T05:48:44.993327547Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T05:48:44.993334058Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:48:44.993340480Z [inf]  ← GET /api/v1/inbox/stats 304 350ms
+2025-12-25T05:48:44.993349402Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 525ms
+2025-12-25T05:49:14.412868672Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:49:14.412874989Z [inf]  ← GET /api/v1/inbox/stats 304 527ms
+2025-12-25T05:49:44.485559357Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:49:44.485569073Z [inf]  ← GET /api/v1/inbox/stats 304 347ms
+2025-12-25T05:49:44.485576763Z [inf]  → GET /api/v1/network-resources/cmjhx96wz000n7vpiuelch9fs/links
+2025-12-25T05:49:44.485584628Z [inf]  ← GET /api/v1/network-resources/cmjhx96wz000n7vpiuelch9fs/links 304 522ms
+2025-12-25T05:50:35.042106473Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:50:35.042116651Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T05:50:35.042129009Z [inf]  ← GET /api/v1/inbox/stats 304 175ms
+2025-12-25T05:50:35.042146339Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 304 869ms
+2025-12-25T05:51:35.496855164Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T05:51:35.496862655Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 348ms
+2025-12-25T05:53:36.463298173Z [inf]  → POST /api/v1/network-resources
+2025-12-25T05:53:36.463307227Z [inf]  通知没有目标用户
+2025-12-25T05:53:36.463314622Z [inf]  ← POST /api/v1/network-resources 201 1384ms
+2025-12-25T05:53:45.664490034Z [inf]  → GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms
+2025-12-25T05:53:45.664497441Z [inf]  → GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms/links
+2025-12-25T05:53:46.576598671Z [inf]  ← GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms 200 693ms
+2025-12-25T05:53:47.665789899Z [inf]  ← GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms/links 200 1570ms
+2025-12-25T05:54:27.876889260Z [inf]  → GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms
+2025-12-25T05:54:27.876896939Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T05:54:27.876903396Z [inf]  ← GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms 304 697ms
+2025-12-25T05:54:27.876910200Z [inf]  ← GET /api/v1/users?pageSize=100 200 1558ms
+2025-12-25T05:54:58.169022323Z [inf]  → POST /api/v1/network-resources/referrals
+2025-12-25T05:54:58.169036485Z [inf]  通知没有目标用户
+2025-12-25T05:54:58.169044515Z [inf]  ← POST /api/v1/network-resources/referrals 201 3473ms
+2025-12-25T05:55:00.274081590Z [inf]  → GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms/links
+2025-12-25T05:55:00.301972274Z [inf]  → GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms
+2025-12-25T05:55:01.393401165Z [inf]  ← GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms/links 200 542ms
+2025-12-25T05:55:01.393406985Z [inf]  ← GET /api/v1/network-resources/cmjl11ix3000a10edwp2brpms 200 524ms
+2025-12-25T05:55:06.128690849Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T05:55:06.128697147Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T05:55:06.128703314Z [inf]  ← GET /api/v1/inbox/stats 304 351ms
+2025-12-25T05:55:06.128711059Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 704ms
+2025-12-25T05:55:35.436658943Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T05:55:35.436666216Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 349ms
+2025-12-25T05:58:56.308247149Z [inf]  → POST /api/v1/network-resources
+2025-12-25T05:58:56.308251935Z [inf]  通知没有目标用户
+2025-12-25T05:58:56.308256581Z [inf]  ← POST /api/v1/network-resources 201 2605ms
+2025-12-25T05:58:56.308261642Z [inf]  → GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj
+2025-12-25T05:58:56.308267314Z [inf]  → GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj/links
+2025-12-25T05:58:56.309435744Z [inf]  ← GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj 200 526ms
+2025-12-25T05:58:56.309446226Z [inf]  ← GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj/links 200 1575ms
+2025-12-25T05:59:02.503748712Z [inf]  ← GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj 304 698ms
+2025-12-25T05:59:02.503824862Z [inf]  → GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj
+2025-12-25T05:59:02.503830810Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T05:59:03.482652369Z [inf]  ← GET /api/v1/users?pageSize=100 200 1386ms
+2025-12-25T05:59:32.810995400Z [inf]  → POST /api/v1/network-resources/referrals
+2025-12-25T05:59:32.811005679Z [inf]  通知没有目标用户
+2025-12-25T05:59:32.811012435Z [inf]  ← POST /api/v1/network-resources/referrals 201 3291ms
+2025-12-25T05:59:33.396900831Z [inf]  → GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj
+2025-12-25T05:59:33.396910034Z [inf]  → GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj/links
+2025-12-25T05:59:33.519064241Z [inf]  ← GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj 200 526ms
+2025-12-25T05:59:33.519074373Z [inf]  ← GET /api/v1/network-resources/cmjl18al4000f10ednuiflwjj/links 304 522ms
+2025-12-25T06:00:43.069987365Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T06:00:43.069995547Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:00:43.070001370Z [inf]  ← GET /api/v1/inbox/stats 304 526ms
+2025-12-25T06:00:43.070007337Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 701ms
+2025-12-25T06:01:22.403710882Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T06:01:22.403717041Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 521ms
+2025-12-25T06:08:46.157194661Z [inf]  → POST /api/v1/network-resources
+2025-12-25T06:08:46.157204656Z [inf]  通知没有目标用户
+2025-12-25T06:08:46.157209812Z [inf]  ← POST /api/v1/network-resources 201 1559ms
+2025-12-25T06:08:46.157216058Z [inf]  → GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9
+2025-12-25T06:08:46.157221244Z [inf]  ← GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9 200 523ms
+2025-12-25T06:08:46.157585927Z [inf]  → GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9/links
+2025-12-25T06:08:46.157593797Z [inf]  ← GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9/links 200 1732ms
+2025-12-25T06:08:51.021756387Z [inf]  → GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9
+2025-12-25T06:08:51.023585977Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T06:08:51.845506838Z [inf]  ← GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9 304 695ms
+2025-12-25T06:08:52.411666520Z [inf]  ← GET /api/v1/users?pageSize=100 200 1383ms
+2025-12-25T06:09:52.451110095Z [inf]  → POST /api/v1/network-resources/referrals
+2025-12-25T06:09:52.451114299Z [inf]  通知没有目标用户
+2025-12-25T06:09:52.451119432Z [inf]  ← POST /api/v1/network-resources/referrals 201 3468ms
+2025-12-25T06:09:52.451124531Z [inf]  → GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9
+2025-12-25T06:09:52.451129361Z [inf]  ← GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9 200 523ms
+2025-12-25T06:09:52.454227718Z [inf]  → GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9/links
+2025-12-25T06:09:53.491687727Z [inf]  ← GET /api/v1/network-resources/cmjl1kwza000k10ed6pj4wsf9/links 304 1568ms
+2025-12-25T06:11:24.055608814Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:11:24.055623140Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T06:11:24.055631753Z [inf]  ← GET /api/v1/inbox/stats 304 520ms
+2025-12-25T06:11:24.055638443Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 698ms
+2025-12-25T06:12:24.248261423Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T06:12:24.248270755Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 522ms
+2025-12-25T06:14:55.085184910Z [inf]  → POST /api/v1/network-resources
+2025-12-25T06:14:55.085192546Z [inf]  通知没有目标用户
+2025-12-25T06:14:55.085199648Z [inf]  ← POST /api/v1/network-resources 201 1557ms
+2025-12-25T06:15:34.496186602Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:15:34.496198552Z [inf]  ← GET /api/v1/inbox/stats 304 518ms
+2025-12-25T06:15:34.496206358Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T06:15:34.496213395Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 1568ms
+2025-12-25T06:17:04.771950228Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:17:04.771954803Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T06:17:04.771959839Z [inf]  ← GET /api/v1/inbox/stats 304 527ms
+2025-12-25T06:17:04.771964442Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 304 1577ms
+2025-12-25T06:17:24.786877335Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links
+2025-12-25T06:17:24.786885160Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t
+2025-12-25T06:17:25.956445918Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links 200 1567ms
+2025-12-25T06:17:25.956454379Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t 200 1915ms
+2025-12-25T06:17:28.767842976Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t
+2025-12-25T06:17:28.767853632Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T06:17:28.767860002Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t 304 355ms
+2025-12-25T06:17:29.942209919Z [inf]  ← GET /api/v1/users?pageSize=100 200 1387ms
+2025-12-25T06:18:10.057776900Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t
+2025-12-25T06:18:10.057783654Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links
+2025-12-25T06:18:10.057789354Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links 304 522ms
+2025-12-25T06:18:10.057795753Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t 304 873ms
+2025-12-25T06:18:10.061411998Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t
+2025-12-25T06:18:10.061425971Z [inf]  → GET /api/v1/users?pageSize=100
+2025-12-25T06:18:10.061433963Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t 304 350ms
+2025-12-25T06:18:10.061443501Z [inf]  ← GET /api/v1/users?pageSize=100 200 1384ms
+2025-12-25T06:19:00.463917104Z [inf]  → POST /api/v1/network-resources/referrals
+2025-12-25T06:19:01.677787362Z [inf]  通知没有目标用户
+2025-12-25T06:19:01.677795525Z [inf]  ← POST /api/v1/network-resources/referrals 201 3465ms
+2025-12-25T06:19:04.440544518Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t
+2025-12-25T06:19:04.440549082Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t 200 521ms
+2025-12-25T06:19:04.657885159Z [inf]  → GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links
+2025-12-25T06:19:05.480752020Z [inf]  ← GET /api/v1/network-resources/cmjl1srwy000p10edzf90eq1t/links 304 523ms
+2025-12-25T06:19:14.669892776Z [inf]  → GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc
+2025-12-25T06:19:14.669899839Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:19:15.715630449Z [inf]  ← GET /api/v1/inbox/stats 304 358ms
+2025-12-25T06:19:15.715637972Z [inf]  ← GET /api/v1/network-resources?page=1&pageSize=20&createdByMe=true&sortBy=createdAt&sortOrder=desc 200 706ms
+2025-12-25T06:19:45.708504394Z [inf]  → GET /api/v1/inbox/stats
+2025-12-25T06:19:45.708509981Z [inf]  ← GET /api/v1/inbox/stats 304 518ms
+2025-12-25T06:20:05.797549054Z [inf]  → POST /api/v1/network-resources/check-duplicate
+2025-12-25T06:20:05.797556294Z [inf]  ← POST /api/v1/network-resources/check-duplicate 200 520ms

@@ -1,0 +1,1001 @@
+2025-12-22T23:01:28.931544466Z [err]  +......+......+...+......+
+2025-12-22T23:01:28.931550242Z [err]  .+...........+....+.....+....+..
+2025-12-22T23:01:28.933594630Z [err]  +...+..........+......+...........
+2025-12-22T23:01:28.935766534Z [err]  ...+.+...+........+
+2025-12-22T23:01:28.935772513Z [err]  ....+......+........+......+
+2025-12-22T23:01:28.937990737Z [err]  ...+.+..+...+......
+2025-12-22T23:01:28.940724152Z [err]  +..........+...+...+.....
+2025-12-22T23:01:28.940733833Z [err]  +...+....+......+......
+2025-12-22T23:01:28.942783860Z [err]  ...+..+...+.......+
+2025-12-22T23:01:28.942791526Z [err]  ........+...........
+2025-12-22T23:01:28.944920242Z [err]  .+.+..+.+...............+
+2025-12-22T23:01:28.947533381Z [err]  ..+............++++++
+2025-12-22T23:01:28.947541073Z [err]  .........+.......+...+........+...++++++
+2025-12-22T23:01:28.947546752Z [err]  ++++++++++
+2025-12-22T23:01:28.947551653Z [err]  +++++++++++++++++
+2025-12-22T23:01:28.950062464Z [err]  ++++++*.+.......+...++
+2025-12-22T23:01:28.950068266Z [err]  ++++++++++
+2025-12-22T23:01:28.950073616Z [err]  ++++++++++
+2025-12-22T23:01:28.950078717Z [err]  ++++++++++
+2025-12-22T23:01:28.950084222Z [err]  +++++++*......+
+2025-12-22T23:01:28.951938577Z [err]  ............+...+....+..+.+............
+2025-12-22T23:01:28.951942855Z [err]  ..+.........+......+...
+2025-12-22T23:01:28.953569078Z [err]  +.......+...+............
+2025-12-22T23:01:28.955037041Z [err]  +...+........+...+....+
+2025-12-22T23:01:28.956892647Z [err]  ..+...+.......+.....+
+2025-12-22T23:01:28.959209346Z [err]  ...+...+...+....+...+...
+2025-12-22T23:01:28.959216348Z [err]  ...........+.........
+2025-12-22T23:01:28.962152413Z [err]  ....+..+......+....+.....
+2025-12-22T23:01:28.962160765Z [err]  ....+.........+.....+.+
+2025-12-22T23:01:28.967177560Z [err]  ......+.....+.+........+.......
+2025-12-22T23:01:28.967182612Z [err]  +...+..+....+.....+
+2025-12-22T23:01:28.967188604Z [err]  .+................
+2025-12-22T23:01:28.967193695Z [err]  ...........+..+
+2025-12-22T23:01:28.967198949Z [err]  ...................
+2025-12-22T23:01:28.968289520Z [err]  .....+.+........+...+...
+2025-12-22T23:01:28.970432450Z [err]  +...............+..........+..+....+
+2025-12-22T23:01:28.970437678Z [err]  ......+...........
+2025-12-22T23:01:28.972012786Z [err]  ...+.+........+......
+2025-12-22T23:01:28.974540145Z [err]  ...+.+..+.......
+2025-12-22T23:01:28.974545089Z [err]  ............+
+2025-12-22T23:01:28.974550127Z [err]  ......+..+.+..+.................
+2025-12-22T23:01:28.976237014Z [err]  ..+.....+....+.....+.+.....
+2025-12-22T23:01:28.978183696Z [err]  +......+....+...+.........
+2025-12-22T23:01:28.980319243Z [err]  ..+......+.........
+2025-12-22T23:01:28.980323688Z [err]  ......+......+....+......
+2025-12-22T23:01:28.981960011Z [err]  ..+...+...+.........
+2025-12-22T23:01:28.983738286Z [err]  .+.....+.......+...+....
+2025-12-22T23:01:28.983742500Z [err]  ..+.....+.+.........
+2025-12-22T23:01:28.985565912Z [err]  ....+..+............
+2025-12-22T23:01:28.985607917Z [err]  .....+....+.....+......
+2025-12-22T23:01:28.987020636Z [err]  ...+....+........+........
+2025-12-22T23:01:28.988828760Z [err]  .....+..+......+
+2025-12-22T23:01:28.988834337Z [err]  .......+...........
+2025-12-22T23:01:28.990494787Z [err]  ....+........+.
+2025-12-22T23:01:28.990503058Z [err]  +..................
+2025-12-22T23:01:28.990509822Z [err]  +..+...+.........
+2025-12-22T23:01:28.991792500Z [err]  ...+....+..+...+....
+2025-12-22T23:01:28.993903723Z [err]  .....+.+..+
+2025-12-22T23:01:28.993908402Z [err]  .......+..+...
+2025-12-22T23:01:28.995818286Z [err]  .+..............+...+...+
+2025-12-22T23:01:28.995822722Z [err]  ...................+
+2025-12-22T23:01:28.997368952Z [err]  ........+..........+...+......+
+2025-12-22T23:01:28.999005020Z [err]  ...+.....+.+......+.....
+2025-12-22T23:01:29.001513156Z [err]  .+...+.........+.....+.
+2025-12-22T23:01:29.001517051Z [err]  +...............+.....
+2025-12-22T23:01:29.004958942Z [err]  ...+...+.+..+
+2025-12-22T23:01:29.004992677Z [err]  .+.....+........
+2025-12-22T23:01:29.005002422Z [err]  .......+....
+2025-12-22T23:01:29.005007956Z [err]  +.........+........+......
+2025-12-22T23:01:29.006540381Z [err]  ...+....+...+..+.......+
+2025-12-22T23:01:29.008230896Z [err]  ..............+.+
+2025-12-22T23:01:29.008235212Z [err]  ...............+...+.....+
+2025-12-22T23:01:29.012568927Z [err]  ...+.............+.....+....+...+...
+2025-12-22T23:01:29.012572845Z [err]  +...........+...+
+2025-12-22T23:01:29.014151558Z [err]  .+.....+.+...+......+
+2025-12-22T23:01:29.016400753Z [err]  ....+........+...
+2025-12-22T23:01:29.016431879Z [err]  .....+.+......+.........
+2025-12-22T23:01:29.016436288Z [err]  ...........+
+2025-12-22T23:01:29.019182544Z [err]  +....+...+..+.+...+..+
+2025-12-22T23:01:29.019187968Z [err]  ..........+..+..........+
+2025-12-22T23:01:29.022787062Z [err]  .....+.+.....+.......+..+.........
+2025-12-22T23:01:29.022791379Z [err]  .+...........+.+.........+
+2025-12-22T23:01:29.026195754Z [err]  ..+.........+.+..+......+....+..+
+2025-12-22T23:01:29.028118733Z [err]  .+...+............+........
+2025-12-22T23:01:29.028124745Z [err]  .........+...+...+
+2025-12-22T23:01:29.030255602Z [err]  ....+........+...+....+..+...
+2025-12-22T23:01:29.030284906Z [err]  .+......+........+
+2025-12-22T23:01:29.032706496Z [err]  ...+...+....+.....+......+
+2025-12-22T23:01:29.035048832Z [err]  ....+..+...............
+2025-12-22T23:01:29.035053023Z [err]  +.+.........+.....+...+...+
+2025-12-22T23:01:29.039432251Z [err]  .......+...+...+......+......+....
+2025-12-22T23:01:29.039442585Z [err]  .....+.....+.+..+
+2025-12-22T23:01:29.041060613Z [err]  .+......+.....+...........
+2025-12-22T23:01:29.042752855Z [err]  ..+......+.....+.......+
+2025-12-22T23:01:29.044459906Z [err]  ..+...+.......+..+.....
+2025-12-22T23:01:29.044467648Z [err]  .+....+..............
+2025-12-22T23:01:29.046351807Z [err]  +.......+..+.+.....+.+
+2025-12-22T23:01:29.048301402Z [err]  ......+........+......+
+2025-12-22T23:01:29.050366934Z [err]  ...+...+...+....+.....
+2025-12-22T23:01:29.050372477Z [err]  ............+
+2025-12-22T23:01:29.052059975Z [err]  ......+....+.....+...+.+..+....
+2025-12-22T23:01:29.053760195Z [err]  +...+...+...+..+........
+2025-12-22T23:01:29.057026042Z [err]  .....+..............
+2025-12-22T23:01:29.057037512Z [err]  .............
+2025-12-22T23:01:29.057048280Z [err]  .....+....+.........+..+
+2025-12-22T23:01:29.059537038Z [err]  +++++
+2025-12-22T23:01:29.061706089Z [err]  -----
+2025-12-22T23:01:29.072452068Z [err]  Certificate request self-signature ok
+2025-12-22T23:01:29.072466537Z [err]  subject=CN=localhost
+2025-12-22T23:01:29.079277843Z [inf]  
+2025-12-22T23:01:29.082773836Z [inf]  waiting for server to shut down....2025-12-22 23:01:29.078 UTC [46] LOG:  received fast shutdown request
+2025-12-22T23:01:29.109634899Z [inf]  2025-12-22 23:01:29.108 UTC [46] LOG:  aborting any active transactions
+2025-12-22T23:01:29.113695252Z [inf]  2025-12-22 23:01:29.111 UTC [46] LOG:  background worker "logical replication launcher" (PID 52) exited with exit code 1
+2025-12-22T23:01:29.113702760Z [inf]  2025-12-22 23:01:29.111 UTC [47] LOG:  shutting down
+2025-12-22T23:01:29.117262398Z [inf]  2025-12-22 23:01:29.116 UTC [47] LOG:  checkpoint starting: shutdown immediate
+2025-12-22T23:01:29.505528475Z [err]  2025-12-22 23:01:29.418 UTC [3] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-12-22T23:01:29.505536945Z [err]  2025-12-22 23:01:29.426 UTC [78] LOG:  database system was shut down at 2025-12-22 23:01:29 UTC
+2025-12-22T23:01:29.505542470Z [err]  2025-12-22 23:01:29.434 UTC [3] LOG:  database system is ready to accept connections
+2025-12-22T23:01:29.505551711Z [inf]  2025-12-22 23:01:29.356 UTC [47] LOG:  checkpoint complete: wrote 925 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.200 s, total=0.245 s; sync files=301, longest=0.057 s, average=0.001 s; distance=4256 kB, estimate=4256 kB; lsn=0/1915960, redo lsn=0/1915960
+2025-12-22T23:01:29.505558741Z [inf]  2025-12-22 23:01:29.362 UTC [46] LOG:  database system is shut down
+2025-12-22T23:01:29.505561452Z [inf]  
+2025-12-22T23:01:29.505565334Z [inf]   done
+2025-12-22T23:01:29.505570059Z [err]  2025-12-22 23:01:29.415 UTC [3] LOG:  starting PostgreSQL 17.7 (Debian 17.7-3.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+2025-12-22T23:01:29.505572371Z [inf]  server stopped
+2025-12-22T23:01:29.505577689Z [err]  2025-12-22 23:01:29.415 UTC [3] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-12-22T23:01:29.505581223Z [inf]  
+2025-12-22T23:01:29.505584646Z [err]  2025-12-22 23:01:29.415 UTC [3] LOG:  listening on IPv6 address "::", port 5432
+2025-12-22T23:01:29.505588330Z [inf]  PostgreSQL init process complete; ready for start up.
+2025-12-22T23:06:30.414643489Z [err]  2025-12-22 23:06:29.525 UTC [76] LOG:  checkpoint starting: time
+2025-12-22T23:06:33.968633974Z [err]  2025-12-22 23:06:33.956 UTC [76] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.415 s, sync=0.005 s, total=4.432 s; sync files=12, longest=0.004 s, average=0.001 s; distance=270 kB, estimate=270 kB; lsn=0/1959210, redo lsn=0/1959180
+2025-12-22T23:21:45.509021106Z [err]  2025-12-22 23:21:39.768 UTC [153] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:21:45.509031246Z [err]  2025-12-22 23:21:39.768 UTC [153] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:21:45.509038647Z [err]  2025-12-22 23:21:39.773 UTC [153] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:21:45.509044250Z [err]  2025-12-22 23:21:39.773 UTC [153] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:22:35.078432774Z [err]  2025-12-22 23:22:28.368 UTC [156] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:22:35.078442076Z [err]  2025-12-22 23:22:28.368 UTC [156] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:22:35.078448641Z [err]  2025-12-22 23:22:28.373 UTC [156] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:22:35.078454330Z [err]  2025-12-22 23:22:28.373 UTC [156] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:23:35.080896529Z [err]  2025-12-22 23:23:28.395 UTC [156] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:23:35.080900932Z [err]  2025-12-22 23:23:28.395 UTC [156] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:23:35.080905405Z [err]  2025-12-22 23:23:28.398 UTC [156] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:23:35.080909483Z [err]  2025-12-22 23:23:28.398 UTC [156] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:23:35.080913657Z [err]  2025-12-22 23:23:28.423 UTC [160] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:23:35.082347225Z [err]  2025-12-22 23:23:31.065 UTC [162] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:23:35.082367920Z [err]  2025-12-22 23:23:28.423 UTC [160] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:23:35.082377239Z [err]  2025-12-22 23:23:30.889 UTC [162] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:23:35.082382795Z [err]  2025-12-22 23:23:30.889 UTC [162] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:23:35.082388136Z [err]  2025-12-22 23:23:31.065 UTC [162] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:24:35.084305974Z [err]  2025-12-22 23:24:31.078 UTC [162] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:24:35.084316548Z [err]  2025-12-22 23:24:31.078 UTC [162] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:24:35.084324397Z [err]  2025-12-22 23:24:31.253 UTC [162] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:24:35.084330666Z [err]  2025-12-22 23:24:31.253 UTC [162] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:24:35.084336636Z [err]  2025-12-22 23:24:32.280 UTC [166] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:24:35.085809854Z [err]  2025-12-22 23:24:32.280 UTC [166] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:25:35.088918839Z [err]  2025-12-22 23:25:31.105 UTC [166] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:25:35.088927487Z [err]  2025-12-22 23:25:31.105 UTC [166] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:25:35.088933265Z [err]  2025-12-22 23:25:31.279 UTC [166] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:25:35.088943651Z [err]  2025-12-22 23:25:31.279 UTC [166] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:26:24.689078929Z [err]  2025-12-22 23:26:21.467 UTC [172] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:26:24.689085207Z [err]  2025-12-22 23:26:21.467 UTC [172] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:26:24.689092327Z [err]  2025-12-22 23:26:21.643 UTC [172] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:26:24.689098258Z [err]  2025-12-22 23:26:21.643 UTC [172] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:27:24.704692695Z [err]  2025-12-22 23:27:21.666 UTC [172] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:27:24.704700462Z [err]  2025-12-22 23:27:21.666 UTC [172] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:27:24.704706023Z [err]  2025-12-22 23:27:21.840 UTC [172] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:27:24.704711577Z [err]  2025-12-22 23:27:21.840 UTC [172] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:27:24.704716871Z [err]  2025-12-22 23:27:22.866 UTC [176] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:27:24.706302789Z [err]  2025-12-22 23:27:22.866 UTC [176] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:28:24.718344475Z [err]  2025-12-22 23:28:21.695 UTC [176] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:28:24.718351790Z [err]  2025-12-22 23:28:21.695 UTC [176] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:28:24.718355978Z [err]  2025-12-22 23:28:21.869 UTC [176] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:28:24.718362895Z [err]  2025-12-22 23:28:21.869 UTC [176] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:29:25.163894205Z [err]  2025-12-22 23:29:18.948 UTC [183] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:29:25.163899785Z [err]  2025-12-22 23:29:18.948 UTC [183] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:29:25.163909211Z [err]  2025-12-22 23:29:18.772 UTC [183] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:29:25.163929237Z [err]  2025-12-22 23:29:21.723 UTC [176] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:29:25.163946548Z [err]  2025-12-22 23:29:21.723 UTC [176] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:29:25.163969039Z [err]  2025-12-22 23:29:21.897 UTC [176] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:29:25.163989738Z [err]  2025-12-22 23:29:18.772 UTC [183] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:29:25.163996474Z [err]  2025-12-22 23:29:21.897 UTC [176] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:30:25.517359094Z [err]  2025-12-22 23:30:18.968 UTC [183] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:30:25.517366118Z [err]  2025-12-22 23:30:18.968 UTC [183] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:30:25.517370976Z [err]  2025-12-22 23:30:18.969 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:30:25.517375431Z [err]  2025-12-22 23:30:18.969 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:30:25.517380285Z [err]  2025-12-22 23:30:19.143 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:30:25.517399141Z [err]  2025-12-22 23:30:19.143 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:31:25.678910670Z [err]  2025-12-22 23:31:18.984 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:31:25.678917386Z [err]  2025-12-22 23:31:18.984 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:31:25.678924206Z [err]  2025-12-22 23:31:19.158 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:31:25.678929744Z [err]  2025-12-22 23:31:19.158 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:32:25.707454285Z [err]  2025-12-22 23:32:19.013 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:32:25.707460156Z [err]  2025-12-22 23:32:19.013 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:32:25.707466636Z [err]  2025-12-22 23:32:19.187 UTC [184] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:32:25.707472355Z [err]  2025-12-22 23:32:19.187 UTC [184] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:32:32.573944514Z [err]  2025-12-22 23:32:32.235 UTC [195] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:32:32.573950629Z [err]  2025-12-22 23:32:32.235 UTC [195] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:32:32.573956298Z [err]  2025-12-22 23:32:32.411 UTC [195] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:32:32.573962620Z [err]  2025-12-22 23:32:32.411 UTC [195] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:33:32.730477771Z [err]  2025-12-22 23:33:32.425 UTC [195] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:33:32.730483556Z [err]  2025-12-22 23:33:32.425 UTC [195] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:33:32.730495843Z [err]  2025-12-22 23:33:32.600 UTC [195] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:33:32.730501479Z [err]  2025-12-22 23:33:32.600 UTC [195] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:33:33.769997714Z [err]  2025-12-22 23:33:33.625 UTC [199] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:33:33.770003366Z [err]  2025-12-22 23:33:33.625 UTC [199] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:33:40.914387713Z [err]  2025-12-22 23:33:40.911 UTC [200] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:33:40.914393788Z [err]  2025-12-22 23:33:40.911 UTC [200] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:33:41.088355241Z [err]  2025-12-22 23:33:41.086 UTC [200] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:33:41.088363144Z [err]  2025-12-22 23:33:41.086 UTC [200] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:34:21.090471267Z [err]  2025-12-22 23:34:13.038 UTC [204] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:34:21.090478045Z [err]  2025-12-22 23:34:13.038 UTC [204] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:34:21.090483071Z [err]  2025-12-22 23:34:13.213 UTC [204] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:34:21.090488542Z [err]  2025-12-22 23:34:13.213 UTC [204] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:35:11.229753514Z [err]  2025-12-22 23:35:05.517 UTC [205] ERROR:  relation "public.users" does not exist at character 796
+2025-12-22T23:35:11.229761167Z [err]  2025-12-22 23:35:05.517 UTC [205] STATEMENT:  SELECT "public"."users"."id", "public"."users"."email", "public"."users"."phone", "public"."users"."passwordHash", "public"."users"."name", "public"."users"."gender", "public"."users"."birthDate", "public"."users"."avatar", "public"."users"."signature", "public"."users"."selfDescription", "public"."users"."expertiseAreas", "public"."users"."organization", "public"."users"."organizationPublic", "public"."users"."contactInfo", "public"."users"."contactPublic", "public"."users"."address", "public"."users"."addressPublic", "public"."users"."education", "public"."users"."tags", "public"."users"."hobbies", "public"."users"."roleLevel"::text, "public"."users"."isAdmin", "public"."users"."joinedAt", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."isDeleted" FROM "public"."users" WHERE ("public"."users"."isDeleted" = $1 AND "public"."users"."email" = $2) LIMIT $3 OFFSET $4
+2025-12-22T23:35:13.210495356Z [err]  2025-12-22 23:35:13.034 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:35:13.210585756Z [err]  2025-12-22 23:35:13.034 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:35:13.212748109Z [err]  2025-12-22 23:35:13.208 UTC [204] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:35:13.212762731Z [err]  2025-12-22 23:35:13.208 UTC [204] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:35:13.212820899Z [err]  2025-12-22 23:35:13.208 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:35:13.212832100Z [err]  2025-12-22 23:35:13.208 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:35:16.170038255Z [err]  2025-12-22 23:35:16.093 UTC [205] ERROR:  relation "public.users" does not exist at character 796
+2025-12-22T23:35:16.170043156Z [err]  2025-12-22 23:35:16.093 UTC [205] STATEMENT:  SELECT "public"."users"."id", "public"."users"."email", "public"."users"."phone", "public"."users"."passwordHash", "public"."users"."name", "public"."users"."gender", "public"."users"."birthDate", "public"."users"."avatar", "public"."users"."signature", "public"."users"."selfDescription", "public"."users"."expertiseAreas", "public"."users"."organization", "public"."users"."organizationPublic", "public"."users"."contactInfo", "public"."users"."contactPublic", "public"."users"."address", "public"."users"."addressPublic", "public"."users"."education", "public"."users"."tags", "public"."users"."hobbies", "public"."users"."roleLevel"::text, "public"."users"."isAdmin", "public"."users"."joinedAt", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."isDeleted" FROM "public"."users" WHERE ("public"."users"."isDeleted" = $1 AND ("public"."users"."email" = $2 OR "public"."users"."phone" = $3)) LIMIT $4 OFFSET $5
+2025-12-22T23:36:15.801433027Z [err]  2025-12-22 23:36:13.235 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:36:15.801440169Z [err]  2025-12-22 23:36:13.235 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:36:15.801445287Z [err]  2025-12-22 23:36:13.409 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:36:15.801450560Z [err]  2025-12-22 23:36:13.409 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:37:15.822773175Z [err]  2025-12-22 23:37:13.263 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:37:15.822782042Z [err]  2025-12-22 23:37:13.263 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:37:15.822787886Z [err]  2025-12-22 23:37:13.437 UTC [205] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:37:15.822796016Z [err]  2025-12-22 23:37:13.437 UTC [205] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:37:35.822387917Z [err]  2025-12-22 23:37:31.235 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:37:35.822397184Z [err]  2025-12-22 23:37:31.235 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:37:35.822402789Z [err]  2025-12-22 23:37:31.411 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:37:35.822408169Z [err]  2025-12-22 23:37:31.411 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:38:35.879042731Z [err]  2025-12-22 23:38:31.426 UTC [217] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:38:35.879049315Z [err]  2025-12-22 23:38:31.426 UTC [217] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:38:35.879053599Z [err]  2025-12-22 23:38:31.427 UTC [216] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:38:35.879057272Z [err]  2025-12-22 23:38:31.427 UTC [216] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:38:35.879061358Z [err]  2025-12-22 23:38:31.600 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:38:35.879065365Z [err]  2025-12-22 23:38:31.600 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:39:25.883770973Z [err]  2025-12-22 23:39:22.912 UTC [216] ERROR:  relation "public.users" does not exist at character 796
+2025-12-22T23:39:25.883776854Z [err]  2025-12-22 23:39:22.912 UTC [216] STATEMENT:  SELECT "public"."users"."id", "public"."users"."email", "public"."users"."phone", "public"."users"."passwordHash", "public"."users"."name", "public"."users"."gender", "public"."users"."birthDate", "public"."users"."avatar", "public"."users"."signature", "public"."users"."selfDescription", "public"."users"."expertiseAreas", "public"."users"."organization", "public"."users"."organizationPublic", "public"."users"."contactInfo", "public"."users"."contactPublic", "public"."users"."address", "public"."users"."addressPublic", "public"."users"."education", "public"."users"."tags", "public"."users"."hobbies", "public"."users"."roleLevel"::text, "public"."users"."isAdmin", "public"."users"."joinedAt", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."isDeleted" FROM "public"."users" WHERE ("public"."users"."isDeleted" = $1 AND ("public"."users"."email" = $2 OR "public"."users"."phone" = $3)) LIMIT $4 OFFSET $5
+2025-12-22T23:39:31.255895394Z [err]  2025-12-22 23:39:31.254 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:39:31.255906379Z [err]  2025-12-22 23:39:31.254 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:39:31.681354539Z [err]  2025-12-22 23:39:31.428 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:39:31.681360121Z [err]  2025-12-22 23:39:31.428 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:40:41.365672591Z [err]  2025-12-22 23:40:31.456 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:40:41.365679844Z [err]  2025-12-22 23:40:31.456 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:40:41.365684489Z [err]  2025-12-22 23:40:31.630 UTC [216] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:40:41.365688922Z [err]  2025-12-22 23:40:31.630 UTC [216] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:40:47.559410541Z [err]  2025-12-22 23:40:47.557 UTC [227] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:40:50.607035449Z [err]  2025-12-22 23:40:50.604 UTC [228] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:40:53.043325764Z [err]  2025-12-22 23:40:53.019 UTC [230] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:40:53.043331729Z [err]  2025-12-22 23:40:53.019 UTC [230] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:40:53.195016487Z [err]  2025-12-22 23:40:53.193 UTC [230] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:40:53.195022703Z [err]  2025-12-22 23:40:53.193 UTC [230] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:40:59.348102500Z [err]  2025-12-22 23:40:59.345 UTC [231] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:41:02.160576647Z [err]  2025-12-22 23:41:02.156 UTC [232] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:41:04.619635100Z [err]  2025-12-22 23:41:04.615 UTC [233] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:41:04.619641318Z [err]  2025-12-22 23:41:04.615 UTC [233] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:41:05.035831939Z [err]  2025-12-22 23:41:04.790 UTC [233] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:41:05.035839362Z [err]  2025-12-22 23:41:04.790 UTC [233] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:41:34.743802623Z [err]  2025-12-22 23:41:30.649 UTC [76] LOG:  checkpoint starting: time
+2025-12-22T23:41:34.743808481Z [err]  2025-12-22 23:41:31.837 UTC [235] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:41:34.743812705Z [err]  2025-12-22 23:41:34.684 UTC [237] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:41:35.301770452Z [err]  2025-12-22 23:41:35.299 UTC [76] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.615 s, sync=0.017 s, total=4.650 s; sync files=38, longest=0.016 s, average=0.001 s; distance=158 kB, estimate=258 kB; lsn=0/1980B88, redo lsn=0/1980AF8
+2025-12-22T23:41:37.283888570Z [err]  2025-12-22 23:41:36.961 UTC [233] ERROR:  relation "public.users" does not exist at character 796
+2025-12-22T23:41:37.283894927Z [err]  2025-12-22 23:41:36.961 UTC [233] STATEMENT:  SELECT "public"."users"."id", "public"."users"."email", "public"."users"."phone", "public"."users"."passwordHash", "public"."users"."name", "public"."users"."gender", "public"."users"."birthDate", "public"."users"."avatar", "public"."users"."signature", "public"."users"."selfDescription", "public"."users"."expertiseAreas", "public"."users"."organization", "public"."users"."organizationPublic", "public"."users"."contactInfo", "public"."users"."contactPublic", "public"."users"."address", "public"."users"."addressPublic", "public"."users"."education", "public"."users"."tags", "public"."users"."hobbies", "public"."users"."roleLevel"::text, "public"."users"."isAdmin", "public"."users"."joinedAt", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."isDeleted" FROM "public"."users" WHERE ("public"."users"."isDeleted" = $1 AND ("public"."users"."email" = $2 OR "public"."users"."phone" = $3)) LIMIT $4 OFFSET $5
+2025-12-22T23:41:37.283901093Z [err]  2025-12-22 23:41:36.966 UTC [238] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:41:37.283908546Z [err]  2025-12-22 23:41:36.966 UTC [238] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:41:37.286315880Z [err]  2025-12-22 23:41:37.142 UTC [238] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:41:37.286322348Z [err]  2025-12-22 23:41:37.142 UTC [238] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:42:07.385648304Z [err]  2025-12-22 23:42:03.714 UTC [238] ERROR:  relation "public.users" does not exist at character 796
+2025-12-22T23:42:07.385652436Z [err]  2025-12-22 23:42:03.714 UTC [238] STATEMENT:  SELECT "public"."users"."id", "public"."users"."email", "public"."users"."phone", "public"."users"."passwordHash", "public"."users"."name", "public"."users"."gender", "public"."users"."birthDate", "public"."users"."avatar", "public"."users"."signature", "public"."users"."selfDescription", "public"."users"."expertiseAreas", "public"."users"."organization", "public"."users"."organizationPublic", "public"."users"."contactInfo", "public"."users"."contactPublic", "public"."users"."address", "public"."users"."addressPublic", "public"."users"."education", "public"."users"."tags", "public"."users"."hobbies", "public"."users"."roleLevel"::text, "public"."users"."isAdmin", "public"."users"."joinedAt", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."isDeleted" FROM "public"."users" WHERE ("public"."users"."isDeleted" = $1 AND ("public"."users"."email" = $2 OR "public"."users"."phone" = $3)) LIMIT $4 OFFSET $5
+2025-12-22T23:42:47.012179887Z [err]  2025-12-22 23:42:37.159 UTC [238] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:42:47.012188748Z [err]  2025-12-22 23:42:37.159 UTC [238] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:42:47.012195488Z [err]  2025-12-22 23:42:37.332 UTC [238] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:42:47.012203571Z [err]  2025-12-22 23:42:37.332 UTC [238] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:42:47.012216912Z [err]  2025-12-22 23:42:38.198 UTC [242] ERROR:  relation "public.news_sources" does not exist at character 264
+2025-12-22T23:42:47.014073887Z [err]  2025-12-22 23:42:38.198 UTC [242] STATEMENT:  SELECT "public"."news_sources"."id", "public"."news_sources"."name", "public"."news_sources"."sourceType", "public"."news_sources"."baseUrl", "public"."news_sources"."fetchInterval", "public"."news_sources"."defaultTags", "public"."news_sources"."updatedAt" FROM "public"."news_sources" WHERE "public"."news_sources"."isActive" = $1 OFFSET $2
+2025-12-22T23:43:47.018710072Z [err]  2025-12-22 23:43:37.188 UTC [242] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:43:47.018717693Z [err]  2025-12-22 23:43:37.188 UTC [242] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:43:47.018723253Z [err]  2025-12-22 23:43:37.362 UTC [242] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:43:47.018729605Z [err]  2025-12-22 23:43:37.362 UTC [242] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:44:37.020786835Z [err]  2025-12-22 23:44:31.386 UTC [248] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:44:37.475964780Z [err]  2025-12-22 23:44:37.218 UTC [242] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:44:37.475970444Z [err]  2025-12-22 23:44:37.218 UTC [242] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" < $2 AND "public"."votes"."isDeleted" = $3) OFFSET $4
+2025-12-22T23:44:37.475975663Z [err]  2025-12-22 23:44:37.392 UTC [242] ERROR:  relation "public.votes" does not exist at character 549
+2025-12-22T23:44:37.475981097Z [err]  2025-12-22 23:44:37.392 UTC [242] STATEMENT:  SELECT "public"."votes"."id", "public"."votes"."creatorId", "public"."votes"."title", "public"."votes"."description", "public"."votes"."options", "public"."votes"."passRule", "public"."votes"."deadline", "public"."votes"."allowAbstain", "public"."votes"."isAnonymous", "public"."votes"."status"::text, "public"."votes"."visibilityScopeType"::text, "public"."votes"."visibilityMinRoleLevel", "public"."votes"."visibilityUserIds", "public"."votes"."note", "public"."votes"."createdAt", "public"."votes"."updatedAt", "public"."votes"."isDeleted" FROM "public"."votes" WHERE ("public"."votes"."status" = CAST($1::text AS "public"."VoteStatus") AND "public"."votes"."deadline" > $2 AND "public"."votes"."deadline" < $3 AND "public"."votes"."isDeleted" = $4) OFFSET $5
+2025-12-22T23:45:17.152595759Z [err]  2025-12-22 23:45:07.557 UTC [250] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:46:37.158123350Z [err]  2025-12-22 23:46:30.398 UTC [76] LOG:  checkpoint starting: time
+2025-12-22T23:46:57.166331899Z [err]  2025-12-22 23:46:51.842 UTC [76] LOG:  checkpoint complete: wrote 214 buffers (1.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=21.352 s, sync=0.083 s, total=21.445 s; sync files=261, longest=0.020 s, average=0.001 s; distance=1786 kB, estimate=1786 kB; lsn=0/1B543B0, redo lsn=0/1B3F6F0
+2025-12-22T23:49:17.381744096Z [err]  2025-12-22 23:49:16.227 UTC [279] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381755382Z [err]  2025-12-22 23:49:16.227 UTC [287] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381762207Z [err]  2025-12-22 23:49:16.227 UTC [280] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381769310Z [err]  2025-12-22 23:49:16.227 UTC [278] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381776049Z [err]  2025-12-22 23:49:16.227 UTC [275] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381783518Z [err]  2025-12-22 23:49:16.227 UTC [260] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.381787099Z [err]  2025-12-22 23:49:16.227 UTC [293] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381792941Z [err]  2025-12-22 23:49:16.227 UTC [292] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381797608Z [err]  2025-12-22 23:49:16.227 UTC [288] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381803123Z [err]  2025-12-22 23:49:16.227 UTC [289] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381808487Z [err]  2025-12-22 23:49:16.227 UTC [290] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381813665Z [err]  2025-12-22 23:49:16.227 UTC [291] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381818600Z [err]  2025-12-22 23:49:16.227 UTC [294] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381823670Z [err]  2025-12-22 23:49:16.227 UTC [285] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381828827Z [err]  2025-12-22 23:49:16.227 UTC [283] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.381833716Z [err]  2025-12-22 23:49:16.227 UTC [286] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383485072Z [err]  2025-12-22 23:49:16.227 UTC [277] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383494452Z [err]  2025-12-22 23:49:16.227 UTC [259] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383502026Z [err]  2025-12-22 23:49:16.227 UTC [276] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383507891Z [err]  2025-12-22 23:49:16.227 UTC [257] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383512380Z [err]  2025-12-22 23:49:16.228 UTC [258] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383513807Z [err]  2025-12-22 23:49:16.227 UTC [252] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383519702Z [err]  2025-12-22 23:49:16.229 UTC [263] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383519817Z [err]  2025-12-22 23:49:16.227 UTC [274] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383525635Z [err]  2025-12-22 23:49:16.229 UTC [262] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383544282Z [err]  2025-12-22 23:49:16.227 UTC [284] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383555158Z [err]  2025-12-22 23:49:16.227 UTC [282] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383562469Z [err]  2025-12-22 23:49:16.227 UTC [269] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:17.383582132Z [err]  2025-12-22 23:49:16.227 UTC [281] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:49:17.383590431Z [err]  2025-12-22 23:49:16.228 UTC [254] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:20.971645505Z [err]  2025-12-22 23:49:20.966 UTC [295] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:49:27.322280114Z [err]  2025-12-22 23:49:27.120 UTC [296] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:07.021022255Z [err]  2025-12-22 23:49:59.353 UTC [297] ERROR:  insert or update on table "audit_logs" violates foreign key constraint "audit_logs_userId_fkey"
+2025-12-22T23:50:07.021029807Z [err]  2025-12-22 23:49:59.353 UTC [297] DETAIL:  Key (userId)=(super-admin) is not present in table "users".
+2025-12-22T23:50:07.021037243Z [err]  2025-12-22 23:49:59.353 UTC [297] STATEMENT:  INSERT INTO "public"."audit_logs" ("id","userId","action","objectType","objectId","summary","metadata","createdAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "public"."audit_logs"."id", "public"."audit_logs"."userId", "public"."audit_logs"."action", "public"."audit_logs"."objectType", "public"."audit_logs"."objectId", "public"."audit_logs"."summary", "public"."audit_logs"."metadata", "public"."audit_logs"."ipAddress", "public"."audit_logs"."userAgent", "public"."audit_logs"."createdAt"
+2025-12-22T23:50:07.021043913Z [err]  2025-12-22 23:50:03.598 UTC [321] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021049764Z [err]  2025-12-22 23:50:03.598 UTC [323] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021057031Z [err]  2025-12-22 23:50:03.598 UTC [314] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021064271Z [err]  2025-12-22 23:50:03.598 UTC [309] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021071145Z [err]  2025-12-22 23:50:03.598 UTC [308] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021077865Z [err]  2025-12-22 23:50:03.598 UTC [303] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021083982Z [err]  2025-12-22 23:50:03.598 UTC [312] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021090420Z [err]  2025-12-22 23:50:03.598 UTC [325] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.021100102Z [err]  2025-12-22 23:50:03.598 UTC [304] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023349502Z [err]  2025-12-22 23:50:03.598 UTC [316] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023359991Z [err]  2025-12-22 23:50:03.598 UTC [322] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023367974Z [err]  2025-12-22 23:50:03.598 UTC [302] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023374507Z [err]  2025-12-22 23:50:03.599 UTC [313] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023380841Z [err]  2025-12-22 23:50:03.599 UTC [300] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:07.023387291Z [err]  2025-12-22 23:50:03.599 UTC [324] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023393678Z [err]  2025-12-22 23:50:03.599 UTC [315] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023399727Z [err]  2025-12-22 23:50:03.599 UTC [307] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023405864Z [err]  2025-12-22 23:50:03.599 UTC [326] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023412657Z [err]  2025-12-22 23:50:03.599 UTC [306] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023420298Z [err]  2025-12-22 23:50:03.599 UTC [311] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023427326Z [err]  2025-12-22 23:50:03.599 UTC [320] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023433572Z [err]  2025-12-22 23:50:03.599 UTC [297] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:07.023439609Z [err]  2025-12-22 23:50:03.599 UTC [305] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023445089Z [err]  2025-12-22 23:50:03.600 UTC [310] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.023450540Z [err]  2025-12-22 23:50:03.600 UTC [301] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.024619743Z [err]  2025-12-22 23:50:03.600 UTC [319] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.024633041Z [err]  2025-12-22 23:50:03.600 UTC [317] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:07.024638967Z [err]  2025-12-22 23:50:03.600 UTC [318] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:50:08.449164514Z [err]  2025-12-22 23:50:08.327 UTC [327] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:14.502298106Z [err]  2025-12-22 23:50:14.498 UTC [328] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:44.511019658Z [err]  2025-12-22 23:50:37.792 UTC [337] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:50:44.511024828Z [err]  2025-12-22 23:50:43.943 UTC [338] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535431665Z [err]  2025-12-22 23:51:26.058 UTC [350] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:51:34.535443944Z [err]  2025-12-22 23:51:26.058 UTC [341] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535451512Z [err]  2025-12-22 23:51:30.826 UTC [355] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535457819Z [err]  2025-12-22 23:51:30.942 UTC [76] LOG:  checkpoint starting: time
+2025-12-22T23:51:34.535465898Z [err]  2025-12-22 23:51:26.058 UTC [354] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:51:34.535479180Z [err]  2025-12-22 23:51:26.058 UTC [353] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:51:34.535487268Z [err]  2025-12-22 23:51:26.058 UTC [351] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:51:34.535494950Z [err]  2025-12-22 23:51:26.058 UTC [349] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535502663Z [err]  2025-12-22 23:51:26.058 UTC [348] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535510829Z [err]  2025-12-22 23:51:26.058 UTC [347] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535518996Z [err]  2025-12-22 23:51:26.058 UTC [345] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535525583Z [err]  2025-12-22 23:51:26.058 UTC [352] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:51:34.535532472Z [err]  2025-12-22 23:51:26.058 UTC [342] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:34.535541163Z [err]  2025-12-22 23:51:26.058 UTC [346] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:51:35.890935354Z [err]  2025-12-22 23:51:35.886 UTC [76] LOG:  checkpoint complete: wrote 50 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.919 s, sync=0.016 s, total=4.944 s; sync files=20, longest=0.014 s, average=0.001 s; distance=92 kB, estimate=1617 kB; lsn=0/1B56798, redo lsn=0/1B56708
+2025-12-22T23:51:37.024569506Z [err]  2025-12-22 23:51:37.022 UTC [357] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:52:07.024501926Z [err]  2025-12-22 23:52:02.916 UTC [358] ERROR:  insert or update on table "audit_logs" violates foreign key constraint "audit_logs_userId_fkey"
+2025-12-22T23:52:07.024509619Z [err]  2025-12-22 23:52:02.916 UTC [358] DETAIL:  Key (userId)=(super-admin) is not present in table "users".
+2025-12-22T23:52:07.024515713Z [err]  2025-12-22 23:52:02.916 UTC [358] STATEMENT:  INSERT INTO "public"."audit_logs" ("id","userId","action","objectType","objectId","summary","metadata","createdAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "public"."audit_logs"."id", "public"."audit_logs"."userId", "public"."audit_logs"."action", "public"."audit_logs"."objectType", "public"."audit_logs"."objectId", "public"."audit_logs"."summary", "public"."audit_logs"."metadata", "public"."audit_logs"."ipAddress", "public"."audit_logs"."userAgent", "public"."audit_logs"."createdAt"
+2025-12-22T23:52:11.717325458Z [err]  2025-12-22 23:52:11.714 UTC [358] ERROR:  insert or update on table "audit_logs" violates foreign key constraint "audit_logs_userId_fkey"
+2025-12-22T23:52:11.717333780Z [err]  2025-12-22 23:52:11.714 UTC [358] DETAIL:  Key (userId)=(super-admin) is not present in table "users".
+2025-12-22T23:52:11.717339801Z [err]  2025-12-22 23:52:11.714 UTC [358] STATEMENT:  INSERT INTO "public"."audit_logs" ("id","userId","action","objectType","objectId","summary","metadata","createdAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "public"."audit_logs"."id", "public"."audit_logs"."userId", "public"."audit_logs"."action", "public"."audit_logs"."objectType", "public"."audit_logs"."objectId", "public"."audit_logs"."summary", "public"."audit_logs"."metadata", "public"."audit_logs"."ipAddress", "public"."audit_logs"."userAgent", "public"."audit_logs"."createdAt"
+2025-12-22T23:52:17.573119785Z [err]  2025-12-22 23:52:17.428 UTC [358] ERROR:  insert or update on table "audit_logs" violates foreign key constraint "audit_logs_userId_fkey"
+2025-12-22T23:52:17.573123913Z [err]  2025-12-22 23:52:17.428 UTC [358] DETAIL:  Key (userId)=(super-admin) is not present in table "users".
+2025-12-22T23:52:17.573128404Z [err]  2025-12-22 23:52:17.428 UTC [358] STATEMENT:  INSERT INTO "public"."audit_logs" ("id","userId","action","objectType","objectId","summary","metadata","createdAt") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "public"."audit_logs"."id", "public"."audit_logs"."userId", "public"."audit_logs"."action", "public"."audit_logs"."objectType", "public"."audit_logs"."objectId", "public"."audit_logs"."summary", "public"."audit_logs"."metadata", "public"."audit_logs"."ipAddress", "public"."audit_logs"."userAgent", "public"."audit_logs"."createdAt"
+2025-12-22T23:52:26.115643433Z [err]  2025-12-22 23:52:26.112 UTC [386] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115650204Z [err]  2025-12-22 23:52:26.112 UTC [385] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115654759Z [err]  2025-12-22 23:52:26.112 UTC [384] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115659065Z [err]  2025-12-22 23:52:26.112 UTC [383] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115665153Z [err]  2025-12-22 23:52:26.112 UTC [387] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115669749Z [err]  2025-12-22 23:52:26.112 UTC [366] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115673971Z [err]  2025-12-22 23:52:26.112 UTC [369] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115677759Z [err]  2025-12-22 23:52:26.112 UTC [362] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.115681867Z [err]  2025-12-22 23:52:26.112 UTC [371] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119110514Z [err]  2025-12-22 23:52:26.113 UTC [374] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119119068Z [err]  2025-12-22 23:52:26.113 UTC [375] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119125220Z [err]  2025-12-22 23:52:26.113 UTC [365] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119130276Z [err]  2025-12-22 23:52:26.113 UTC [370] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119133838Z [err]  2025-12-22 23:52:26.113 UTC [363] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119144616Z [err]  2025-12-22 23:52:26.113 UTC [382] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119151486Z [err]  2025-12-22 23:52:26.113 UTC [368] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119161507Z [err]  2025-12-22 23:52:26.113 UTC [377] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119167840Z [err]  2025-12-22 23:52:26.113 UTC [372] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119174391Z [err]  2025-12-22 23:52:26.113 UTC [373] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119180535Z [err]  2025-12-22 23:52:26.113 UTC [367] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119186182Z [err]  2025-12-22 23:52:26.113 UTC [376] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119191946Z [err]  2025-12-22 23:52:26.113 UTC [364] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119198036Z [err]  2025-12-22 23:52:26.113 UTC [380] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119203445Z [err]  2025-12-22 23:52:26.113 UTC [381] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.119209208Z [err]  2025-12-22 23:52:26.113 UTC [379] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.121369177Z [err]  2025-12-22 23:52:26.113 UTC [378] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:52:26.121377366Z [err]  2025-12-22 23:52:26.114 UTC [361] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:52:26.121383444Z [err]  2025-12-22 23:52:26.117 UTC [358] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:52:31.075632098Z [err]  2025-12-22 23:52:31.073 UTC [388] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:52:37.541330532Z [err]  2025-12-22 23:52:37.236 UTC [390] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.241381287Z [err]  2025-12-22 23:52:59.790 UTC [416] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241381885Z [err]  2025-12-22 23:52:59.790 UTC [412] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241391121Z [err]  2025-12-22 23:52:59.790 UTC [402] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241392138Z [err]  2025-12-22 23:52:59.790 UTC [417] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241398702Z [err]  2025-12-22 23:52:59.790 UTC [408] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241399778Z [err]  2025-12-22 23:52:59.790 UTC [419] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241405541Z [err]  2025-12-22 23:52:59.790 UTC [405] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241407849Z [err]  2025-12-22 23:52:59.790 UTC [404] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241412590Z [err]  2025-12-22 23:52:59.790 UTC [409] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241417037Z [err]  2025-12-22 23:52:59.790 UTC [413] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241419741Z [err]  2025-12-22 23:52:59.790 UTC [399] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.241424109Z [err]  2025-12-22 23:52:59.790 UTC [411] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241430402Z [err]  2025-12-22 23:52:59.790 UTC [407] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241436255Z [err]  2025-12-22 23:52:59.790 UTC [420] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241441888Z [err]  2025-12-22 23:52:59.790 UTC [410] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.241447403Z [err]  2025-12-22 23:52:59.790 UTC [403] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243076935Z [err]  2025-12-22 23:52:59.790 UTC [401] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243080633Z [err]  2025-12-22 23:52:59.790 UTC [400] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243086265Z [err]  2025-12-22 23:52:59.790 UTC [418] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243089646Z [err]  2025-12-22 23:52:59.790 UTC [406] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243095704Z [err]  2025-12-22 23:52:59.791 UTC [393] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243100923Z [err]  2025-12-22 23:52:59.793 UTC [395] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243102322Z [err]  2025-12-22 23:52:59.790 UTC [394] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243107931Z [err]  2025-12-22 23:52:59.793 UTC [414] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243108014Z [err]  2025-12-22 23:52:59.790 UTC [398] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243115394Z [err]  2025-12-22 23:52:59.790 UTC [392] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243116343Z [err]  2025-12-22 23:52:59.797 UTC [391] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243122276Z [err]  2025-12-22 23:52:59.790 UTC [421] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:07.243123934Z [err]  2025-12-22 23:53:04.351 UTC [422] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243127269Z [err]  2025-12-22 23:52:59.790 UTC [396] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:07.243131318Z [err]  2025-12-22 23:52:59.790 UTC [415] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:10.679320972Z [err]  2025-12-22 23:53:10.490 UTC [423] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:40.347687558Z [err]  2025-12-22 23:53:32.504 UTC [428] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347697027Z [err]  2025-12-22 23:53:32.504 UTC [432] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347701691Z [err]  2025-12-22 23:53:32.505 UTC [425] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:40.347705786Z [err]  2025-12-22 23:53:32.505 UTC [431] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347709711Z [err]  2025-12-22 23:53:32.505 UTC [427] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347713582Z [err]  2025-12-22 23:53:32.516 UTC [429] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347717370Z [err]  2025-12-22 23:53:32.516 UTC [433] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347721896Z [err]  2025-12-22 23:53:32.516 UTC [430] LOG:  could not accept SSL connection: EOF detected
+2025-12-22T23:53:40.347725853Z [err]  2025-12-22 23:53:37.081 UTC [434] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:53:43.257692299Z [err]  2025-12-22 23:53:43.255 UTC [435] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:55:03.265467083Z [err]  2025-12-22 23:55:00.101 UTC [442] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:55:06.270117130Z [err]  2025-12-22 23:55:06.267 UTC [443] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:56:05.941510212Z [err]  2025-12-22 23:56:02.602 UTC [449] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:56:08.743947935Z [err]  2025-12-22 23:56:08.738 UTC [450] LOG:  could not receive data from client: Connection reset by peer
+2025-12-22T23:56:38.743813560Z [err]  2025-12-22 23:56:30.983 UTC [76] LOG:  checkpoint starting: time
+2025-12-22T23:56:38.743819586Z [err]  2025-12-22 23:56:31.902 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.905 s, sync=0.004 s, total=0.919 s; sync files=10, longest=0.003 s, average=0.001 s; distance=4 kB, estimate=1456 kB; lsn=0/1B579E0, redo lsn=0/1B57988
+2025-12-23T00:02:29.344505977Z [err]  2025-12-23 00:02:26.026 UTC [499] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344517106Z [err]  2025-12-23 00:02:26.026 UTC [498] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344523772Z [err]  2025-12-23 00:02:26.026 UTC [495] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344530310Z [err]  2025-12-23 00:02:26.026 UTC [486] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.344537894Z [err]  2025-12-23 00:02:26.026 UTC [487] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.344549989Z [err]  2025-12-23 00:02:26.026 UTC [484] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344559770Z [err]  2025-12-23 00:02:26.026 UTC [494] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344566549Z [err]  2025-12-23 00:02:26.026 UTC [482] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.344569669Z [err]  2025-12-23 00:02:26.026 UTC [500] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344573641Z [err]  2025-12-23 00:02:26.026 UTC [478] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.344581448Z [err]  2025-12-23 00:02:26.026 UTC [492] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344583080Z [err]  2025-12-23 00:02:26.026 UTC [502] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344590773Z [err]  2025-12-23 00:02:26.026 UTC [501] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344597674Z [err]  2025-12-23 00:02:26.026 UTC [485] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.344604515Z [err]  2025-12-23 00:02:26.026 UTC [493] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.344612096Z [err]  2025-12-23 00:02:26.026 UTC [491] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349009671Z [err]  2025-12-23 00:02:26.026 UTC [476] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.349016990Z [err]  2025-12-23 00:02:26.026 UTC [477] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.349023121Z [err]  2025-12-23 00:02:26.026 UTC [490] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349029795Z [err]  2025-12-23 00:02:26.026 UTC [496] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349035589Z [err]  2025-12-23 00:02:26.027 UTC [479] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.349041674Z [err]  2025-12-23 00:02:26.027 UTC [475] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.349094406Z [err]  2025-12-23 00:02:26.027 UTC [483] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:29.349099311Z [err]  2025-12-23 00:02:26.029 UTC [488] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349106686Z [err]  2025-12-23 00:02:26.029 UTC [489] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349111575Z [err]  2025-12-23 00:02:26.029 UTC [497] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349117618Z [err]  2025-12-23 00:02:26.030 UTC [503] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:02:29.349121986Z [err]  2025-12-23 00:02:26.031 UTC [480] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:30.333994603Z [err]  2025-12-23 00:02:30.314 UTC [504] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:02:36.467761617Z [err]  2025-12-23 00:02:36.466 UTC [506] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.468314165Z [err]  2025-12-23 00:02:57.081 UTC [533] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468322516Z [err]  2025-12-23 00:02:57.081 UTC [535] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468329441Z [err]  2025-12-23 00:02:57.081 UTC [530] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468338490Z [err]  2025-12-23 00:02:57.081 UTC [534] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468344919Z [err]  2025-12-23 00:02:57.081 UTC [531] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468350722Z [err]  2025-12-23 00:02:57.081 UTC [519] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468357079Z [err]  2025-12-23 00:02:57.081 UTC [515] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468362708Z [err]  2025-12-23 00:02:57.081 UTC [516] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468369339Z [err]  2025-12-23 00:02:57.081 UTC [532] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468375404Z [err]  2025-12-23 00:02:57.082 UTC [510] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.468381013Z [err]  2025-12-23 00:02:57.082 UTC [521] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468388076Z [err]  2025-12-23 00:02:57.082 UTC [511] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.468394716Z [err]  2025-12-23 00:02:57.082 UTC [509] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.468401203Z [err]  2025-12-23 00:02:57.082 UTC [513] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468407552Z [err]  2025-12-23 00:02:57.082 UTC [518] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.468413055Z [err]  2025-12-23 00:02:57.082 UTC [522] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470128725Z [err]  2025-12-23 00:02:57.082 UTC [512] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.470137463Z [err]  2025-12-23 00:02:57.083 UTC [528] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470144323Z [err]  2025-12-23 00:02:57.083 UTC [517] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470150982Z [err]  2025-12-23 00:02:57.083 UTC [525] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470157013Z [err]  2025-12-23 00:02:57.083 UTC [529] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470163060Z [err]  2025-12-23 00:02:57.083 UTC [507] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.470168670Z [err]  2025-12-23 00:02:57.083 UTC [523] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470174204Z [err]  2025-12-23 00:02:57.083 UTC [527] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470181100Z [err]  2025-12-23 00:02:57.083 UTC [526] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470187097Z [err]  2025-12-23 00:02:57.084 UTC [520] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470192337Z [err]  2025-12-23 00:02:57.085 UTC [514] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:06.470197745Z [err]  2025-12-23 00:02:57.086 UTC [524] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:03:06.470204018Z [err]  2025-12-23 00:03:01.360 UTC [536] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:03:07.550106878Z [err]  2025-12-23 00:03:07.548 UTC [537] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:08:38.118553295Z [err]  2025-12-23 00:08:32.059 UTC [557] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:08:38.221834031Z [err]  2025-12-23 00:08:38.220 UTC [559] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:10:58.546622554Z [err]  2025-12-23 00:10:50.691 UTC [569] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546631021Z [err]  2025-12-23 00:10:50.691 UTC [571] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546638800Z [err]  2025-12-23 00:10:50.691 UTC [572] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546646583Z [err]  2025-12-23 00:10:50.691 UTC [568] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546662048Z [err]  2025-12-23 00:10:50.692 UTC [560] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:10:58.546670492Z [err]  2025-12-23 00:10:50.692 UTC [573] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546678349Z [err]  2025-12-23 00:10:50.692 UTC [570] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:10:58.546687002Z [err]  2025-12-23 00:10:50.693 UTC [561] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:10:58.546694305Z [err]  2025-12-23 00:10:57.744 UTC [575] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:03.901364349Z [err]  2025-12-23 00:11:03.897 UTC [576] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:23.902237517Z [err]  2025-12-23 00:11:16.856 UTC [581] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:11:23.902247249Z [err]  2025-12-23 00:11:16.856 UTC [582] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:23.902252636Z [err]  2025-12-23 00:11:16.856 UTC [584] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:11:23.902257951Z [err]  2025-12-23 00:11:16.856 UTC [580] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:11:23.902262770Z [err]  2025-12-23 00:11:16.857 UTC [577] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:23.902268391Z [err]  2025-12-23 00:11:16.857 UTC [579] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:23.902274683Z [err]  2025-12-23 00:11:16.857 UTC [585] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:11:23.902280440Z [err]  2025-12-23 00:11:16.857 UTC [583] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:23.902285092Z [err]  2025-12-23 00:11:23.824 UTC [586] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:11:29.976516569Z [err]  2025-12-23 00:11:29.973 UTC [587] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:13:59.997177342Z [err]  2025-12-23 00:13:54.495 UTC [602] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:00.846711994Z [err]  2025-12-23 00:14:00.668 UTC [603] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:50.531632341Z [err]  2025-12-23 00:14:43.490 UTC [610] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:14:50.531639431Z [err]  2025-12-23 00:14:43.490 UTC [609] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:14:50.531643554Z [err]  2025-12-23 00:14:43.490 UTC [611] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:14:50.531648070Z [err]  2025-12-23 00:14:43.490 UTC [608] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:50.531660050Z [err]  2025-12-23 00:14:43.491 UTC [604] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:50.531663884Z [err]  2025-12-23 00:14:43.491 UTC [607] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:51.078283099Z [err]  2025-12-23 00:14:51.075 UTC [612] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:14:57.257954204Z [err]  2025-12-23 00:14:57.254 UTC [614] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.261709163Z [err]  2025-12-23 00:15:22.347 UTC [626] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261717128Z [err]  2025-12-23 00:15:22.347 UTC [634] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261722939Z [err]  2025-12-23 00:15:22.347 UTC [625] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.261770780Z [err]  2025-12-23 00:15:22.346 UTC [646] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261778922Z [err]  2025-12-23 00:15:22.346 UTC [642] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261783582Z [err]  2025-12-23 00:15:22.346 UTC [644] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261788113Z [err]  2025-12-23 00:15:22.346 UTC [640] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261795031Z [err]  2025-12-23 00:15:22.346 UTC [643] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261799395Z [err]  2025-12-23 00:15:22.346 UTC [645] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261803595Z [err]  2025-12-23 00:15:22.346 UTC [639] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261808483Z [err]  2025-12-23 00:15:22.346 UTC [638] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261813124Z [err]  2025-12-23 00:15:22.346 UTC [624] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261817269Z [err]  2025-12-23 00:15:22.346 UTC [635] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261821246Z [err]  2025-12-23 00:15:22.347 UTC [627] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261826355Z [err]  2025-12-23 00:15:22.347 UTC [631] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.261830797Z [err]  2025-12-23 00:15:22.347 UTC [623] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265322551Z [err]  2025-12-23 00:15:22.347 UTC [637] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265330506Z [err]  2025-12-23 00:15:22.347 UTC [629] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265336132Z [err]  2025-12-23 00:15:22.347 UTC [617] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265340867Z [err]  2025-12-23 00:15:22.347 UTC [620] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265345481Z [err]  2025-12-23 00:15:22.347 UTC [633] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265351469Z [err]  2025-12-23 00:15:22.347 UTC [618] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265357191Z [err]  2025-12-23 00:15:22.347 UTC [641] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265361576Z [err]  2025-12-23 00:15:22.347 UTC [619] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265365786Z [err]  2025-12-23 00:15:22.347 UTC [615] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265371059Z [err]  2025-12-23 00:15:22.347 UTC [630] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265375432Z [err]  2025-12-23 00:15:22.347 UTC [636] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265379919Z [err]  2025-12-23 00:15:22.347 UTC [622] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:27.265384319Z [err]  2025-12-23 00:15:22.347 UTC [632] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265388388Z [err]  2025-12-23 00:15:22.349 UTC [628] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:27.265393206Z [err]  2025-12-23 00:15:22.350 UTC [621] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:30.309345638Z [err]  2025-12-23 00:15:29.955 UTC [647] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:36.246680091Z [err]  2025-12-23 00:15:36.135 UTC [648] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:56.243232057Z [err]  2025-12-23 00:15:51.652 UTC [665] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243236131Z [err]  2025-12-23 00:15:51.652 UTC [675] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243243066Z [err]  2025-12-23 00:15:51.652 UTC [656] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243243415Z [err]  2025-12-23 00:15:51.652 UTC [673] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243248590Z [err]  2025-12-23 00:15:51.652 UTC [676] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243252510Z [err]  2025-12-23 00:15:51.652 UTC [654] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243254227Z [err]  2025-12-23 00:15:51.652 UTC [674] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243258719Z [err]  2025-12-23 00:15:51.652 UTC [672] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243296074Z [err]  2025-12-23 00:15:51.652 UTC [667] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243301179Z [err]  2025-12-23 00:15:51.652 UTC [664] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243305457Z [err]  2025-12-23 00:15:51.652 UTC [670] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243310074Z [err]  2025-12-23 00:15:51.652 UTC [662] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243315055Z [err]  2025-12-23 00:15:51.652 UTC [661] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243320437Z [err]  2025-12-23 00:15:51.652 UTC [659] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243325612Z [err]  2025-12-23 00:15:51.652 UTC [658] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.243330277Z [err]  2025-12-23 00:15:51.652 UTC [663] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249409280Z [err]  2025-12-23 00:15:51.652 UTC [653] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249424537Z [err]  2025-12-23 00:15:51.652 UTC [655] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249435578Z [err]  2025-12-23 00:15:51.652 UTC [652] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:56.249440215Z [err]  2025-12-23 00:15:51.652 UTC [660] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249444337Z [err]  2025-12-23 00:15:51.652 UTC [657] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249448964Z [err]  2025-12-23 00:15:51.653 UTC [677] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249453047Z [err]  2025-12-23 00:15:51.653 UTC [668] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249457128Z [err]  2025-12-23 00:15:51.653 UTC [671] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249461639Z [err]  2025-12-23 00:15:51.653 UTC [650] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:15:56.249467823Z [err]  2025-12-23 00:15:51.653 UTC [669] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249472421Z [err]  2025-12-23 00:15:51.654 UTC [666] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:56.249476723Z [err]  2025-12-23 00:15:51.655 UTC [678] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:15:59.362986927Z [err]  2025-12-23 00:15:59.361 UTC [679] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:05.533195681Z [err]  2025-12-23 00:16:05.530 UTC [680] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534305142Z [err]  2025-12-23 00:16:22.780 UTC [692] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534310151Z [err]  2025-12-23 00:16:22.779 UTC [706] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534312497Z [err]  2025-12-23 00:16:22.780 UTC [681] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534318305Z [err]  2025-12-23 00:16:22.780 UTC [687] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534320205Z [err]  2025-12-23 00:16:22.779 UTC [709] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534326254Z [err]  2025-12-23 00:16:22.780 UTC [688] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534327140Z [err]  2025-12-23 00:16:22.780 UTC [685] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534331405Z [err]  2025-12-23 00:16:22.780 UTC [694] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534335949Z [err]  2025-12-23 00:16:22.780 UTC [705] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534340403Z [err]  2025-12-23 00:16:22.780 UTC [698] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534345231Z [err]  2025-12-23 00:16:22.780 UTC [699] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534349925Z [err]  2025-12-23 00:16:22.780 UTC [686] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534354805Z [err]  2025-12-23 00:16:22.780 UTC [689] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.534360492Z [err]  2025-12-23 00:16:22.780 UTC [707] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.534365312Z [err]  2025-12-23 00:16:22.780 UTC [704] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535954838Z [err]  2025-12-23 00:16:22.780 UTC [683] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.535961162Z [err]  2025-12-23 00:16:22.780 UTC [684] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.535965403Z [err]  2025-12-23 00:16:22.780 UTC [701] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535974287Z [err]  2025-12-23 00:16:22.780 UTC [702] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535978402Z [err]  2025-12-23 00:16:22.780 UTC [703] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535984469Z [err]  2025-12-23 00:16:22.780 UTC [690] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.535988466Z [err]  2025-12-23 00:16:22.780 UTC [693] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535992812Z [err]  2025-12-23 00:16:22.780 UTC [700] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.535996943Z [err]  2025-12-23 00:16:22.780 UTC [691] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.536002006Z [err]  2025-12-23 00:16:22.780 UTC [696] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.536006555Z [err]  2025-12-23 00:16:22.781 UTC [695] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:25.536010849Z [err]  2025-12-23 00:16:22.781 UTC [697] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:25.536015237Z [err]  2025-12-23 00:16:22.785 UTC [708] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:16:30.330324208Z [err]  2025-12-23 00:16:30.327 UTC [710] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:16:36.490884836Z [err]  2025-12-23 00:16:36.488 UTC [711] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:16.615582517Z [err]  2025-12-23 00:20:09.000 UTC [725] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:16.615591359Z [err]  2025-12-23 00:20:15.182 UTC [726] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:56.256369182Z [err]  2025-12-23 00:20:55.363 UTC [742] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256379706Z [err]  2025-12-23 00:20:55.363 UTC [737] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256387276Z [err]  2025-12-23 00:20:55.363 UTC [746] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256439934Z [err]  2025-12-23 00:20:55.362 UTC [756] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256447149Z [err]  2025-12-23 00:20:55.362 UTC [753] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256453787Z [err]  2025-12-23 00:20:55.362 UTC [752] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256460900Z [err]  2025-12-23 00:20:55.362 UTC [755] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256467163Z [err]  2025-12-23 00:20:55.363 UTC [754] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256473242Z [err]  2025-12-23 00:20:55.363 UTC [748] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256479555Z [err]  2025-12-23 00:20:55.363 UTC [744] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256485037Z [err]  2025-12-23 00:20:55.363 UTC [739] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256494757Z [err]  2025-12-23 00:20:55.363 UTC [741] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256501757Z [err]  2025-12-23 00:20:55.363 UTC [743] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256507704Z [err]  2025-12-23 00:20:55.363 UTC [747] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256513205Z [err]  2025-12-23 00:20:55.363 UTC [745] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.256518395Z [err]  2025-12-23 00:20:55.363 UTC [735] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258041523Z [err]  2025-12-23 00:20:55.363 UTC [740] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258047272Z [err]  2025-12-23 00:20:55.363 UTC [729] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:56.258051680Z [err]  2025-12-23 00:20:55.363 UTC [736] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258059101Z [err]  2025-12-23 00:20:55.363 UTC [734] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258060260Z [err]  2025-12-23 00:20:55.363 UTC [728] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:56.258065947Z [err]  2025-12-23 00:20:55.363 UTC [732] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:20:56.258068608Z [err]  2025-12-23 00:20:55.365 UTC [738] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258072832Z [err]  2025-12-23 00:20:55.363 UTC [749] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258078368Z [err]  2025-12-23 00:20:55.363 UTC [750] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258083992Z [err]  2025-12-23 00:20:55.363 UTC [751] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258089743Z [err]  2025-12-23 00:20:55.363 UTC [757] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:20:56.258095220Z [err]  2025-12-23 00:20:55.363 UTC [733] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:21:04.316598191Z [err]  2025-12-23 00:21:04.315 UTC [758] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:21:10.729733668Z [err]  2025-12-23 00:21:10.516 UTC [759] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:00.863136911Z [err]  2025-12-23 00:21:51.380 UTC [765] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:00.863143239Z [err]  2025-12-23 00:21:51.380 UTC [763] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:00.863148287Z [err]  2025-12-23 00:21:51.380 UTC [764] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:00.863153334Z [err]  2025-12-23 00:21:51.381 UTC [761] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:00.863158916Z [err]  2025-12-23 00:21:51.381 UTC [767] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:00.863164775Z [err]  2025-12-23 00:21:51.382 UTC [768] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:00.863170217Z [err]  2025-12-23 00:21:51.382 UTC [769] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:00.863176373Z [err]  2025-12-23 00:21:51.384 UTC [766] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:00.863182118Z [err]  2025-12-23 00:21:59.797 UTC [771] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:06.062520651Z [err]  2025-12-23 00:22:06.060 UTC [772] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:26.063305983Z [err]  2025-12-23 00:22:19.529 UTC [779] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:26.063308326Z [err]  2025-12-23 00:22:19.529 UTC [776] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:26.063316720Z [err]  2025-12-23 00:22:19.529 UTC [780] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:26.063319897Z [err]  2025-12-23 00:22:19.529 UTC [781] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:26.063324174Z [err]  2025-12-23 00:22:19.529 UTC [775] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:26.063329961Z [err]  2025-12-23 00:22:19.529 UTC [777] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:26.063335848Z [err]  2025-12-23 00:22:19.529 UTC [773] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:26.063342114Z [err]  2025-12-23 00:22:19.529 UTC [778] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:22:28.048153491Z [err]  2025-12-23 00:22:27.660 UTC [782] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:22:34.018723839Z [err]  2025-12-23 00:22:33.851 UTC [783] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:13.679683265Z [err]  2025-12-23 00:24:07.186 UTC [791] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:13.679691729Z [err]  2025-12-23 00:24:13.330 UTC [792] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:43.679142368Z [err]  2025-12-23 00:24:35.831 UTC [809] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679146925Z [err]  2025-12-23 00:24:35.831 UTC [810] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679151764Z [err]  2025-12-23 00:24:35.831 UTC [811] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679156267Z [err]  2025-12-23 00:24:35.831 UTC [806] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679160528Z [err]  2025-12-23 00:24:35.831 UTC [821] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679165496Z [err]  2025-12-23 00:24:35.831 UTC [817] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679169921Z [err]  2025-12-23 00:24:35.831 UTC [819] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679174216Z [err]  2025-12-23 00:24:35.831 UTC [802] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679178328Z [err]  2025-12-23 00:24:35.831 UTC [807] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679182477Z [err]  2025-12-23 00:24:35.831 UTC [822] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679186752Z [err]  2025-12-23 00:24:35.831 UTC [812] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679191343Z [err]  2025-12-23 00:24:35.831 UTC [801] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679195491Z [err]  2025-12-23 00:24:35.831 UTC [808] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679200891Z [err]  2025-12-23 00:24:35.831 UTC [813] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679207455Z [err]  2025-12-23 00:24:35.831 UTC [805] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.679212385Z [err]  2025-12-23 00:24:35.831 UTC [820] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680124850Z [err]  2025-12-23 00:24:35.831 UTC [804] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680129247Z [err]  2025-12-23 00:24:35.831 UTC [815] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680135076Z [err]  2025-12-23 00:24:35.831 UTC [814] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680137600Z [err]  2025-12-23 00:24:35.831 UTC [803] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680142053Z [err]  2025-12-23 00:24:35.831 UTC [800] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680144407Z [err]  2025-12-23 00:24:35.831 UTC [798] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:43.680149871Z [err]  2025-12-23 00:24:35.831 UTC [796] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680152098Z [err]  2025-12-23 00:24:35.831 UTC [818] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680157253Z [err]  2025-12-23 00:24:35.831 UTC [816] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680161982Z [err]  2025-12-23 00:24:35.831 UTC [797] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680166417Z [err]  2025-12-23 00:24:35.832 UTC [799] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:24:43.680171086Z [err]  2025-12-23 00:24:35.832 UTC [794] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:43.680175607Z [err]  2025-12-23 00:24:42.897 UTC [823] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:24:49.286670878Z [err]  2025-12-23 00:24:49.093 UTC [824] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:27:39.013783098Z [err]  2025-12-23 00:27:29.299 UTC [835] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:27:39.013790801Z [err]  2025-12-23 00:27:35.449 UTC [836] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:31:39.236016011Z [err]  2025-12-23 00:31:31.593 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:31:39.236022333Z [err]  2025-12-23 00:31:32.514 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.907 s, sync=0.004 s, total=0.921 s; sync files=10, longest=0.003 s, average=0.001 s; distance=6 kB, estimate=1311 kB; lsn=0/1B593E8, redo lsn=0/1B59390
+2025-12-23T00:36:38.990718325Z [err]  2025-12-23 00:36:31.614 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:36:38.990723690Z [err]  2025-12-23 00:36:34.759 UTC [76] LOG:  checkpoint complete: wrote 32 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.113 s, sync=0.008 s, total=3.145 s; sync files=22, longest=0.006 s, average=0.001 s; distance=14 kB, estimate=1181 kB; lsn=0/1B5CE48, redo lsn=0/1B5CDF0
+2025-12-23T00:41:39.576511743Z [err]  2025-12-23 00:41:31.857 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:41:39.576519466Z [err]  2025-12-23 00:41:32.590 UTC [76] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.705 s, sync=0.011 s, total=0.734 s; sync files=8, longest=0.010 s, average=0.002 s; distance=9 kB, estimate=1064 kB; lsn=0/1B5F318, redo lsn=0/1B5F288
+2025-12-23T00:45:40.514041660Z [err]  2025-12-23 00:45:35.371 UTC [915] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:45:41.524306993Z [err]  2025-12-23 00:45:41.521 UTC [916] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:46:41.164842116Z [err]  2025-12-23 00:46:31.689 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:46:41.164849796Z [err]  2025-12-23 00:46:35.630 UTC [76] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.916 s, sync=0.008 s, total=3.941 s; sync files=26, longest=0.007 s, average=0.001 s; distance=15 kB, estimate=959 kB; lsn=0/1B62F68, redo lsn=0/1B62F10
+2025-12-23T00:51:41.594918645Z [err]  2025-12-23 00:51:31.730 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:51:41.594925021Z [err]  2025-12-23 00:51:32.961 UTC [76] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.213 s, sync=0.006 s, total=1.231 s; sync files=12, longest=0.004 s, average=0.001 s; distance=13 kB, estimate=864 kB; lsn=0/1B666D8, redo lsn=0/1B66680
+2025-12-23T00:54:01.964144904Z [err]  2025-12-23 00:53:59.711 UTC [956] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:54:05.985815752Z [err]  2025-12-23 00:54:05.861 UTC [957] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:05.664371971Z [err]  2025-12-23 00:55:03.547 UTC [968] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:55:05.664383368Z [err]  2025-12-23 00:55:03.547 UTC [965] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:05.664391002Z [err]  2025-12-23 00:55:03.547 UTC [967] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:55:05.664396446Z [err]  2025-12-23 00:55:03.547 UTC [966] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:55:05.664402149Z [err]  2025-12-23 00:55:03.547 UTC [960] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:05.664407641Z [err]  2025-12-23 00:55:03.547 UTC [958] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:05.664413956Z [err]  2025-12-23 00:55:03.548 UTC [964] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:05.664423728Z [err]  2025-12-23 00:55:03.549 UTC [962] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:10.628968499Z [err]  2025-12-23 00:55:10.624 UTC [969] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:55:16.815133243Z [err]  2025-12-23 00:55:16.808 UTC [970] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:56:36.824917347Z [err]  2025-12-23 00:56:32.061 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T00:56:36.824926410Z [err]  2025-12-23 00:56:34.689 UTC [76] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.613 s, sync=0.005 s, total=2.629 s; sync files=24, longest=0.004 s, average=0.001 s; distance=20 kB, estimate=780 kB; lsn=0/1B6BA00, redo lsn=0/1B6B9A8
+2025-12-23T00:58:06.844774913Z [err]  2025-12-23 00:57:57.157 UTC [983] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:58:06.844783111Z [err]  2025-12-23 00:57:57.157 UTC [984] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:58:06.844790989Z [err]  2025-12-23 00:57:57.157 UTC [986] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:58:06.844798503Z [err]  2025-12-23 00:57:57.157 UTC [985] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:58:06.844808559Z [err]  2025-12-23 00:57:57.157 UTC [982] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:58:06.844815978Z [err]  2025-12-23 00:57:57.157 UTC [972] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:58:06.844822761Z [err]  2025-12-23 00:57:57.157 UTC [973] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:58:06.844833940Z [err]  2025-12-23 00:57:57.159 UTC [987] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T00:58:06.844841406Z [err]  2025-12-23 00:58:04.279 UTC [988] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T00:58:10.475126785Z [err]  2025-12-23 00:58:10.428 UTC [989] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:01:40.336731468Z [err]  2025-12-23 01:01:32.789 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:01:40.336739690Z [err]  2025-12-23 01:01:33.923 UTC [76] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.107 s, sync=0.011 s, total=1.135 s; sync files=12, longest=0.009 s, average=0.001 s; distance=16 kB, estimate=704 kB; lsn=0/1B6FD70, redo lsn=0/1B6FD18
+2025-12-23T01:06:41.166805435Z [err]  2025-12-23 01:06:33.022 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:06:41.166811455Z [err]  2025-12-23 01:06:35.263 UTC [76] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.219 s, sync=0.007 s, total=2.242 s; sync files=19, longest=0.005 s, average=0.001 s; distance=24 kB, estimate=636 kB; lsn=0/1B75D98, redo lsn=0/1B75D40
+2025-12-23T01:09:21.501405381Z [err]  2025-12-23 01:09:18.904 UTC [1037] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:09:25.445967320Z [err]  2025-12-23 01:09:25.065 UTC [1038] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:10:15.529579120Z [err]  2025-12-23 01:10:05.799 UTC [1045] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:10:15.529587594Z [err]  2025-12-23 01:10:05.799 UTC [1046] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:10:15.529592296Z [err]  2025-12-23 01:10:05.799 UTC [1044] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:10:15.529597106Z [err]  2025-12-23 01:10:05.799 UTC [1042] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:10:15.529602140Z [err]  2025-12-23 01:10:05.799 UTC [1039] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:10:15.529608032Z [err]  2025-12-23 01:10:05.799 UTC [1041] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:10:15.529612809Z [err]  2025-12-23 01:10:05.799 UTC [1047] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:10:15.529617202Z [err]  2025-12-23 01:10:05.799 UTC [1048] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:10:15.529622176Z [err]  2025-12-23 01:10:13.492 UTC [1049] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:10:19.653762309Z [err]  2025-12-23 01:10:19.651 UTC [1051] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:11:39.683090334Z [err]  2025-12-23 01:11:33.361 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:11:39.683097573Z [err]  2025-12-23 01:11:36.886 UTC [76] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.511 s, sync=0.004 s, total=3.525 s; sync files=35, longest=0.004 s, average=0.001 s; distance=33 kB, estimate=575 kB; lsn=0/1B7E408, redo lsn=0/1B7E3B0
+2025-12-23T01:12:39.763107279Z [err]  2025-12-23 01:12:36.579 UTC [1062] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:12:42.761586193Z [err]  2025-12-23 01:12:42.735 UTC [1063] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:13:52.438963185Z [err]  2025-12-23 01:13:43.716 UTC [1073] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:13:52.438967450Z [err]  2025-12-23 01:13:49.919 UTC [1074] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:16:42.535720724Z [err]  2025-12-23 01:16:33.984 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:16:42.535727516Z [err]  2025-12-23 01:16:35.213 UTC [76] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.207 s, sync=0.005 s, total=1.229 s; sync files=13, longest=0.004 s, average=0.001 s; distance=20 kB, estimate=520 kB; lsn=0/1B83548, redo lsn=0/1B834F0
+2025-12-23T01:20:12.221384657Z [err]  2025-12-23 01:20:10.574 UTC [1100] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:20:15.719695933Z [err]  2025-12-23 01:20:15.717 UTC [1103] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:20:16.747934800Z [err]  2025-12-23 01:20:16.740 UTC [1101] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:20:21.888204044Z [err]  2025-12-23 01:20:21.879 UTC [1104] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:21:41.912106691Z [err]  2025-12-23 01:21:33.313 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:21:41.912114687Z [err]  2025-12-23 01:21:34.134 UTC [76] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.804 s, sync=0.005 s, total=0.822 s; sync files=9, longest=0.004 s, average=0.001 s; distance=11 kB, estimate=469 kB; lsn=0/1B86368, redo lsn=0/1B86310
+2025-12-23T01:24:32.001026168Z [err]  2025-12-23 01:24:23.922 UTC [1109] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001027988Z [err]  2025-12-23 01:24:23.916 UTC [1128] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001033458Z [err]  2025-12-23 01:24:23.916 UTC [1129] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:24:32.001039266Z [err]  2025-12-23 01:24:23.916 UTC [1130] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:24:32.001041069Z [err]  2025-12-23 01:24:23.922 UTC [1126] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:24:32.001044798Z [err]  2025-12-23 01:24:23.916 UTC [1125] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001049779Z [err]  2025-12-23 01:24:23.922 UTC [1111] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001050543Z [err]  2025-12-23 01:24:23.917 UTC [1127] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T01:24:32.001056760Z [err]  2025-12-23 01:24:23.917 UTC [1110] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001058373Z [err]  2025-12-23 01:24:23.922 UTC [1106] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001064622Z [err]  2025-12-23 01:24:23.922 UTC [1122] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001066482Z [err]  2025-12-23 01:24:23.922 UTC [1123] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001071700Z [err]  2025-12-23 01:24:23.922 UTC [1124] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:32.001074385Z [err]  2025-12-23 01:24:31.090 UTC [1131] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:24:37.252053996Z [err]  2025-12-23 01:24:37.249 UTC [1132] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T01:31:38.307996264Z [err]  2025-12-23 01:31:33.333 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:31:38.308006748Z [err]  2025-12-23 01:31:33.761 UTC [76] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.403 s, sync=0.005 s, total=0.428 s; sync files=5, longest=0.004 s, average=0.001 s; distance=11 kB, estimate=423 kB; lsn=0/1B89050, redo lsn=0/1B88FF8
+2025-12-23T01:36:38.033271375Z [err]  2025-12-23 01:36:33.861 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:36:38.033281150Z [err]  2025-12-23 01:36:34.887 UTC [76] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.005 s, sync=0.005 s, total=1.027 s; sync files=11, longest=0.004 s, average=0.001 s; distance=7 kB, estimate=381 kB; lsn=0/1B8AD68, redo lsn=0/1B8ACD8
+2025-12-23T01:41:38.938309433Z [err]  2025-12-23 01:41:33.987 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:41:38.938313597Z [err]  2025-12-23 01:41:34.919 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.906 s, sync=0.005 s, total=0.932 s; sync files=10, longest=0.004 s, average=0.001 s; distance=11 kB, estimate=344 kB; lsn=0/1B8D960, redo lsn=0/1B8D908
+2025-12-23T01:46:38.682150664Z [err]  2025-12-23 01:46:34.017 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:46:38.682157828Z [err]  2025-12-23 01:46:35.138 UTC [76] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.107 s, sync=0.004 s, total=1.121 s; sync files=12, longest=0.003 s, average=0.001 s; distance=11 kB, estimate=311 kB; lsn=0/1B90910, redo lsn=0/1B908B8
+2025-12-23T01:51:39.428324679Z [err]  2025-12-23 01:51:34.237 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T01:51:39.428330759Z [err]  2025-12-23 01:51:35.161 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.907 s, sync=0.005 s, total=0.924 s; sync files=10, longest=0.004 s, average=0.001 s; distance=13 kB, estimate=281 kB; lsn=0/1B93ED8, redo lsn=0/1B93E80
+2025-12-23T02:06:40.648409216Z [err]  2025-12-23 02:06:34.457 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:06:40.648418729Z [err]  2025-12-23 02:06:35.386 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.907 s, sync=0.014 s, total=0.930 s; sync files=10, longest=0.012 s, average=0.002 s; distance=13 kB, estimate=254 kB; lsn=0/1B975C8, redo lsn=0/1B97570
+2025-12-23T02:26:43.666573917Z [err]  2025-12-23 02:26:34.781 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:26:43.666579404Z [err]  2025-12-23 02:26:35.012 UTC [76] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.204 s, sync=0.006 s, total=0.231 s; sync files=3, longest=0.005 s, average=0.002 s; distance=7 kB, estimate=230 kB; lsn=0/1B99348, redo lsn=0/1B992C8
+2025-12-23T02:31:34.514814517Z [err]  2025-12-23 02:31:34.111 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:31:35.441615685Z [err]  2025-12-23 02:31:35.435 UTC [76] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.307 s, sync=0.006 s, total=1.324 s; sync files=14, longest=0.005 s, average=0.001 s; distance=22 kB, estimate=209 kB; lsn=0/1B9EE18, redo lsn=0/1B9EDC0
+2025-12-23T02:36:35.161881534Z [err]  2025-12-23 02:36:34.534 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:36:35.674139978Z [err]  2025-12-23 02:36:35.664 UTC [76] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.107 s, sync=0.006 s, total=1.130 s; sync files=12, longest=0.005 s, average=0.001 s; distance=23 kB, estimate=190 kB; lsn=0/1BA4D70, redo lsn=0/1BA4D18
+2025-12-23T02:46:36.695776004Z [err]  2025-12-23 02:46:34.862 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:46:36.695789892Z [err]  2025-12-23 02:46:35.733 UTC [76] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.804 s, sync=0.007 s, total=0.872 s; sync files=9, longest=0.006 s, average=0.001 s; distance=17 kB, estimate=173 kB; lsn=0/1BA9480, redo lsn=0/1BA9428
+2025-12-23T02:51:37.800505788Z [err]  2025-12-23 02:51:34.833 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T02:51:37.800512829Z [err]  2025-12-23 02:51:34.950 UTC [76] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.005 s, total=0.117 s; sync files=2, longest=0.003 s, average=0.003 s; distance=5 kB, estimate=156 kB; lsn=0/1BAAC30, redo lsn=0/1BAABD8
+2025-12-23T03:21:42.267820327Z [err]  2025-12-23 03:21:35.549 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T03:21:42.267828824Z [err]  2025-12-23 03:21:36.675 UTC [76] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.109 s, sync=0.006 s, total=1.126 s; sync files=12, longest=0.004 s, average=0.001 s; distance=26 kB, estimate=143 kB; lsn=0/1BB17C0, redo lsn=0/1BB1768
+2025-12-23T04:31:42.225610058Z [err]  2025-12-23 04:31:37.073 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T04:31:42.225622919Z [err]  2025-12-23 04:31:37.425 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.012 s, total=0.353 s; sync files=4, longest=0.011 s, average=0.003 s; distance=9 kB, estimate=130 kB; lsn=0/1BB3FB0, redo lsn=0/1BB3F58
+2025-12-23T06:31:40.806980499Z [err]  2025-12-23 06:31:39.817 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T06:31:40.806987804Z [err]  2025-12-23 06:31:40.143 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.010 s, total=0.327 s; sync files=4, longest=0.008 s, average=0.003 s; distance=10 kB, estimate=118 kB; lsn=0/1BB6980, redo lsn=0/1BB6928
+2025-12-23T06:56:45.316584233Z [err]  2025-12-23 06:56:39.639 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T06:56:45.316596902Z [err]  2025-12-23 06:56:41.663 UTC [76] LOG:  checkpoint complete: wrote 21 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.011 s, sync=0.004 s, total=2.025 s; sync files=21, longest=0.003 s, average=0.001 s; distance=18 kB, estimate=108 kB; lsn=0/1BBB248, redo lsn=0/1BBB1F0
+2025-12-23T07:01:45.302057768Z [err]  2025-12-23 07:01:39.761 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T07:01:45.302066427Z [err]  2025-12-23 07:01:40.499 UTC [76] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.704 s, sync=0.024 s, total=0.738 s; sync files=7, longest=0.023 s, average=0.004 s; distance=5 kB, estimate=98 kB; lsn=0/1BBC850, redo lsn=0/1BBC7F8
+2025-12-23T07:59:24.967357706Z [err]  2025-12-23 07:59:21.779 UTC [2529] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T07:59:24.967366977Z [err]  2025-12-23 07:59:21.780 UTC [2358] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967372473Z [err]  2025-12-23 07:59:21.780 UTC [2353] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967379306Z [err]  2025-12-23 07:59:21.780 UTC [1245] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967387800Z [err]  2025-12-23 07:59:21.780 UTC [2360] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967394115Z [err]  2025-12-23 07:59:21.780 UTC [2523] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967403646Z [err]  2025-12-23 07:59:21.780 UTC [2357] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:24.967411244Z [err]  2025-12-23 07:59:21.780 UTC [2533] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T07:59:24.967418610Z [err]  2025-12-23 07:59:21.780 UTC [2531] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T07:59:24.967426057Z [err]  2025-12-23 07:59:21.783 UTC [2530] LOG:  could not accept SSL connection: EOF detected
+2025-12-23T07:59:24.967440668Z [err]  2025-12-23 07:59:21.783 UTC [2532] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:29.152608329Z [err]  2025-12-23 07:59:29.148 UTC [2534] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T07:59:35.327815438Z [err]  2025-12-23 07:59:35.325 UTC [2535] LOG:  could not receive data from client: Connection reset by peer
+2025-12-23T12:16:53.078659090Z [err]  2025-12-23 12:16:45.739 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T12:16:53.078666862Z [err]  2025-12-23 12:16:46.063 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.005 s, total=0.325 s; sync files=4, longest=0.004 s, average=0.002 s; distance=12 kB, estimate=89 kB; lsn=0/1BBF858, redo lsn=0/1BBF800
+2025-12-23T12:41:45.627299152Z [err]  2025-12-23 12:41:45.553 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T12:41:45.873052329Z [err]  2025-12-23 12:41:45.870 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.005 s, total=0.318 s; sync files=4, longest=0.004 s, average=0.002 s; distance=12 kB, estimate=81 kB; lsn=0/1BC2918, redo lsn=0/1BC28C0
+2025-12-23T16:06:52.821093892Z [err]  2025-12-23 16:06:49.889 UTC [76] LOG:  checkpoint starting: time
+2025-12-23T16:06:52.821098212Z [err]  2025-12-23 16:06:51.599 UTC [76] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.608 s, sync=0.024 s, total=1.710 s; sync files=15, longest=0.022 s, average=0.002 s; distance=43 kB, estimate=77 kB; lsn=0/1BCD658, redo lsn=0/1BCD600
+2025-12-24T01:32:02.211327529Z [err]  2025-12-24 01:32:00.841 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T01:32:02.211331692Z [err]  2025-12-24 01:32:01.767 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.906 s, sync=0.004 s, total=0.926 s; sync files=10, longest=0.003 s, average=0.001 s; distance=20 kB, estimate=72 kB; lsn=0/1BD2A18, redo lsn=0/1BD29C0
+2025-12-24T01:37:01.862030543Z [err]  2025-12-24 01:37:00.867 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T01:37:01.862043547Z [err]  2025-12-24 01:37:01.184 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.303 s, sync=0.005 s, total=0.318 s; sync files=4, longest=0.004 s, average=0.002 s; distance=14 kB, estimate=66 kB; lsn=0/1BD65A8, redo lsn=0/1BD6550
+2025-12-24T01:42:31.898531934Z [err]  2025-12-24 01:42:25.618 UTC [5942] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898543468Z [err]  2025-12-24 01:42:25.618 UTC [5977] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:42:31.898550757Z [err]  2025-12-24 01:42:25.618 UTC [5965] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898557530Z [err]  2025-12-24 01:42:25.618 UTC [5950] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898566145Z [err]  2025-12-24 01:42:25.618 UTC [5975] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:42:31.898572524Z [err]  2025-12-24 01:42:25.618 UTC [5976] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898578077Z [err]  2025-12-24 01:42:25.618 UTC [5971] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898584373Z [err]  2025-12-24 01:42:25.618 UTC [5947] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:31.898593011Z [err]  2025-12-24 01:42:25.619 UTC [5969] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:33.154962343Z [err]  2025-12-24 01:42:33.152 UTC [5978] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:42:39.296566761Z [err]  2025-12-24 01:42:39.294 UTC [5979] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:19.296534656Z [err]  2025-12-24 01:43:17.298 UTC [5981] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:19.296542164Z [err]  2025-12-24 01:43:17.299 UTC [5982] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:19.296608737Z [err]  2025-12-24 01:43:17.298 UTC [5987] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:19.296621332Z [err]  2025-12-24 01:43:17.298 UTC [5989] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:19.296628965Z [err]  2025-12-24 01:43:17.298 UTC [5986] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:19.296636610Z [err]  2025-12-24 01:43:17.298 UTC [5988] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:19.296645325Z [err]  2025-12-24 01:43:17.298 UTC [5985] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:19.296651900Z [err]  2025-12-24 01:43:17.298 UTC [5984] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:24.120776281Z [err]  2025-12-24 01:43:24.119 UTC [5991] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:30.319095571Z [err]  2025-12-24 01:43:30.317 UTC [5992] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:35.914467398Z [err]  2025-12-24 01:43:35.700 UTC [5994] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:35.914473433Z [err]  2025-12-24 01:43:35.700 UTC [5998] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:35.914480341Z [err]  2025-12-24 01:43:35.700 UTC [6000] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:35.914487812Z [err]  2025-12-24 01:43:35.700 UTC [6001] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:35.914494474Z [err]  2025-12-24 01:43:35.700 UTC [5993] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:35.914500615Z [err]  2025-12-24 01:43:35.700 UTC [5999] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:35.914507590Z [err]  2025-12-24 01:43:35.700 UTC [5996] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:35.914515764Z [err]  2025-12-24 01:43:35.700 UTC [5997] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:35.914523322Z [err]  2025-12-24 01:43:35.700 UTC [6002] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:35.914529781Z [err]  2025-12-24 01:43:35.700 UTC [5995] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:43.076025541Z [err]  2025-12-24 01:43:42.673 UTC [6004] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:48.941873684Z [err]  2025-12-24 01:43:48.835 UTC [6005] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.394047502Z [err]  2025-12-24 01:43:58.391 UTC [6013] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:58.396751794Z [err]  2025-12-24 01:43:58.391 UTC [6012] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.396759609Z [err]  2025-12-24 01:43:58.391 UTC [6008] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.396765357Z [err]  2025-12-24 01:43:58.391 UTC [6010] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.396770573Z [err]  2025-12-24 01:43:58.391 UTC [6011] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:58.396776168Z [err]  2025-12-24 01:43:58.391 UTC [6006] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.396781737Z [err]  2025-12-24 01:43:58.391 UTC [6007] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:43:58.396786843Z [err]  2025-12-24 01:43:58.392 UTC [6014] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T01:43:58.396791559Z [err]  2025-12-24 01:43:58.393 UTC [6009] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:44:05.541709913Z [err]  2025-12-24 01:44:05.540 UTC [6016] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:44:11.944952382Z [err]  2025-12-24 01:44:11.718 UTC [6017] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T01:47:01.650151299Z [err]  2025-12-24 01:47:00.381 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T01:47:01.650161461Z [err]  2025-12-24 01:47:01.417 UTC [76] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.008 s, sync=0.013 s, total=1.037 s; sync files=11, longest=0.009 s, average=0.002 s; distance=14 kB, estimate=61 kB; lsn=0/1BD9F00, redo lsn=0/1BD9EA8
+2025-12-24T01:57:01.740308043Z [err]  2025-12-24 01:57:00.617 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T01:57:01.740313451Z [err]  2025-12-24 01:57:01.535 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.905 s, sync=0.004 s, total=0.919 s; sync files=10, longest=0.003 s, average=0.001 s; distance=15 kB, estimate=56 kB; lsn=0/1BDDCA8, redo lsn=0/1BDDC18
+2025-12-24T02:07:01.455866707Z [err]  2025-12-24 02:07:00.732 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T02:07:01.455874445Z [err]  2025-12-24 02:07:01.051 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.005 s, total=0.320 s; sync files=4, longest=0.004 s, average=0.002 s; distance=9 kB, estimate=51 kB; lsn=0/1BE0070, redo lsn=0/1BE0018
+2025-12-24T02:32:03.278854506Z [err]  2025-12-24 02:32:00.545 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T02:32:03.278907529Z [err]  2025-12-24 02:32:00.868 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.303 s, sync=0.005 s, total=0.324 s; sync files=4, longest=0.004 s, average=0.002 s; distance=9 kB, estimate=47 kB; lsn=0/1BE25A0, redo lsn=0/1BE2548
+2025-12-24T02:37:03.517997469Z [err]  2025-12-24 02:37:00.968 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T02:37:03.518004244Z [err]  2025-12-24 02:37:01.100 UTC [76] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.005 s, total=0.132 s; sync files=2, longest=0.003 s, average=0.003 s; distance=5 kB, estimate=43 kB; lsn=0/1BE3AC0, redo lsn=0/1BE3A68
+2025-12-24T02:42:03.162776817Z [err]  2025-12-24 02:42:00.197 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T02:42:03.162790630Z [err]  2025-12-24 02:42:00.522 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.007 s, total=0.326 s; sync files=4, longest=0.006 s, average=0.002 s; distance=10 kB, estimate=40 kB; lsn=0/1BE6530, redo lsn=0/1BE64D8
+2025-12-24T03:34:06.300701358Z [err]  2025-12-24 03:33:56.422 UTC [6219] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300707637Z [err]  2025-12-24 03:33:56.422 UTC [6406] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300714726Z [err]  2025-12-24 03:33:56.422 UTC [6407] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300726488Z [err]  2025-12-24 03:33:56.422 UTC [6218] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300739416Z [err]  2025-12-24 03:33:56.422 UTC [6409] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300749813Z [err]  2025-12-24 03:33:56.422 UTC [6408] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:34:06.300761882Z [err]  2025-12-24 03:33:56.422 UTC [6391] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:06.300770379Z [err]  2025-12-24 03:33:56.424 UTC [6410] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:34:06.300778748Z [err]  2025-12-24 03:34:04.342 UTC [6412] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:34:10.497286317Z [err]  2025-12-24 03:34:10.493 UTC [6413] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:58:02.135097234Z [err]  2025-12-24 03:57:55.336 UTC [6493] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:58:02.135105717Z [err]  2025-12-24 03:57:55.336 UTC [6494] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:58:02.135113507Z [err]  2025-12-24 03:57:55.336 UTC [6495] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:58:02.135118911Z [err]  2025-12-24 03:57:55.337 UTC [6492] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:58:02.135124636Z [err]  2025-12-24 03:57:55.337 UTC [6491] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T03:58:02.135130025Z [err]  2025-12-24 03:57:55.338 UTC [6479] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:58:02.586916342Z [err]  2025-12-24 03:58:02.582 UTC [6497] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T03:58:08.962246141Z [err]  2025-12-24 03:58:08.757 UTC [6498] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T05:47:05.667167248Z [err]  2025-12-24 05:47:04.123 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T05:47:05.667173659Z [err]  2025-12-24 05:47:05.045 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.908 s, sync=0.005 s, total=0.923 s; sync files=10, longest=0.003 s, average=0.001 s; distance=18 kB, estimate=37 kB; lsn=0/1BEAD40, redo lsn=0/1BEACE8
+2025-12-24T06:32:08.480450361Z [err]  2025-12-24 06:32:04.938 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T06:32:08.480456517Z [err]  2025-12-24 06:32:05.253 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.303 s, sync=0.004 s, total=0.315 s; sync files=4, longest=0.003 s, average=0.001 s; distance=11 kB, estimate=35 kB; lsn=0/1BEDA78, redo lsn=0/1BEDA20
+2025-12-24T14:32:23.078125728Z [err]  2025-12-24 14:32:15.877 UTC [8564] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T14:32:23.078133486Z [err]  2025-12-24 14:32:15.877 UTC [8558] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.078142818Z [err]  2025-12-24 14:32:15.877 UTC [8565] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T14:32:23.078150268Z [err]  2025-12-24 14:32:15.877 UTC [8560] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.078170182Z [err]  2025-12-24 14:32:15.877 UTC [8561] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.078180675Z [err]  2025-12-24 14:32:15.877 UTC [8562] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.078188060Z [err]  2025-12-24 14:32:15.877 UTC [8559] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.078194933Z [err]  2025-12-24 14:32:15.878 UTC [8549] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:23.261316335Z [err]  2025-12-24 14:32:23.254 UTC [8566] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:32:30.000294311Z [err]  2025-12-24 14:32:29.622 UTC [8567] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T14:37:20.675724506Z [err]  2025-12-24 14:37:13.865 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T14:37:20.675731551Z [err]  2025-12-24 14:37:14.799 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.909 s, sync=0.010 s, total=0.935 s; sync files=10, longest=0.009 s, average=0.001 s; distance=19 kB, estimate=33 kB; lsn=0/1BF27C0, redo lsn=0/1BF2768
+2025-12-24T16:17:24.916816584Z [err]  2025-12-24 16:17:15.789 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T16:17:24.916823550Z [err]  2025-12-24 16:17:16.784 UTC [76] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.927 s, sync=0.007 s, total=0.996 s; sync files=10, longest=0.005 s, average=0.001 s; distance=20 kB, estimate=32 kB; lsn=0/1BF78C0, redo lsn=0/1BF7868
+2025-12-24T22:32:23.631496555Z [err]  2025-12-24 22:32:23.159 UTC [76] LOG:  checkpoint starting: time
+2025-12-24T22:32:23.631507006Z [err]  2025-12-24 22:32:23.484 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.007 s, total=0.325 s; sync files=4, longest=0.005 s, average=0.002 s; distance=13 kB, estimate=30 kB; lsn=0/1BFACD0, redo lsn=0/1BFAC78
+2025-12-24T23:50:00.589105797Z [err]  2025-12-24 23:49:53.864 UTC [8615] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589125645Z [err]  2025-12-24 23:49:53.864 UTC [10391] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T23:50:00.589145456Z [err]  2025-12-24 23:49:53.864 UTC [10388] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T23:50:00.589155686Z [err]  2025-12-24 23:49:53.864 UTC [10387] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589180284Z [err]  2025-12-24 23:49:53.864 UTC [8858] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589184237Z [err]  2025-12-24 23:49:53.864 UTC [8621] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589194282Z [err]  2025-12-24 23:49:53.864 UTC [8568] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589203212Z [err]  2025-12-24 23:49:53.864 UTC [10377] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589234617Z [err]  2025-12-24 23:49:53.864 UTC [8860] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589243482Z [err]  2025-12-24 23:49:53.864 UTC [10389] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:00.589258799Z [err]  2025-12-24 23:49:53.864 UTC [10390] LOG:  could not accept SSL connection: EOF detected
+2025-12-24T23:50:01.565612636Z [err]  2025-12-24 23:50:01.563 UTC [10393] LOG:  could not receive data from client: Connection reset by peer
+2025-12-24T23:50:07.750565922Z [err]  2025-12-24 23:50:07.746 UTC [10394] LOG:  could not receive data from client: Connection reset by peer
+2025-12-25T00:32:34.670115841Z [err]  2025-12-25 00:32:25.857 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T00:32:34.670145125Z [err]  2025-12-25 00:32:26.186 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.008 s, total=0.330 s; sync files=4, longest=0.007 s, average=0.002 s; distance=13 kB, estimate=28 kB; lsn=0/1BFE260, redo lsn=0/1BFE208
+2025-12-25T02:22:37.076207536Z [err]  2025-12-25 02:22:27.373 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T02:22:37.076216901Z [err]  2025-12-25 02:22:27.998 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.007 s, total=0.626 s; sync files=4, longest=0.006 s, average=0.002 s; distance=13 kB, estimate=27 kB; lsn=0/1C01970, redo lsn=0/1C01918
+2025-12-25T05:47:40.449571888Z [err]  2025-12-25 05:47:32.005 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T05:47:40.449576999Z [err]  2025-12-25 05:47:32.327 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.005 s, total=0.322 s; sync files=4, longest=0.003 s, average=0.002 s; distance=7 kB, estimate=25 kB; lsn=0/1C03858, redo lsn=0/1C03800
+2025-12-25T05:52:40.463791985Z [err]  2025-12-25 05:52:32.425 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T05:52:40.463803589Z [err]  2025-12-25 05:52:32.845 UTC [76] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.404 s, sync=0.005 s, total=0.421 s; sync files=5, longest=0.003 s, average=0.001 s; distance=8 kB, estimate=23 kB; lsn=0/1C05B38, redo lsn=0/1C05AE0
+2025-12-25T05:57:40.598988348Z [err]  2025-12-25 05:57:32.937 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T05:57:40.598999734Z [err]  2025-12-25 05:57:33.466 UTC [76] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.505 s, sync=0.012 s, total=0.529 s; sync files=6, longest=0.009 s, average=0.002 s; distance=10 kB, estimate=22 kB; lsn=0/1C08350, redo lsn=0/1C082F8
+2025-12-25T06:02:41.053840825Z [err]  2025-12-25 06:02:32.566 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T06:02:41.053845588Z [err]  2025-12-25 06:02:33.102 UTC [76] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.504 s, sync=0.018 s, total=0.536 s; sync files=6, longest=0.016 s, average=0.003 s; distance=11 kB, estimate=21 kB; lsn=0/1C0AFD8, redo lsn=0/1C0AF80
+2025-12-25T06:12:42.269128839Z [err]  2025-12-25 06:12:32.299 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T06:12:42.269138808Z [err]  2025-12-25 06:12:32.822 UTC [76] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.506 s, sync=0.006 s, total=0.524 s; sync files=6, longest=0.004 s, average=0.001 s; distance=12 kB, estimate=20 kB; lsn=0/1C0E0D8, redo lsn=0/1C0E080
+2025-12-25T06:17:42.461040962Z [err]  2025-12-25 06:17:32.921 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T06:17:42.461046908Z [err]  2025-12-25 06:17:33.243 UTC [76] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.006 s, total=0.323 s; sync files=4, longest=0.005 s, average=0.002 s; distance=10 kB, estimate=19 kB; lsn=0/1C10C50, redo lsn=0/1C10BF8
+2025-12-25T06:22:32.475024598Z [err]  2025-12-25 06:22:32.342 UTC [76] LOG:  checkpoint starting: time
+2025-12-25T06:22:32.775267247Z [err]  2025-12-25 06:22:32.767 UTC [76] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.405 s, sync=0.007 s, total=0.425 s; sync files=5, longest=0.005 s, average=0.002 s; distance=12 kB, estimate=18 kB; lsn=0/1C13FB0, redo lsn=0/1C13F58
+2025-12-25T07:27:26.534998729Z [err]  2025-12-25 07:27:17.703 UTC [11894] LOG:  could not accept SSL connection: EOF detected
+2025-12-25T07:27:26.535007968Z [err]  2025-12-25 07:27:17.703 UTC [10459] LOG:  could not receive data from client: Connection reset by peer
+2025-12-25T07:27:26.535015435Z [err]  2025-12-25 07:27:17.703 UTC [11892] LOG:  could not receive data from client: Connection reset by peer
+2025-12-25T07:27:26.535021742Z [err]  2025-12-25 07:27:17.703 UTC [11896] LOG:  could not accept SSL connection: EOF detected
+2025-12-25T07:27:26.535027584Z [err]  2025-12-25 07:27:17.703 UTC [11893] LOG:  could not receive data from client: Connection reset by peer
+2025-12-25T07:27:26.535034645Z [err]  2025-12-25 07:27:17.703 UTC [11895] LOG:  could not receive data from client: Connection reset by peer
+2025-12-25T07:27:26.535040247Z [err]  2025-12-25 07:27:17.703 UTC [11888] LOG:  could not receive data from client: Connection reset by peer

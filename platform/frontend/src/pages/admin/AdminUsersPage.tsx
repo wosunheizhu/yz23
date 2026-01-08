@@ -5,10 +5,11 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Search, ChevronRight, Edit, Trash2, UserPlus } from 'lucide-react';
+import { Search, ChevronRight, Edit, Trash2, UserPlus, KeyRound } from 'lucide-react';
 import { SimpleLayout } from '../../components/layout';
 import { Card, Badge, Button, Loading, Empty, Avatar, Modal } from '../../components/ui';
 import { usersApi, UserListItem } from '../../api/users';
+import { resetUserPassword } from '../../api/admin';
 
 const ROLE_LABELS: Record<string, string> = {
   PARTNER: '普通合伙人',
@@ -52,6 +53,12 @@ export default function AdminUsersPage() {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deletingUser, setDeletingUser] = useState<UserListItem | null>(null);
   const [deleting, setDeleting] = useState(false);
+  
+  // 重置密码
+  const [showResetPasswordModal, setShowResetPasswordModal] = useState(false);
+  const [resetPasswordUser, setResetPasswordUser] = useState<UserListItem | null>(null);
+  const [resettingPassword, setResettingPassword] = useState(false);
+  const [tempPassword, setTempPassword] = useState<string | null>(null);
 
   useEffect(() => {
     loadUsers();
@@ -174,6 +181,37 @@ export default function AdminUsersPage() {
     setShowDeleteModal(true);
   };
 
+  // 打开重置密码确认
+  const handleOpenResetPassword = (user: UserListItem) => {
+    setResetPasswordUser(user);
+    setTempPassword(null);
+    setShowResetPasswordModal(true);
+  };
+
+  // 重置密码
+  const handleResetPassword = async () => {
+    if (!resetPasswordUser) return;
+    
+    try {
+      setResettingPassword(true);
+      const result = await resetUserPassword(resetPasswordUser.id);
+      setTempPassword(result.temporaryPassword);
+    } catch (err: any) {
+      console.error('重置密码失败:', err);
+      alert(err.response?.data?.error?.message || '重置密码失败');
+    } finally {
+      setResettingPassword(false);
+    }
+  };
+
+  // 复制临时密码
+  const handleCopyPassword = () => {
+    if (tempPassword) {
+      navigator.clipboard.writeText(tempPassword);
+      alert('临时密码已复制到剪贴板');
+    }
+  };
+
   return (
     <SimpleLayout title="用户管理" showBack backPath="/admin">
       <div className="px-lg py-lg space-y-lg">
@@ -235,6 +273,13 @@ export default function AdminUsersPage() {
                       </div>
                     </div>
                     <div className="flex items-center gap-1">
+                      <button
+                        onClick={() => handleOpenResetPassword(user)}
+                        className="p-2 text-stone-gray hover:text-blue-500 transition-colors"
+                        title="重置密码"
+                      >
+                        <KeyRound size={18} />
+                      </button>
                       <button
                         onClick={() => handleOpenEdit(user)}
                         className="p-2 text-stone-gray hover:text-champagne-gold transition-colors"
@@ -450,6 +495,75 @@ export default function AdminUsersPage() {
               {deleting ? '删除中...' : '确认删除'}
             </Button>
           </div>
+        </div>
+      </Modal>
+
+      {/* 重置密码弹窗 */}
+      <Modal
+        isOpen={showResetPasswordModal}
+        onClose={() => {
+          setShowResetPasswordModal(false);
+          setTempPassword(null);
+        }}
+        title="重置用户密码"
+      >
+        <div className="space-y-md">
+          {!tempPassword ? (
+            <>
+              <div className="bg-blue-50 p-4 rounded-gallery text-center">
+                <KeyRound size={32} className="mx-auto mb-2 text-blue-500" />
+                <p className="font-medium text-deep-black">{resetPasswordUser?.name}</p>
+                <p className="text-xs text-stone-gray">{resetPasswordUser?.email || resetPasswordUser?.phone}</p>
+              </div>
+              <p className="text-sm text-stone-gray text-center">
+                将为此用户生成一个临时密码，用户登录后可以自行修改。
+              </p>
+              <div className="flex gap-3 pt-md">
+                <Button variant="outline" className="flex-1" onClick={() => setShowResetPasswordModal(false)}>
+                  取消
+                </Button>
+                <Button 
+                  variant="primary" 
+                  className="flex-1" 
+                  onClick={handleResetPassword} 
+                  disabled={resettingPassword}
+                >
+                  {resettingPassword ? '重置中...' : '确认重置'}
+                </Button>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="bg-green-50 p-4 rounded-gallery text-center">
+                <p className="text-sm text-green-600 mb-2">✓ 密码重置成功</p>
+                <p className="font-medium text-deep-black mb-3">{resetPasswordUser?.name}</p>
+                <div className="bg-white p-3 rounded-lg border-2 border-dashed border-green-300">
+                  <p className="text-xs text-stone-gray mb-1">临时密码</p>
+                  <p className="text-2xl font-mono font-bold text-green-600 tracking-wider">
+                    {tempPassword}
+                  </p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-gray text-center">
+                请将此临时密码告知用户，并提醒用户登录后及时修改密码。
+              </p>
+              <div className="flex gap-3 pt-md">
+                <Button variant="outline" className="flex-1" onClick={handleCopyPassword}>
+                  📋 复制密码
+                </Button>
+                <Button 
+                  variant="primary" 
+                  className="flex-1" 
+                  onClick={() => {
+                    setShowResetPasswordModal(false);
+                    setTempPassword(null);
+                  }}
+                >
+                  完成
+                </Button>
+              </div>
+            </>
+          )}
         </div>
       </Modal>
     </SimpleLayout>

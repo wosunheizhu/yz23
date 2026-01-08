@@ -419,6 +419,25 @@ export const updateSystemConfig = async (
 };
 
 // ================================
+// 用户密码重置 API
+// ================================
+
+export interface ResetPasswordResponse {
+  userId: string;
+  userName: string;
+  temporaryPassword: string;
+  message: string;
+}
+
+/**
+ * 管理员重置用户密码
+ */
+export const resetUserPassword = async (userId: string): Promise<ResetPasswordResponse> => {
+  const response = await apiClient.post(`/admin/users/${userId}/reset-password`);
+  return response.data.data || response.data;
+};
+
+// ================================
 // 导出 adminApi 对象
 // ================================
 export const adminApi = {
@@ -437,5 +456,6 @@ export const adminApi = {
   listPendingArbitrations,
   getSystemConfig,
   updateSystemConfig,
+  resetUserPassword,
 };
 

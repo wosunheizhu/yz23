@@ -207,6 +207,17 @@ export const UpdateSystemConfigSchema = z.object({
 
 export type UpdateSystemConfigInput = z.infer<typeof UpdateSystemConfigSchema>;
 
+// ================================
+// 用户密码重置
+// ================================
+
+export interface ResetPasswordResponse {
+  userId: string;
+  userName: string;
+  temporaryPassword: string;
+  message: string;
+}
+
 
 
 
